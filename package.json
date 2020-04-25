@@ -1,5 +1,5 @@
 {
-    "name": "yogatastic",
+    "name": "frothers-webpage",
     "version": "1.0.0",
     "description": "Hugo + Typescript + ForrestIo project for website",
     "main": "dist/main.js",
@@ -47,5 +47,8 @@
         "webpack-dev-server": "^3.10.2",
         "webpack-merge": "^4.2.2",
         "write-file-webpack-plugin": "4.5.1"
+    },
+    "hugo-bin": {
+        "buildTags": "extended"
     }
 }
