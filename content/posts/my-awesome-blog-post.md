@@ -4,7 +4,7 @@ categories = ["Meta Data"]
 date = 2020-04-26T06:00:00Z
 description = "First Post"
 image = "/images/post/post-1.jpg"
-title = "My awesome blog post"
+title = "First Post"
 type = "post"
 
 +++
