@@ -1,3 +1,9 @@
 [submodule "themes/northendlab-hugo"]
 	path = themes/northendlab-hugo
 	url = git@github.com:themefisher/northendlab-hugo.git
+[submodule "themes/--force"]
+	path = themes/--force
+	url = git@github.com:themefisher/northendlab-hugo.git
+[submodule "northendlab-hugo"]
+	path = northendlab-hugo
+	url = git@github.com:themefisher/northendlab-hugo.git
