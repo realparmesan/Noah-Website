@@ -31,20 +31,20 @@ description = ""
 google_analitycs_id = ""
 google_tag_manager = ""
 home = "Home"
-logo = "images/logo.svg"
+logo = "images/logo.png"
 [params.banner]
-bgImage = "images/banner/banner-bg2.svg"
-image = "images/banner/illustration1.svg"
+bgImage = "images/banner/pitch.svg"
+image = ""
 title = "Wellington Frothers FC"
 [params.cta]
-description = "Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
+description = "Check the upcoming fixture list."
 enable = true
-image = "images/hugo-muscot.svg"
-title = "Get the best hugo templates"
+image = "images/highkick.svg"
+title = "Check the upcoming fixture list"
 [params.cta.button]
 enable = true
-label = "Visit Here"
-link = "https://gethugothemes.com/shop/"
+label = "See Here"
+link = "https://www.sportzone.org.nz/wellington-sunday-league/home"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
