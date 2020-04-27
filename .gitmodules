@@ -1,3 +1,6 @@
 [submodule "themes/northendlab-hugo"]
 	path = themes/northendlab-hugo
 	url =  https://github.com/themefisher/northendlab-hugo.git
+[submodule "themes/sawmill"]
+	path = themes/sawmill
+	url = https://github.com/forestryio/sawmill.git
