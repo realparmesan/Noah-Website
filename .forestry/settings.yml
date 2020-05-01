@@ -9,6 +9,8 @@ sections:
   label: Posts
   create: all
   match: "**/*"
+  templates:
+  - post
 - type: heading
   label: Primary Header
 upload_dir: static/images
