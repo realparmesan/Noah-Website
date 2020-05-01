@@ -20,5 +20,11 @@ fields:
 - type: text
   name: type
   label: type
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: image
+  description: Image to associate with the post
 pages:
 - content/posts/second-post.md
