@@ -7,6 +7,16 @@ fields:
   label: title
   config:
     required: true
+- name: brief
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: brief
+  description: Brief description of what is in the post
 - type: text
   name: author
   label: author
