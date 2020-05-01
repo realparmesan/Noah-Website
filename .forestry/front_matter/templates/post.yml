@@ -28,3 +28,4 @@ fields:
   description: Image to associate with the post
 pages:
 - content/posts/second-post.md
+- content/posts/trial-post.md
