@@ -1,14 +1,17 @@
 +++
 author = "Chris C"
-categories = []
-date = 2020-04-26T12:00:00Z
-description = "Some Photos"
-title = "Second Post"
-type = ""
+categories = ["Admin"]
+date = 2020-05-01T21:00:00Z
+description = "Kits for the new Season have been ordered"
+image = "/images/94624592_590177128258455_8914987071400050688_n.jpg"
+title = "New Kits"
+type = "post"
 
 +++
-# Whats good?
+# The New Kits have Been Ordered
 
-I mean whats really good?
+Preview of the goods.
 
-![](/images/badge.jpg)
+![](/images/94624592_590177128258455_8914987071400050688_n.jpg)
+
+![](/images/94714434_2714640851995638_3597172609483014144_n.jpg)
