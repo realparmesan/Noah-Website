@@ -5,27 +5,34 @@ fields:
 - type: text
   name: title
   label: title
+  config:
+    required: true
 - type: text
   name: author
   label: author
+  config:
+    required: true
 - type: datetime
   name: date
   label: date
-- type: text
-  name: description
-  label: description
-- type: list
-  name: categories
-  label: categories
+  config:
+    required: true
 - type: text
   name: type
   label: type
+  default: post
+  hidden: true
 - name: image
   type: file
   config:
     maxSize: 64
   label: image
   description: Image to associate with the post
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
+  description: Tags to filter a post by
 pages:
 - content/posts/second-post.md
 - content/posts/trial-post.md
