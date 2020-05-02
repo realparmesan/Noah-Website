@@ -8,9 +8,9 @@ sections:
   path: data/matchdata
   label: MatchData
   create: all
-  match: "*.toml"
-  exclude: ".toml"
-  new_doc_ext: toml
+  match: "*.json"
+  exclude: ".json"
+  new_doc_ext: json
   templates:
   - matchdata
 - type: directory
@@ -31,9 +31,6 @@ front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
 build:
-  preview_env:
-  - HUGO_ENV=staging
-  - HUGO_VERSION=0.69.0
   preview_output_directory: dist
   install_dependencies_command: npm install
   preview_docker_image: forestryio/node:10
