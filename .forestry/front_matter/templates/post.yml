@@ -46,5 +46,33 @@ fields:
     max: 
   label: categories
   description: Category for the post to allow for it to be searched later
+- name: match
+  type: boolean
+  label: For a match?
+  description: Is this post for a match?
+- name: goals
+  type: field_group
+  config: {}
+  fields:
+  - name: scorer
+    type: text
+    config:
+      required: false
+    label: Scorer
+  - name: goals
+    type: number
+    label: Goals
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 0
+      max: 
+      step: 1
+  label: goals
+  description: Who scored what
+  showOnly:
+    field: match
+    value: true
 pages:
 - content/posts/second-post.md
