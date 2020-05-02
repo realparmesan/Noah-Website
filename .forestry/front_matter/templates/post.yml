@@ -48,3 +48,4 @@ fields:
   description: Category for the post to allow for it to be searched later
 pages:
 - content/posts/second-post.md
+- content/posts/trail.md
