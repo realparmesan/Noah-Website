@@ -10,7 +10,7 @@ sections:
   create: all
   match: "*.toml"
   exclude: ".toml"
-  new_doc_ext: ".toml"
+  new_doc_ext: toml
   templates:
   - matchdata
 - type: directory
