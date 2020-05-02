@@ -1,0 +1,38 @@
+{{ define "main" }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="media">
+        {{ if .Params.Image }}
+        <img src="{{ .Params.Image | relURL }}" class="img-thumbnail align-self-start mr-3" width=50
+          alt="{{ .Title | markdownify }}">
+        {{ end }}
+
+        <div class="media-body">
+          <h2 class="mt-0">{{ .Title | markdownify }}</h2>
+          <div class="mb-3 post-meta">
+            <a
+              href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize | lower }}">{{ .Params.Author | title | humanize }}</a>,
+            {{ .PublishDate.Format "02/01/2006" }}, {{ range .Params.Categories }}
+            <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}">{{ . | title | humanize }}</a>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="content mb-5">
+        {{ .Content }}
+      </div>
+    </div>
+    {{ if .Site.DisqusShortname}}
+    <div class="col-lg-8 mx-auto block shadow">
+      <!-- comments -->
+      {{ template "_internal/disqus.html" . }}
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
