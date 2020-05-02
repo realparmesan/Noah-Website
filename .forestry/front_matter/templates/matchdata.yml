@@ -41,5 +41,10 @@ fields:
     - Yarride
   label: Scorers
   description: Scorers in the match
+- name: title
+  type: text
+  config:
+    required: true
+  label: title
 pages:
 - data/matchdata/match1.toml
