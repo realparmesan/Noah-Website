@@ -50,14 +50,23 @@ fields:
   type: boolean
   label: For a match?
   description: Is this post for a match?
-- name: goals
-  type: field_group
-  config: {}
+- name: scorers
+  type: field_group_list
   fields:
   - name: scorer
-    type: text
+    type: select
+    default: []
     config:
       required: false
+      options:
+      - Lance
+      - Chris
+      - Yarride
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
     label: Scorer
   - name: goals
     type: number
@@ -69,8 +78,12 @@ fields:
       min: 0
       max: 
       step: 1
-  label: goals
-  description: Who scored what
+      required: false
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Scorers
   showOnly:
     field: match
     value: true
