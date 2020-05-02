@@ -1,4 +1,58 @@
 ---
 label: MatchData
 hide_body: true
-fields: []
+fields:
+- name: date
+  type: datetime
+  label: Date
+  description: Date of Match
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
+- name: scorers
+  type: field_group_list
+  fields:
+  - name: scorer
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - Chris
+      - Lance
+      - Yarride
+      - Evan
+      - Jamie
+      - Stu
+      - Nick G
+      - Nick J
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Scorer
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Scorers
+  description: Scorers in the match
+- name: result
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Win
+    - Loss
+    - Draw
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Result
