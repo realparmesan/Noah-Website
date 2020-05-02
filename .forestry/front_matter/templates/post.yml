@@ -106,4 +106,5 @@ fields:
     field: match
     value: true
 pages:
+- content/posts/preseason-game-1-wrap-up.md
 - content/posts/second-post.md
