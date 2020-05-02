@@ -7,7 +7,7 @@ fields:
   label: title
   config:
     required: true
-- name: brief
+- name: description
   type: textarea
   default: ''
   config:
@@ -15,7 +15,7 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: brief
+  label: description
   description: Brief description of what is in the post
 - type: text
   name: author
@@ -38,11 +38,14 @@ fields:
     maxSize: 64
   label: image
   description: Image to associate with the post
-- name: tags
-  type: tag_list
-  default: []
-  label: tags
-  description: Tags to filter a post by
+- name: categories
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: categories
+  description: Category for the post to allow for it to be searched later
 pages:
 - content/posts/second-post.md
 - content/posts/trial-post.md
