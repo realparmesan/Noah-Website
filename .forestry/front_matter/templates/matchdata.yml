@@ -48,3 +48,4 @@ fields:
   label: title
 pages:
 - data/matchdata/match1.toml
+- data/matchdata/match2.toml
