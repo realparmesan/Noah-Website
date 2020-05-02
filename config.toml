@@ -23,6 +23,8 @@ name = "Contact"
 weight = 1
 [outputs]
 home = ["HTML", "AMP", "RSS", "JSON"]
+page = ["HTML","JSON"] 
+section = ["JSON"]
 [params]
 author = "Chris Chester"
 contact_form_action = "#"
