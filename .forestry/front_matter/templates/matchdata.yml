@@ -41,5 +41,3 @@ fields:
     - Yarride
   label: Scorers
   description: Scorers in the match
-pages:
-- matchdata/5thMay.md

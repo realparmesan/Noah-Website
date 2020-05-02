@@ -5,11 +5,12 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: directory
-  path: matchdata
-  label: Match Data
+  path: data/matchdata
+  label: MatchData
   create: all
   match: "*.toml"
   exclude: ".toml"
+  new_doc_ext: ".toml"
   templates:
   - matchdata
 - type: directory
