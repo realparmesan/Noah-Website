@@ -82,8 +82,26 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: scorer
   label: Scorers
+  showOnly:
+    field: match
+    value: true
+- name: result
+  type: select
+  default: ''
+  config:
+    required: true
+    options:
+    - Win
+    - Loss
+    - Draw
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Result
   showOnly:
     field: match
     value: true
