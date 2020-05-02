@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Hugo + Typescript + ForrestIo project for website",
     "main": "dist/main.js",
-    "source": "src/index.ts",
+    "source": "assets/index.ts",
     "scripts": {
         "start": "run-p start:**",
         "start:hugo": "hugo -d ./dist -vw",

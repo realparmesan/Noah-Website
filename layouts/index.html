@@ -1,5 +1,10 @@
 {{ define "main" }}
 
+{{ $script := .Site.Data.webpack.main }}
+{{ with $script.js }}
+  <script src="{{ relURL . }}"></script>
+{{ end }}
+
 <!-- banner -->
 <section class="banner bg-cover" style="background-image: url('{{ .Site.Params.banner.bgImage | relURL }}');">
   <img src="{{ .Site.Params.banner.image | relURL }}" width = "400" class="img-fluid illustration float-left" alt="">

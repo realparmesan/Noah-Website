@@ -7,8 +7,8 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
     entry: {
-        main: path.join(__dirname, "src", "index.ts"),
-        // cms: path.join(__dirname, "src", "js", "cms.js"),
+        main: path.join(__dirname, "assets", "index.ts"),
+        // cms: path.join(__dirname, "assets", "js", "cms.js"),
     },
     devtool: 'source-map',
     output: {
@@ -51,7 +51,7 @@ module.exports = {
         }),
         new CopyWebpackPlugin([
             {
-                from: "./src/fonts/",
+                from: "./assets/fonts/",
                 to: "fonts/",
                 flatten: true
             }
