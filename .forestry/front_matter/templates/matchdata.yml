@@ -16,24 +16,9 @@ fields:
   type: field_group_list
   fields:
   - name: scorer
-    type: select
-    default: []
+    type: text
     config:
       required: false
-      options:
-      - Chris
-      - Lance
-      - Yarride
-      - Evan
-      - Jamie
-      - Stu
-      - Nick G
-      - Nick J
-      source:
-        type: simple
-        section: 
-        file: 
-        path: 
     label: Scorer
   config:
     min: 
