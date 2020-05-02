@@ -13,9 +13,10 @@ fields:
   description: Date of Match
   config:
     required: true
-    date_format: 
+    date_format: DD/MM/YYYY
     time_format: 
     display_utc: false
+    export_format: DD/MM/YYYY
   default: now
 - name: result
   type: select
