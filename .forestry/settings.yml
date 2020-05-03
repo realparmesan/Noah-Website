@@ -16,10 +16,13 @@ sections:
   match: "**/*"
   templates:
   - post
-- type: document
-  path: data/players/**/*
+- type: directory
+  path: data/players
   label: Players
-  match: "**/*"
+  create: all
+  match: "**/*.json"
+  exclude: ".json"
+  new_doc_ext: ".json"
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
