@@ -1,6 +1,7 @@
 {
     "title": "{{ .Title }}",
-    "date" : "{{ .Params.date }}",
-    "result": "{{ .Params.result }}",
-    "permalink" : "{{ .Permalink }}"
+    "date": "{{ .Date }}",
+    "type": "{{ .Type }}",
+    "permalink" : "{{ .Permalink }}",
+    "summary" : "{{ .Summary }}"
 }
