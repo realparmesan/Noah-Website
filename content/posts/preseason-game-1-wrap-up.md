@@ -1,6 +1,6 @@
 +++
 author = "Chris"
-categories = []
+categories = ["Game"]
 date = 2020-05-01T12:00:00Z
 description = "Wrap-up of preseason1"
 image = ""
@@ -16,3 +16,4 @@ goals = 5
 scorer = "Chris"
 
 +++
+Something here
