@@ -48,5 +48,3 @@ fields:
     - Yarride
   label: Scorers
   description: Scorers in the match
-pages:
-- data/matchdata/match1.json
