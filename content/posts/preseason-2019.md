@@ -1,6 +1,6 @@
 +++
 author = "Chris"
-categories = []
+categories = ["Preseason"]
 date = 2020-05-03T12:00:00Z
 description = "First preseason 2019"
 frother_goals = 5
