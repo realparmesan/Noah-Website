@@ -9,3 +9,4 @@ fields:
   label: Name
 pages:
 - data/players/chris.json
+- data/players/lance.json
