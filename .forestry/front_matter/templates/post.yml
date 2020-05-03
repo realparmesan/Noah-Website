@@ -105,6 +105,34 @@ fields:
   showOnly:
     field: match
     value: true
+- name: frother_goals
+  type: number
+  label: Frother Goals
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+    required: true
+  showOnly:
+    field: match
+    value: true
+- name: opponent_goals
+  type: number
+  label: Opponent Goals
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+    required: true
+  showOnly:
+    field: match
+    value: true
 pages:
 - content/posts/preseason-2019.md
 - content/posts/preseason-game-1-wrap-up.md
