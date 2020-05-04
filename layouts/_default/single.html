@@ -21,7 +21,24 @@
         </div>
       </div>
     </div>
+
+    <!-- Scores -->
+    <div class="card">
+      <div class="card-header text-center">
+        <h5>Frothers {{ .Params.frother_goals }} : {{ .Params.opponent_goals }} {{ .Params.opposition }}</h5>
+      </div>
+      <ul class="list-group list-group-flush">
+        {{ range .Params.scorers }}
+        <li class="list-group-item">{{ .scorer }}
+          {{ range (seq .goals)}}
+          <i class="ti-target"> </i>
+          {{ end }}
+        </li>
+        {{ end }}
+      </ul>
+    </div>
     <hr>
+
     <div class="row">
       <div class="content mb-5">
         {{ .Content }}
