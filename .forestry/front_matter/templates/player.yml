@@ -27,5 +27,4 @@ fields:
   label: Player
 pages:
 - content/players/chris.md
-- content/players/lance.md
 - content/players/yarride.md
