@@ -57,6 +57,24 @@ fields:
   label: Opponent
   showOnly:
     field: match
+- name: result
+  type: select
+  default: ''
+  config:
+    required: true
+    options:
+    - Win
+    - Loss
+    - Draw
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Result
+  showOnly:
+    field: match
+    value: true
 - name: scorers
   type: field_group_list
   fields:
@@ -91,24 +109,6 @@ fields:
     max: 
     labelField: scorer
   label: Scorers
-  showOnly:
-    field: match
-    value: true
-- name: result
-  type: select
-  default: ''
-  config:
-    required: true
-    options:
-    - Win
-    - Loss
-    - Draw
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Result
   showOnly:
     field: match
     value: true
