@@ -14,7 +14,7 @@ sections:
   templates:
   - post
 - type: document
-  path: content/stats
+  path: content/stats.md
   label: Stats
 - type: heading
   label: Back-end Content
