@@ -1,5 +1,5 @@
 ---
-label: Player
+label: Squad
 hide_body: true
 fields:
 - name: player
