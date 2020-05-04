@@ -26,5 +26,4 @@ fields:
     labelField: 
   label: Player
 pages:
-- content/players/chris.md
 - content/players/yarride.md
