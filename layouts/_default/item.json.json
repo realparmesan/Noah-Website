@@ -1,7 +1,13 @@
 {
     "title": "{{ .Title }}",
-    "date": "{{ .Date }}",
-    "type": "{{ .Type }}",
-    "permalink" : "{{ .Permalink }}",
-    "summary" : "{{ .Summary }}"
+    "match": " {{ .Params.match }}",
+    "date" : "{{ .Params.date }}",
+    "result": "{{ .Params.result }}",
+    "scorers": [
+        {{ range .Params.scorers }}
+            "name": "{{ .scorer }}",
+            "goals": "{{ .goals }}",
+        {{ end }}
+    ],
+    "permalink" : "{{ .Permalink }}"
 }

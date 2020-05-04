@@ -1,7 +1,0 @@
-{
-    "title": "{{ .Title }}",
-    "match": " {{ .Params.match }}",
-    "date" : "{{ .Params.date }}",
-    "result": "{{ .Params.result }}",
-    "permalink" : "{{ .Permalink }}"
-}
