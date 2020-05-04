@@ -7,28 +7,12 @@ fields:
   config:
     required: false
   label: Title
-- name: player
-  type: field_group_list
-  fields:
-  - name: title
-    type: text
-    config:
-      required: true
-    label: Name
-  - name: kit_number
-    type: number
-    label: Kit Number
-    description: ''
-    default: 0
-    required: true
-    config:
-      min: 
-      max: 
-      step: 
+- name: players
+  type: list
   config:
+    use_select: false
     min: 
     max: 
-    labelField: 
   label: Players
 pages:
 - content/squad/Frothers.md
