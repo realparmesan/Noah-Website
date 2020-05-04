@@ -2,21 +2,29 @@
 label: Player
 hide_body: true
 fields:
-- name: title
-  type: text
-  config:
+- name: player
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Name
+  - name: kit_number
+    type: number
+    label: Kit Number
+    description: ''
+    default: 0
     required: true
-  label: Name
-- name: shirt_number
-  type: number
-  label: Shirt Number
-  description: ''
-  default: 0
-  required: true
+    config:
+      min: 
+      max: 
+      step: 
   config:
     min: 
     max: 
-    step: 
+    labelField: 
+  label: Player
 pages:
 - content/players/chris.md
 - content/players/lance.md
