@@ -63,10 +63,10 @@ fields:
       - Chris
       - Yarride
       source:
-        type: pages
+        type: documents
         section: players
-        file: 
-        path: 
+        file: content/squad/Frothers.md
+        path: players
     label: Scorer
   - name: goals
     type: number
