@@ -50,6 +50,13 @@ fields:
   type: boolean
   label: For a match?
   description: Is this post for a match?
+- name: opponent
+  type: text
+  config:
+    required: false
+  label: Opponent
+  showOnly:
+    field: match
 - name: scorers
   type: field_group_list
   fields:
