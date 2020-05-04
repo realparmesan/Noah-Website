@@ -12,10 +12,10 @@ title = "Preseason 2019"
 type = "post"
 [[scorers]]
 goals = 2
-scorer = "data/players/lance.json"
+scorer = "Lance"
 [[scorers]]
-goals = 3
-scorer = "data/players/chris.json"
+goals = 5
+scorer = "Chris"
 
 +++
 Big win for the big boys
