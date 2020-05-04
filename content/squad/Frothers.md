@@ -5,5 +5,8 @@ title = "Chris"
 [[player]]
 kit_number = 7
 title = "Lance"
+[[player]]
+kit_number = nil
+title = "Yarride"
 
 +++
