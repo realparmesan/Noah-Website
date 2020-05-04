@@ -4,11 +4,17 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
+- type: document
+  path: content/stats
+  label: Stats
+  match: "**/*"
 - type: directory
-  path: content/pages
-  label: Pages
+  path: content/players
+  label: Players
   create: all
   match: "**/*"
+  templates:
+  - player
 - type: directory
   path: content/posts
   label: Posts
