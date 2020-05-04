@@ -19,8 +19,8 @@ sections:
 - type: heading
   label: Back-end Content
 - type: directory
-  path: content/players
-  label: Players
+  path: content/squad
+  label: Squad
   create: all
   match: "**/*"
   templates:
