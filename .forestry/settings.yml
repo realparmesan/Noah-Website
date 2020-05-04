@@ -7,7 +7,6 @@ sections:
 - type: document
   path: content/stats
   label: Stats
-  match: "**/*"
 - type: directory
   path: content/players
   label: Players

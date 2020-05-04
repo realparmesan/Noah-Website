@@ -17,3 +17,5 @@ fields:
     min: 
     max: 
     step: 
+pages:
+- content/players/chris.md
