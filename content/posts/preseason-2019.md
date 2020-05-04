@@ -6,6 +6,7 @@ description = "First preseason 2019"
 frother_goals = 5
 image = "/images/banner/pitch2.svg"
 match = true
+opponent = ""
 opponent_goals = 0
 result = "Win"
 title = "Preseason 2019"
@@ -14,7 +15,7 @@ type = "post"
 goals = 2
 scorer = "Lance"
 [[scorers]]
-goals = 5
+goals = 3
 scorer = "Chris"
 
 +++
