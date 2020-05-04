@@ -6,16 +6,6 @@ webhook_url:
 sections:
 - type: heading
   label: Main Content
-- type: document
-  path: content/stats
-  label: Stats
-- type: directory
-  path: content/players
-  label: Players
-  create: all
-  match: "**/*"
-  templates:
-  - player
 - type: directory
   path: content/posts
   label: Posts
@@ -23,6 +13,18 @@ sections:
   match: "**/*"
   templates:
   - post
+- type: document
+  path: content/stats
+  label: Stats
+- type: heading
+  label: Back-end Content
+- type: directory
+  path: content/players
+  label: Players
+  create: all
+  match: "**/*"
+  templates:
+  - player
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
