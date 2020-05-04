@@ -64,7 +64,7 @@ fields:
       - Yarride
       source:
         type: pages
-        section: players-dc762b70-369c-4b6f-83a7-c61c43c388c0
+        section: players
         file: 
         path: 
     label: Scorer
