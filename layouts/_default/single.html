@@ -23,6 +23,7 @@
     </div>
 
     <!-- Scores -->
+    {{ if .Params.match }}
     <div class="card">
       <div class="card-header text-center">
         <h5>Frothers {{ .Params.frother_goals }} : {{ .Params.opponent_goals }} {{ .Params.opponent }}</h5>
@@ -38,6 +39,7 @@
       </ul>
     </div>
     <hr>
+    {{ end }}
 
     <div class="row">
       <div class="content mb-5">
