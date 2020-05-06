@@ -66,16 +66,15 @@ See [package.json](package.json#L8) for all tasks.
 ## Structure
 
 ```
-|--site                // Everything in here will be built with hugo
-|  |--content          // Pages and collections - ask if you need extra pages
-|  |--data             // YAML data files with any data for use in examples
-|  |--layouts          // This is where all templates go
-|  |  |--partials      // This is where includes live
-|  |  |--index.html    // The index page
-|  |--static           // Files in here ends up in the public folder
-|--assets              // Files that will pass through the asset pipeline
-|  |--sass             // Webpack will bundle imported sass separately
-|  |--index.ts         // index.ts is the webpack entry for your js assets
+|--content          // Pages and collections - ask if you need extra pages
+|--data             // YAML data files with any data for use in examples
+|--layouts          // This is where all templates go
+|  |--partials      // This is where includes live
+|  |--index.html    // The index page
+|--static           // Files in here ends up in the public folder
+|--assets           // Files that will pass through the asset pipeline
+|  |--sass          // Webpack will bundle imported sass separately
+|  |--index.ts      // index.ts is the webpack entry for your js assets
 ```
 
 ## Basic Concepts
