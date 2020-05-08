@@ -45,7 +45,7 @@ image = "images/highkick.svg"
 title = "Check the upcoming fixture list"
 [params.cta.button]
 enable = true
-label = "See Here"
+label = "Open Schedule"
 link = "https://www.sportzone.org.nz/wellington-sunday-league/home"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"

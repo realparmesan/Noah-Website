@@ -127,7 +127,7 @@
             <p>{{ .Site.Params.cta.description | markdownify }}</p>
             {{ if .Site.Params.cta.button.enable }}
             <a href="{{ .Site.Params.cta.button.link | absURL }}"
-              class="btn btn-primary">{{ .Site.Params.cta.button.label }}</a>
+              target="_blank" class="btn btn-primary">{{ .Site.Params.cta.button.label }}</a>
             {{ end }}
           </div>
         </div>
