@@ -6,25 +6,21 @@ summaryLength = "10"
 theme = "northendlab-hugo"
 title = "Wellington Frothers FC"
 [[menu.footer]]
-name = "Schedule"
-url = "https://www.sportzone.org.nz/wellington-sunday-league/home"
-weight = 2
-[[menu.footer]]
 URL = "contact"
 name = "Contact"
 weight = 1
-[[menu.main]]
+[[menu.footer]]
 name = "Schedule"
 url = "https://www.sportzone.org.nz/wellington-sunday-league/home"
 weight = 2
 [[menu.main]]
-URL = "contact"
-name = "Contact"
+name = "Schedule"
+url = "https://www.sportzone.org.nz/wellington-sunday-league/home"
 weight = 1
 [outputs]
 home = ["HTML", "AMP", "RSS", "JSON"]
-page = ["HTML","JSON"] 
-section = ["JSON","HTML"]
+page = ["HTML", "JSON"]
+section = ["JSON", "HTML"]
 [params]
 author = "Chris Chester"
 contact_form_action = "#"
