@@ -1,8 +1,12 @@
 {{ define "main" }}
+{{ $script := .Site.Data.webpack.main }}
+{{ with $script.js }}
+  <script src="{{ relURL . }}"></script>
+{{ end }}
 
 <div class="text-center section">
-  <h1 class="display-1">Stats</h1>
-  <h2>Stats go here</h2>
+  <h1 class="display-1">{{.Title}}</h1>
 </div>
+<div id="stats-panel"></div>
 
 {{ end }}

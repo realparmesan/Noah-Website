@@ -1,2 +1,6 @@
 import * as _ from 'lodash';
-// console.log("test 2?");
+import { populateGsGraph } from "./ts/graphs";
+
+window.addEventListener('load', function () {
+    populateGsGraph();
+})
