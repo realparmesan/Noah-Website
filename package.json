@@ -28,10 +28,12 @@
     },
     "homepage": "https://github.com/realparmesan/yogatastic#readme",
     "devDependencies": {
+        "@types/axios": "^0.14.0",
         "@types/d3": "^5.7.2",
         "@types/jsdom": "^16.2.1",
         "@types/lodash": "4.14.149",
         "assets-webpack-plugin": "3.9.10",
+        "axios": "^0.19.2",
         "clean-webpack-plugin": "3.0.0",
         "copy-webpack-plugin": "5.1.1",
         "cross-env": "7.0.0",

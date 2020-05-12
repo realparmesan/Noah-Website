@@ -42,7 +42,6 @@ module.exports = {
             }
         ]
     },
-
     plugins: [
         new AssetsPlugin({
             filename: "webpack.json",

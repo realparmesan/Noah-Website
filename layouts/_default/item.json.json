@@ -3,11 +3,6 @@
     "match": " {{ .Params.match }}",
     "date" : "{{ .Params.date }}",
     "result": "{{ .Params.result }}",
-    "scorers": [
-        {{ range .Params.scorers }}
-            "name": "{{ .scorer }}",
-            "goals": "{{ .goals }}",
-        {{ end }}
-    ],
+    "scorers": {{ .Params.scorers | jsonify }},
     "permalink" : "{{ .Permalink }}"
 }
