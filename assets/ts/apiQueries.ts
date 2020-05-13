@@ -8,17 +8,32 @@ const postAPI = '/posts/index.json';
  */
 export let getGoalsData = async function () {
     let response = await axios.get(postAPI);
-    console.log(response.data);
     let data = response.data.data;
 
-    let goalscorers = data.items.map((a: { date: any; scorers: any; }) => {
-        let game = {
+    let goalscorers: gameData[] = data.items.map((a: { date: any; scorers: any; }) => {
+        if (a.scorers === null) {
+            return null;
+        }
+        
+        let game: gameData = {
             "date": a.date,
             "scorers": a.scorers
         }
         return game
     }
-    )
+    );
 
-    return response.data;
+    goalscorers = goalscorers.filter((a:any) => a != null);
+
+    return goalscorers;
+};
+
+export type gameData = {
+    date: Date,
+    scorers: scorerData[]
+};
+
+export type scorerData = {
+    scorer: string,
+    goals: number
 };
