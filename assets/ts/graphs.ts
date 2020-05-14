@@ -40,9 +40,9 @@ let yAxisGenerator = d3.axisLeft(yScale)
 
 let last = (array: any[]) => array[array.length - 1];
 
-let lineGenerator = d3.line()
-  .x((d: any) => xScale(d.date))
-  .y((d: any) => yScale(d.value));
+let lineGenerator = d3.line<matchGoals>()
+  .x((d) => xScale(d.date))
+  .y((d) => yScale(d.goals));
 
 let parsePlayerData = function (data: gameData[]) {
   let temp = _.map(data, "scorers")
@@ -60,7 +60,7 @@ let parsePlayerData = function (data: gameData[]) {
 
   data.forEach(game => {
     game.scorers.forEach((scorer) => {
-      let index = output.findIndex(e => e.name = scorer.scorer)
+      let index = output.findIndex(e => e.name == scorer.scorer)
 
       output[index].matches.push({
         "date": game.date,
@@ -69,7 +69,7 @@ let parsePlayerData = function (data: gameData[]) {
     })
   })
   console.log(output);
-  
+
   return output;
 }
 
@@ -93,28 +93,28 @@ export let populateGsGraph = async function () {
   g.append("g")
     .call(yAxisGenerator);
 
-  // g.selectAll(".line")
-  //   .data(playerData)
-  //   .enter().append("path")
-  //   .attr("d", d => lineGenerator(d.data))
-  //   .style("fill", "none")
-  //   .style("stroke-width", 2)
-  //   .style("stroke-linejoin", "round");
+  g.selectAll(".line")
+    .data(playerData)
+    .enter().append("path")
+    .attr("d", d => lineGenerator(d.matches))
+    .style("fill", "none")
+    .style("stroke-width", 2)
+    .style("stroke-linejoin", "round");
 
-  // const valueLabel = g.selectAll(".label")
-  //   .data(playerData)
-  //   .enter().append("g")
-  //   .attr("transform", d => `translate(${xScale(last(d.data).date)}, ${yScale(last(d.data).value)})`);
+  const valueLabel = g.selectAll(".label")
+    .data(playerData)
+    .enter().append("g")
+    .attr("transform", d => `translate(${xScale(last(d.matches).date)}, ${yScale(last(d.matches).goals)})`);
 
-  // valueLabel.append("circle")
-  //   .attr("r", 4)
-  //   .style("stroke", "white")
+  valueLabel.append("circle")
+    .attr("r", 4)
+    .style("stroke", "white")
 
-  // valueLabel.append("text")
-  //   .text(d => last(d.data).value)
-  //   .attr("dy", 5)
-  //   .attr("dx", 10)
-  //   .style("font-family", "monospace")
+  valueLabel.append("text")
+    .text(d => last(d.matches).goals)
+    .attr("dy", 5)
+    .attr("dx", 10)
+    .style("font-family", "monospace")
 
   return div.node()
 }
