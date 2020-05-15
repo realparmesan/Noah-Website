@@ -25,7 +25,7 @@ const chartHeight = height - margin.top - margin.bottom;
 const chartWidth = width - margin.left - margin.right;
 
 const xScale = d3.scaleTime()
-  .domain([new Date(2010, 0, 1), new Date(2010, 3, 1)])
+  .domain([new Date(2020, 0, 1), new Date(2020, 12, 1)])
   .range([0, chartWidth]);
 
 const yScale = d3.scaleLinear()
@@ -33,10 +33,10 @@ const yScale = d3.scaleLinear()
   .range([chartHeight, 0]);
 
 let xAxisGenerator = d3.axisBottom(xScale)
-  .tickValues(d3.range(0, 4).map(d => new Date(2010, d, 1)));
+  .tickValues(d3.range(0, 4).map(d => new Date(2020, d, 1)));
 
 let yAxisGenerator = d3.axisLeft(yScale)
-  .tickValues(d3.range(0, 30, 5));
+  .tickValues(d3.range(0, 30, 0));
 
 let last = (array: any[]) => array[array.length - 1];
 
