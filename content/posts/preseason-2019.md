@@ -1,15 +1,15 @@
 +++
 author = "Chris"
 categories = ["Preseason"]
-date = 2020-05-03T12:00:00Z
-description = "First preseason 2019"
+date = 2020-01-27T11:00:00Z
+description = "Fake Preseason 2020 - 1"
 frother_goals = 5
 image = "/images/banner/pitch2.svg"
 match = true
 opponent = ""
 opponent_goals = 0
 result = "Win"
-title = "Preseason 2019"
+title = "Fake Preseason 2020 - 1"
 type = "post"
 [[scorers]]
 goals = 2
