@@ -16,7 +16,7 @@ export let getGoalsData = async function () {
         }
         
         let game: gameData = {
-            "date": a.date,
+            "date": new Date(a.date),
             "scorers": a.scorers
         }
         return game
