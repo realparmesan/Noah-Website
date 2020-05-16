@@ -9,25 +9,14 @@ export type playerScoringRecord = {
 
 export type matchGoals = {
   date: Date,
-  goals: number
+  matchGoals: number,
+  totalGoals: number
 };
-
-export type weekDataSet = {
-  name: string,
-  data: weekData[]
-}
-
-export type weekData = {
-  count: number, week: Date, data_point: Boolean, new_count: number
-}
 
 let parsePlayerData = function (data: gameData[]) {
   let temp = _.map(data, "scorers")
   let temp2 = _.flatten(temp);
   let scorerNames = _.sortedUniq(_.map(temp2, "scorer"));
-
-  let dates = data.map(d => d.date);
-  var gameWeeks: string[] = [];
 
   let playerData = scorerNames.map(name => {
     let record: playerScoringRecord = {
@@ -37,82 +26,37 @@ let parsePlayerData = function (data: gameData[]) {
     return record;
   });
 
+  data = data.sort((a,b) => {
+    return a.date.getTime() - b.date.getTime()
+  })
+
   data.forEach(game => {
     game.scorers.forEach((scorer) => {
       let index = playerData.findIndex(e => e.name == scorer.scorer)
 
+      let lastMatch = playerData[index].matches[playerData[index].matches.length-1] || {totalGoals : 0};
+      let prevTotal = lastMatch.totalGoals;
+
       playerData[index].matches.push({
         "date": game.date,
-        "goals": scorer.goals
+        "matchGoals": scorer.goals,
+        "totalGoals": prevTotal + scorer.goals
       })
     })
   })
 
-
-  // change dates to milliseconds
-  dates.forEach(function (part) {
-    let func = d3.timeFormat("%Y-%W");
-    gameWeeks.push(func(part));
-  });
-
-  // get a list of all months in the range of data
-  var weekArray = d3.scaleTime()
-    .domain(d3.extent(dates))
-    .nice().ticks(d3.utcWeek.every(1));
-
-  // check if there is data for each month in monthArray, if so append count, otherwise append null
-  let dataset: weekDataSet[] = [];
-  let running_total = 0;
-
-  playerData.forEach(player => {
-    running_total = 0;
-    let goalsDates = player.matches.map(d => d3.timeFormat("%Y-%W")(d.date));
-    let data: weekData[] = [];
-
-    weekArray.forEach(week => {
-      var n = goalsDates.indexOf(d3.timeFormat("%Y-%W")(week));
-      if (n > -1) {
-        running_total = running_total + player.matches[n].goals;
-        var data_point = true;
-        var new_count = player.matches[n].goals;
-      } else {
-        running_total = running_total;
-        var data_point = false;
-      }
-      data.push({ count: running_total, week: week, data_point: data_point, new_count: new_count });
-    })
-
-    dataset.push({
-      name: player.name,
-      data: data
-    })
-  });
-
-  console.log("dataset", dataset);
-
-  return dataset
+  console.log("playerData",playerData)
+  return playerData;
 }
 
 /**
  * @summary Goal scorers graphics.
  */
 export let populateGsGraph = async function () {
-  // let data = await getGoalsData();
-  // let playerData = parsePlayerData(data);
+  let data = await getGoalsData();
+  let playerData = parsePlayerData(data);
 
-  var lineData = [];
-
-  lineData.push({ date: new Date(2019, 1, 4),  nps: 89 });
-  lineData.push({ date: new Date(2019, 1, 11), nps: 96 });
-  lineData.push({ date: new Date(2019, 1, 18), nps: 87 });
-  lineData.push({ date: new Date(2019, 1, 25), nps: 99 });
-  lineData.push({ date: new Date(2019, 2, 4),  nps: 83 });
-  lineData.push({ date: new Date(2019, 2, 11), nps: 93 });
-  lineData.push({ date: new Date(2019, 2, 18), nps: 79 });
-  lineData.push({ date: new Date(2019, 2, 25), nps: 94 });
-  lineData.push({ date: new Date(2019, 3, 4),  nps: 89 });
-  lineData.push({ date: new Date(2019, 3, 11), nps: 93 });
-  lineData.push({ date: new Date(2019, 3, 18), nps: 81 });
+  var lineData = playerData[1].matches;
 
   lineData.sort(function (a, b) {
     return new Date(b.date).getTime() - new Date(a.date).getTime();
@@ -139,11 +83,11 @@ export let populateGsGraph = async function () {
 
   var y = d3.scaleLinear().range([height, 0]);
 
-  y.domain([d3.min(lineData, function (d) { return d.nps; }) - 5, 100]);
+  y.domain(d3.extent(lineData, function (d) { return d.totalGoals; }));
 
   var valueline = d3.line()
     .x(function (d: any) { return x(d.date); })
-    .y(function (d: any) { return y(d.nps); })
+    .y(function (d: any) { return y(d.totalGoals); })
     .curve(d3.curveMonotoneX);
 
   svg.append("path")
@@ -168,7 +112,7 @@ export let populateGsGraph = async function () {
     .append("circle") // Uses the enter().append() method
     .attr("class", "dot") // Assign a class for styling
     .attr("cx", function (d) { return x(d.date) })
-    .attr("cy", function (d) { return y(d.nps) })
+    .attr("cy", function (d) { return y(d.totalGoals) })
     .attr("r", 5);
 
   svg.selectAll(".text")
@@ -177,13 +121,13 @@ export let populateGsGraph = async function () {
     .append("text") // Uses the enter().append() method
     .attr("class", "label") // Assign a class for styling
     .attr("x", function (d, i) { return x(d.date) })
-    .attr("y", function (d) { return y(d.nps) })
+    .attr("y", function (d) { return y(d.totalGoals) })
     .attr("dy", "-5")
-    .text(function (d) { return d.nps; });
+    .text(function (d) { return d.totalGoals; });
 
-  svg.append('text')
-    .attr('x', 10)
-    .attr('y', -5)
-    .text('Almaty');
+  // svg.append('text')
+  //   .attr('x', 10)
+  //   .attr('y', -5)
+  //   .text('Almaty');
 
 }
