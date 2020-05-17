@@ -102,7 +102,7 @@ export let populateGsGraph = async function () {
           },
           afterLabel: function(item, data) {
             let dataItem = <matchGoals> data.datasets[item.datasetIndex].data[item.index];
-            return"Total Goals: " + dataItem.y + "\nGameday goals:" + dataItem.goals;
+            return"Total Goals: " + dataItem.y + "\nGameday Goals:" + dataItem.goals;
           }
         },
         backgroundColor: '#FFF',
