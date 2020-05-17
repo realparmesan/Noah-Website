@@ -12,7 +12,7 @@ result = "Win"
 title = "Fake Preseason 2020 - 2"
 type = "post"
 [[scorers]]
-goals = 3
+goals = 2
 scorer = "Yarride"
 [[scorers]]
 goals = 1
