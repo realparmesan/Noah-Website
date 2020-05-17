@@ -98,11 +98,11 @@ export let populateGsGraph = async function () {
             let yourDate = dataItem.t;
             let offset = yourDate.getTimezoneOffset()
             yourDate = new Date(yourDate.getTime() + (offset * 60 * 1000))
-            return yourDate.toISOString().split('T')[0]
+            return "Date:\t" + yourDate.toISOString().split('T')[0]
           },
           afterLabel: function(item, data) {
             let dataItem = <matchGoals> data.datasets[item.datasetIndex].data[item.index];
-            return"Total Goals: " + dataItem.y + "\nGameday Goals:" + dataItem.goals;
+            return"Total Goals:\t" + dataItem.y + "\nGameday Goals:\t" + dataItem.goals;
           }
         },
         backgroundColor: '#FFF',
