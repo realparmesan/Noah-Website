@@ -87,31 +87,29 @@ export let populateGsGraph = async function () {
       },
       tooltips: {
         callbacks: {
-          title: function(item, data) {
-            console.log("item", item)
-            console.log("data", data)
-            let title = <string> data.datasets[item[0].datasetIndex].label;
+          title: function (items, data) {
+            let title = "";
+            items.forEach((item, index) => {
+              title += data.datasets[item.datasetIndex].label;
+              if (index != (items.length - 1)) {
+                title += ", "
+              }
+            })
+
             return title
           },
-          label: function(item, data) {
-            let dataItem = <matchGoals> data.datasets[item.datasetIndex].data[item.index];
+          footer: function (item, data) {
+            let dataItem = <matchGoals>data.datasets[item[0].datasetIndex].data[item[0].index];
             let yourDate = dataItem.t;
-            let offset = yourDate.getTimezoneOffset()
-            yourDate = new Date(yourDate.getTime() + (offset * 60 * 1000))
-            return "Date:\t" + yourDate.toISOString().split('T')[0]
+            yourDate = new Date(yourDate.getTime());
+            return yourDate.toISOString().split('T')[0]
           },
-          afterLabel: function(item, data) {
-            let dataItem = <matchGoals> data.datasets[item.datasetIndex].data[item.index];
-            return"Total Goals:\t" + dataItem.y + "\nGameday Goals:\t" + dataItem.goals;
+          label: function (item, data) {
+            let dataItem = <matchGoals>data.datasets[item.datasetIndex].data[item.index];
+            return "Total Goals:\t" + dataItem.y + "\nGameday Goals:\t" + dataItem.goals;
           }
         },
-        backgroundColor: '#FFF',
-        titleFontSize: 16,
-        titleFontColor: '#0066ff',
-        bodyFontColor: '#000',
-        bodyFontSize: 14,
-        displayColors: false
       }
-      }
-    })
+    }
+  })
 }
