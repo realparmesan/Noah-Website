@@ -105,8 +105,12 @@ export let populateGsGraph = async function () {
           },
           label: function (item, data) {
             let dataItem = <matchGoals>data.datasets[item.datasetIndex].data[item.index];
-            return "Total Goals:\t" + dataItem.y + "\nGameday Goals:\t" + dataItem.goals;
-          }
+            return "Goals:\t" + dataItem.goals;
+          },
+          afterLabel: function (item, data) {
+            let dataItem = <matchGoals>data.datasets[item.datasetIndex].data[item.index];
+            return "(Total:\t" + dataItem.y +")";
+          },
         },
       }
     }
