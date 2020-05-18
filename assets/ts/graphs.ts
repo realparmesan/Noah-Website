@@ -100,9 +100,8 @@ export let populateGsGraph = async function () {
           },
           footer: function (item, data) {
             let dataItem = <matchGoals>data.datasets[item[0].datasetIndex].data[item[0].index];
-            let yourDate = dataItem.t;
-            yourDate = new Date(yourDate.getTime());
-            return yourDate.toISOString().split('T')[0]
+            let yourDate = new Intl.DateTimeFormat('en', { year: 'numeric', month: 'short', day: '2-digit' }).format(dataItem.t);
+            return yourDate
           },
           label: function (item, data) {
             let dataItem = <matchGoals>data.datasets[item.datasetIndex].data[item.index];
