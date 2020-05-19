@@ -2,6 +2,7 @@ import { default as axios } from 'axios';
 import * as _ from 'lodash';
 
 const postAPI = '/posts/index.json';
+const squadAPI = '/squad/frothers/index.json';
 
 /**
  * @summary Goal scorers graphics.
