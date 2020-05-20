@@ -1,6 +1,6 @@
 import { Chart, ChartPoint } from 'chart.js';
 import 'chartjs-plugin-colorschemes';
-import { getGoalsData, gameData, scorerData } from "./apiQueries";
+import { getGoalsData, gameData, getSquadData,  } from "./apiQueries";
 import * as _ from 'lodash';
 
 export type chartData = {
@@ -15,10 +15,12 @@ export type matchGoals = {
   y: number
 };
 
-let parsePlayerData = function (data: gameData[]) {
-  let temp = _.map(data, "scorers")
-  let temp2 = _.flatten(temp);
-  let scorerNames = _.sortedUniq(_.map(temp2, "scorer"));
+let parsePlayerData = async function (data: gameData[]) {
+  let scorers = _.map(_.flatten(_.map(data, "scorers")), "scorer");
+  let squadData = await getSquadData();
+
+  scorers = scorers.concat(squadData.players);
+  let scorerNames = _.sortedUniq(scorers);
 
   let playerData = scorerNames.map(name => {
     let record: chartData = {
@@ -63,8 +65,7 @@ let parsePlayerData = function (data: gameData[]) {
  */
 export let populateGsGraph = async function () {
   let data = await getGoalsData();
-  let playerData = parsePlayerData(data);
-  console.log("playerData", playerData);
+  let playerData = await parsePlayerData(data);
 
   let temp = <HTMLCanvasElement>document.getElementById("stats-panel");
   let ctx = temp.getContext("2d");

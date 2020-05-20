@@ -1,14 +1,14 @@
 import { default as axios } from 'axios';
 import * as _ from 'lodash';
 
-const postAPI = '/posts/index.json';
+const postsAPI = '/posts/index.json';
 const squadAPI = '/squad/frothers/index.json';
 
 /**
  * @summary Goal scorers graphics.
  */
 export let getGoalsData = async function () {
-    let response = await axios.get(postAPI);
+    let response = await axios.get(postsAPI);
     let data = response.data.data;
 
     let goalscorers: gameData[] = data.items.map((a: { date: any; scorers: any; }) => {
@@ -27,6 +27,21 @@ export let getGoalsData = async function () {
     goalscorers = goalscorers.filter((a:any) => a != null);
 
     return goalscorers;
+};
+
+/**
+ * @summary Goal scorers graphics.
+ */
+export let getSquadData = async function () {
+    let response = await axios.get(squadAPI);
+    let data = response.data.data;
+    let squad: squadData = data
+   
+    return squad;
+};
+
+export type squadData = {
+    players: string[]
 };
 
 export type gameData = {
