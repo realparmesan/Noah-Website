@@ -20,7 +20,7 @@ let parsePlayerData = async function (data: gameData[]) {
   let squadData = await getSquadData();
 
   scorers = scorers.concat(squadData.players);
-  let scorerNames = _.sortedUniq(scorers);
+  let scorerNames = _.uniq(scorers);
 
   let playerData = scorerNames.map(name => {
     let record: chartData = {

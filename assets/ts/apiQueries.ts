@@ -2,7 +2,7 @@ import { default as axios } from 'axios';
 import * as _ from 'lodash';
 
 const postsAPI = '/posts/index.json';
-const squadAPI = '/squad/frothers/index.json';
+const squadAPI = '/squad/index.json';
 
 /**
  * @summary Goal scorers graphics.
@@ -35,7 +35,7 @@ export let getGoalsData = async function () {
 export let getSquadData = async function () {
     let response = await axios.get(squadAPI);
     let data = response.data.data;
-    let squad: squadData = data
+    let squad: squadData = data.items[0];
    
     return squad;
 };
