@@ -76,6 +76,16 @@ export let populateGsGraph = async function () {
       datasets: playerData
     },
     options: {
+      responsive:true,
+      maintainAspectRatio: false,
+      layout: {
+        padding: {
+          left: 50,
+          right: 50,
+          top: 0,
+          bottom: 0
+        }
+      },
       scales: {
         xAxes: [{
           type: 'time'

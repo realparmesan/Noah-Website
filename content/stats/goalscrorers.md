@@ -1,7 +1,7 @@
 +++
-title = "Goal Scorers"
+title = "Season Stats"
 type = "stats"
-UnqiueID = "GoalScorers"
+UnqiueID = "Stats"
 [menu.main]
 name = "Stats"
 weight = 2
