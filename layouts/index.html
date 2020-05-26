@@ -10,11 +10,11 @@
   <img src="{{ .Site.Params.banner.image | relURL }}" width = "400" class="img-fluid illustration float-left" alt="">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6 mb-5 mb-lg-0">
+      <div class="col-lg-6 mb-5 mb-lg-0 text-center">
         <h1>{{ .Site.Params.banner.title | markdownify }}</h1>
       </div>
-      <div class="col-lg-6 illustration-mobile">
-        <img src="{{ .Site.Params.banner.image | relURL }}" width = "400" class="img-fluid float-left" alt="">
+      <div class="col-lg-6 illustration-mobile text-center">
+        <img src="{{ .Site.Params.banner.image | relURL }}" width = "400" class="img-fluid float-none" alt="">
       </div>
     </div>
   </div>

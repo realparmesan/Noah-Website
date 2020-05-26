@@ -29,10 +29,12 @@ description = ""
 google_analitycs_id = ""
 google_tag_manager = ""
 home = "Home"
-logo = "images/banner/frother_logo.svg"
+logo = "images/banner/frother_heading.svg"
+
+
 [params.banner]
 bgImage = "images/banner/sleeves.svg"
-image = "images/banner/frother_heading.svg"
+image = "images/banner/frother_logo.svg"
 title = "Wellington Frothers FC"
 [params.cta]
 description = "Check the upcoming fixture list."
