@@ -68,6 +68,11 @@ export let populateGsGraph = async function () {
   let playerData = await parsePlayerData(data);
 
   let temp = <HTMLCanvasElement>document.getElementById("stats-panel");
+
+  if (temp == null) {
+      return;
+  }
+
   let ctx = temp.getContext("2d");
 
   var myChart = new Chart(ctx, {
