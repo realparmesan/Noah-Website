@@ -30,6 +30,31 @@ export let getGoalsData = async function () {
 };
 
 /**
+ * @summary Get results graphics.
+ */
+export let getResultsData = async function () {
+    let response = await axios.get(postsAPI);
+    let data = response.data.data;
+
+    let results: resultData[] = data.items.map((a: { date: string; result: string; }) => {
+        if (a.result === null) {
+            return null;
+        }
+        
+        let result: resultData = {
+            "date": new Date(a.date),
+            "result": a.result
+        }
+        return result
+    }
+    );
+
+    results = results.filter((a:any) => a != null);
+
+    return results;
+};
+
+/**
  * @summary Goal scorers graphics.
  */
 export let getSquadData = async function () {
@@ -47,6 +72,11 @@ export type squadData = {
 export type gameData = {
     date: Date,
     scorers: scorerData[]
+};
+
+export type resultData = {
+    date: Date,
+    result: string
 };
 
 export type scorerData = {
