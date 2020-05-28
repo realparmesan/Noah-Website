@@ -29,8 +29,8 @@ description = ""
 google_analitycs_id = ""
 google_tag_manager = ""
 home = "Home"
-logo = "images/banner/frother_heading.svg"
-
+logo = "images/banner/frother_logo.svg"
+logoTitle = "Frothers F.C."
 
 [params.banner]
 bgImage = "images/banner/sleeves.svg"
