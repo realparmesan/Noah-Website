@@ -57,6 +57,7 @@ fields:
   label: Opponent
   showOnly:
     field: match
+    value: true
 - name: result
   type: select
   default: ''
