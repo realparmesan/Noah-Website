@@ -11,7 +11,7 @@ name = "Contact"
 weight = 1
 [[menu.footer]]
 name = "Schedule"
-url = "https://www.sportzone.org.nz/wellington-sunday-league/home"
+url = "https://www.sportzone.org.nz/competitions/75/wellington-sunday-football-league/wellington-sunday-football-league/winter-2020/schedule"
 weight = 2
 [[menu.main]]
 name = "Stats"
