@@ -141,5 +141,4 @@ fields:
     field: match
     value: true
 pages:
-- content/posts/preseason-2019.md
 - content/posts/second-post.md
