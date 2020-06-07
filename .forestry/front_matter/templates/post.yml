@@ -141,6 +141,5 @@ fields:
     field: match
     value: true
 pages:
-- content/posts/fake-preseason-2020-2.md
 - content/posts/preseason-2019.md
 - content/posts/second-post.md
