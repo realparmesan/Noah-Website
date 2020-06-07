@@ -14,6 +14,8 @@ title = "2020 Season - Game 1"
 type = "post"
 
 +++
+![](/images/img_4794.jpg)
+
 After months of delays due to COVID19, the Frother boys finally got out onto the field.
 
 Kitted out with new threads and new squad members.
