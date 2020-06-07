@@ -1,10 +1,14 @@
 +++
-title = "First Post"
-image = "/images/frothersSquad.jpg"
 author = "Chris C"
+categories = ["General"]
 date = 2019-11-07T05:00:00Z
 description = "first trial post"
-categories = ["General"]
+draft = true
+image = "/images/frothersSquad.jpg"
+match = false
+opponent = "d"
+result = "Win"
+title = "First Post"
 type = "post"
 
 +++
