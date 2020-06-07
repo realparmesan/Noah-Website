@@ -3,7 +3,6 @@ author = "Chris"
 categories = []
 date = 2020-06-06T12:00:00Z
 description = "Wrap up of the first game of the 2020 season"
-draft = true
 frother_goals = 0
 image = "/images/img_4794.jpg"
 match = true
@@ -21,4 +20,8 @@ Kitted out with new threads and new squad members.
 
 ![](/images/img_4834.jpg)
 
-A game 
+A game of few chances, big Harry had an effort destined for the top corner plucked from the air.
+
+The big positive to take from the match was the structure and solidity of the backline. With the help of some old faces and some new blood.
+
+![](/images/img_4801.jpg)
