@@ -142,4 +142,5 @@ fields:
     field: match
     value: true
 pages:
+- content/posts/2020-season-game-1.md
 - content/posts/second-post.md
