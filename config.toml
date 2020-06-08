@@ -14,9 +14,6 @@ name = "Schedule"
 url = "https://www.sportzone.org.nz/competitions/75/wellington-sunday-football-league/wellington-sunday-football-league/winter-2020/schedule"
 weight = 2
 [[menu.main]]
-name = "Stats"
-weight = 2
-[[menu.main]]
 name = "Schedule"
 url = "https://www.sportzone.org.nz/competitions/75/wellington-sunday-football-league/wellington-sunday-football-league/winter-2020/schedule"
 weight = 1
