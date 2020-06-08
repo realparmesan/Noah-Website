@@ -23,8 +23,9 @@ sections:
   templates:
   - player
 - type: document
-  path: content/stats/**/*
+  path: content/stats/goalscorers.md
   label: Stats
+  match: "**/*"
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
