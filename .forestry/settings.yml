@@ -26,6 +26,7 @@ sections:
   path: content/stats/goalscorers.md
   label: Stats
   match: "**/*"
+  read_only: true
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
