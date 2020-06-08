@@ -1,7 +1,6 @@
 +++
-title = "Season Stats"
-type = "stats"
 UnqiueID = "Stats"
+title = "Season Stats"
 [menu.main]
 name = "Stats"
 weight = 2
