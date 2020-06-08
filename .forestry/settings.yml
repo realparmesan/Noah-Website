@@ -13,9 +13,6 @@ sections:
   match: "**/*"
   templates:
   - post
-- type: document
-  path: content/stats/**/*
-  label: Stats
 - type: heading
   label: Back-end Content
 - type: directory
@@ -25,6 +22,9 @@ sections:
   match: "**/*"
   templates:
   - player
+- type: document
+  path: content/stats/**/*
+  label: Stats
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
