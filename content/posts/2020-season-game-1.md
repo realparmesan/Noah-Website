@@ -27,3 +27,5 @@ A game of few chances, big Harry had an effort destined for the top corner pluck
 The big positive to take from the match was the structure and solidity of the backline. With the help of some old faces and some new blood.
 
 ![](/images/img_4801.jpg)![](/images/img_4809.jpg)![](/images/img_4811.jpg)
+
+More photos available here: [https://www.facebook.com/media/set/?set=a.3064278930465058&type=3](https://www.facebook.com/media/set/?set=a.3064278930465058&type=3 "https://www.facebook.com/media/set/?set=a.3064278930465058&type=3")
