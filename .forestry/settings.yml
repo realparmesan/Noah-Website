@@ -13,6 +13,13 @@ sections:
   match: "**/*"
   templates:
   - post
+- type: directory
+  path: content/stats
+  label: Stats
+  create: all
+  match: "**/*"
+  templates:
+  - generic-page
 - type: heading
   label: Back-end Content
 - type: directory
@@ -22,11 +29,6 @@ sections:
   match: "**/*"
   templates:
   - player
-- type: document
-  path: content/stats/goalscorers.md
-  label: Stats
-  match: "**/*"
-  read_only: true
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
