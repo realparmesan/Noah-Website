@@ -22,4 +22,4 @@ Tough match against North Wellington in the cold.
 
 **Dick of the Day**: Harry Freeman for taking himself off because it was too cold
 
-**Photos to come**
+**Photos:** [https://www.facebook.com/NZSundayFootball/media_set/?set=a.3070775376482080](https://www.facebook.com/NZSundayFootball/media_set/?set=a.3070775376482080 "https://www.facebook.com/NZSundayFootball/media_set/?set=a.3070775376482080")
