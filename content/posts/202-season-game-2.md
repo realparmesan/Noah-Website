@@ -4,7 +4,7 @@ categories = []
 date = 2020-06-13T12:00:00Z
 description = "Tough match at Wakefield again North Wellington"
 frother_goals = 1
-image = "/images/pitch2.svg"
+image = "/images/103641163_3070778246481793_8477547292269633768_o.jpg"
 match = true
 opponent = "North Wellington"
 opponent_goals = 6
@@ -17,6 +17,8 @@ scorer = "Lance"
 
 +++
 Tough match against North Wellington in the cold.
+
+![](/images/103641163_3070778246481793_8477547292269633768_o.jpg)
 
 **Man of the Match**: Ryan Kindle for some great saves to keep us in the game for the first half
 
