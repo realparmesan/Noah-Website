@@ -9,7 +9,7 @@ match = true
 opponent = "North Wellington"
 opponent_goals = 6
 result = "Loss"
-title = "202 Season - Game 2"
+title = "2020 Season - Game 2"
 type = "post"
 [[scorers]]
 goals = 1
