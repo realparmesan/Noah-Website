@@ -45,10 +45,13 @@ select {
 
 .section {
     /* And other times this */
-@media (min-width: 768px) {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
+    @include desktop-lg{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    @include desktop{
+        padding: 0px;
+    }
 }
 
 .bg-cover {

@@ -33,6 +33,17 @@
   }
 }
 
+.media {
+    .img-thumbnail{
+        max-width: 150px;
+        max-height: 150px;
+
+          @include desktop {
+            display: none;
+          }
+    }
+}
+
 /* blog */
 .block {
   padding: 60px 60px 40px;
