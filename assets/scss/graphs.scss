@@ -4,9 +4,11 @@
  }
 
  /* Tabs*/
-section {
-  padding: 60px 0;
-}
+// section {
+//     @include desktop-lg{
+//   padding: 60px 0;
+//     }
+// }
 
 section .section-title {
   text-align: center;
