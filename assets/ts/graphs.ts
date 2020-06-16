@@ -36,7 +36,10 @@ export let populateGsGraph = async function () {
             },
             scales: {
                 xAxes: [{
-                    type: 'time'
+                    type: 'time',
+                    time: {
+                        unit: 'week'
+                    }
                 }],
                 yAxes: [{
                     ticks: {
@@ -119,7 +122,10 @@ export let populatePointsGraph = async function () {
             },
             scales: {
                 xAxes: [{
-                    type: 'time'
+                    type: 'time',
+                    time: {
+                        unit: 'week'
+                    }
                 }],
                 yAxes: [{
                     ticks: {
