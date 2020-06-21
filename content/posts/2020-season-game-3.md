@@ -12,8 +12,8 @@ result = "Loss"
 title = "2020 Season - Game 3"
 type = "post"
 [[scorers]]
-goals = 0
-scorer = ""
+goals = 1
+scorer = "Lee"
 
 +++
 Content to come..
