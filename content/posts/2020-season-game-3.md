@@ -34,4 +34,4 @@ Has to be our man Charles Daily. For megging a guy and then falling flat on his 
 
 ![](/images/104378714_3077576142468670_116484171552379971_o.jpg)
 
-Photos can be seen here: [https://www.facebook.com/NZSundayFootball/media_set/?set=a.3077573169135634](https://www.facebook.com/NZSundayFootball/media_set/?set=a.3077573169135634 "Gameweek 3 photos")
+Photos can be seen here: [WSFL - GW3](https://www.facebook.com/NZSundayFootball/media_set/?set=a.3077573169135634)
