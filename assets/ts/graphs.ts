@@ -24,6 +24,11 @@ export let populateGsGraph = async function () {
             datasets: playerData
         },
         options: {
+            elements: {
+                line: {
+                    tension: 0, // disables bezier curves
+                }
+            },
             responsive: true,
             maintainAspectRatio: false,
             layout: {
@@ -110,6 +115,11 @@ export let populatePointsGraph = async function () {
             }]
         },
         options: {
+            elements: {
+                line: {
+                    tension: 0, // disables bezier curves
+                }
+            },
             responsive: true,
             maintainAspectRatio: false,
             layout: {
