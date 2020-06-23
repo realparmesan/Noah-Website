@@ -18,6 +18,14 @@ type = "post"
 
 After months of delays due to COVID19, the Frother boys finally got out onto the field.
 
+**Man of the Match:** 
+
+Sam - a stella performance for his first run out with the frothers
+
+**Dick Of the Day:**
+
+Chris - For rolling up 20 mins before the game with everyone's kits and balls.
+
 Kitted out with new threads and new squad members.
 
 ![](/images/img_4834.jpg)
