@@ -24,7 +24,7 @@ Beautiful to see the big rig from Norwich back amount the lads and the goals. We
 
 **Man of the Match**
 
-The big man with the left of gold Chris Chester. Playing some many balls to feet that I'm sure Fulli Furnish is shedding a tear somewhere.
+The big man with the left of gold Chris Chester. Playing so many balls to feet that I'm sure Fulli Furnish is shedding a tear somewhere.
 
 ![](/images/104415835_3077576409135310_3751227997009170818_o.jpg)
 
