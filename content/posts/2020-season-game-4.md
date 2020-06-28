@@ -3,7 +3,6 @@ author = "Lance"
 categories = []
 date = 2045-01-01T00:45:00Z
 description = "Away game at Ascot Park"
-draft = true
 frother_goals = 3
 image = "/images/highkick.svg"
 match = true
