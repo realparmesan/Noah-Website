@@ -142,7 +142,6 @@ fields:
     field: match
     value: true
 pages:
-- content/posts/202-season-game-2.md
 - content/posts/2020-season-game-1.md
 - content/posts/2020-season-game-3.md
 - content/posts/second-post.md
