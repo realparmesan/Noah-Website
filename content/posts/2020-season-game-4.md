@@ -1,7 +1,7 @@
 +++
 author = "Lance"
 categories = ["Match"]
-date = 2045-01-01T00:45:00Z
+date = 2020-06-27T12:00:00Z
 description = "Match report Sudakas at Ascot Park"
 frother_goals = 3
 image = "/images/highkick.svg"
