@@ -1,6 +1,6 @@
 +++
 author = "Lance"
-categories = []
+categories = ["Match"]
 date = 2045-01-01T00:45:00Z
 description = "Away game at Ascot Park"
 frother_goals = 3
