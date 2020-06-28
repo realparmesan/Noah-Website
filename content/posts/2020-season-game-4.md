@@ -2,7 +2,7 @@
 author = "Lance"
 categories = ["Match"]
 date = 2045-01-01T00:45:00Z
-description = "Away game at Ascot Park"
+description = "Match report Sudakas at Ascot Park"
 frother_goals = 3
 image = "/images/highkick.svg"
 match = true
