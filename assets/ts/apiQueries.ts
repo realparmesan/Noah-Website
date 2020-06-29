@@ -4,6 +4,42 @@ import * as _ from 'lodash';
 const postsAPI = '/posts/index.json';
 const squadAPI = '/squad/index.json';
 
+export type postData = {
+    title: string,
+    match: string,
+    date : string,
+    result: string,
+    frother_goals: string,
+    opponent_goals: string,
+    permalink : string,
+    scorers: any[]
+};
+
+export type squadData = {
+    players: string[]
+};
+
+export type gameData = {
+    date: Date,
+    scorers: scorerData[]
+};
+
+export type resultData = {
+    date: Date,
+    result: string
+};
+
+export type matchGoalsData = {
+    date: Date,
+    frother_goals: number,
+    opponent_goals: number
+};
+
+export type scorerData = {
+    scorer: string,
+    goals: number
+};
+
 /**
  * @summary Goal scorers graphics.
  */
@@ -11,7 +47,7 @@ export let getGoalsData = async function () {
     let response = await axios.get(postsAPI);
     let data = response.data.data;
 
-    let goalscorers: gameData[] = data.items.map((a: { date: any; scorers: any; }) => {
+    let goalscorers: gameData[] = data.items.map((a: postData) => {
         if (a.scorers === null) {
             return null;
         }
@@ -36,7 +72,7 @@ export let getResultsData = async function () {
     let response = await axios.get(postsAPI);
     let data = response.data.data;
 
-    let results: resultData[] = data.items.map((a: { date: string; result: string; }) => {
+    let results: resultData[] = data.items.map((a: postData) => {
         if (a.result === null) {
             return null;
         }
@@ -55,6 +91,34 @@ export let getResultsData = async function () {
 };
 
 /**
+ * @summary Get match goals graphics.
+ */
+export let getMatchGoalsData = async function () {
+    let response = await axios.get(postsAPI);
+    let data = response.data.data;
+
+    console.log(data);
+    let matchGoals: matchGoalsData[] = data.items.map((a: postData) => {
+        if (a.match.includes("true") !== true ) {
+            console.log(a);
+            return null;
+        }
+        
+        let result: matchGoalsData = {
+            date: new Date(a.date),
+            frother_goals: parseInt(a.frother_goals),
+            opponent_goals: parseInt(a.opponent_goals)
+        }
+        return result
+    }
+    );
+
+    matchGoals = matchGoals.filter((a:any) => a != null);
+
+    return matchGoals;
+};
+
+/**
  * @summary Goal scorers graphics.
  */
 export let getSquadData = async function () {
@@ -65,21 +129,3 @@ export let getSquadData = async function () {
     return squad;
 };
 
-export type squadData = {
-    players: string[]
-};
-
-export type gameData = {
-    date: Date,
-    scorers: scorerData[]
-};
-
-export type resultData = {
-    date: Date,
-    result: string
-};
-
-export type scorerData = {
-    scorer: string,
-    goals: number
-};

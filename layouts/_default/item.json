@@ -3,6 +3,8 @@
     "match": " {{ .Params.match }}",
     "date" : "{{ .Params.date }}",
     "result": "{{ .Params.result }}",
-    "scorers": {{ .Params.scorers | jsonify }},
-    "permalink" : "{{ .Permalink }}"
+    "frother_goals": "{{ .Params.frother_goals }}",
+    "opponent_goals": "{{ .Params.opponent_goals }}",
+    "permalink" : "{{ .Permalink }}",
+    "scorers": {{ .Params.scorers | jsonify }}
 }

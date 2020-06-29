@@ -1,4 +1,4 @@
-import { getGoalsData, getResultsData, getSquadData } from "../apiQueries";
+import { getGoalsData, getResultsData, getSquadData, getMatchGoalsData } from "../apiQueries";
 import * as _ from 'lodash';
 
 export type chartGoalsData = {
@@ -10,6 +10,11 @@ export type chartGoalsData = {
 export type matchGoals = {
     t: Date,
     goals: number,
+    y: number
+};
+
+export type cleanSheets = {
+    t: Date,
     y: number
 };
 
@@ -99,6 +104,37 @@ export let parsePointsData = async function () {
             "points": points,
             "result": game.result,
             "y": prevTotal + points
+        })
+    })
+
+    return resultsData;
+}
+
+export let parseCleanSheetData = async function () {
+    let data = await getMatchGoalsData();
+
+    data = data.sort((a, b) => {
+        return a.date.getTime() - b.date.getTime()
+    })
+
+    let resultsData: cleanSheets[] = [];
+
+    data.forEach(game => {
+        let lastMatch = resultsData[resultsData.length - 1] || { y: 0 };
+        let prevTotal = lastMatch.y;
+
+        let cs = 0;
+
+        if (game.opponent_goals > 0) {
+            cs = 0;
+        }
+        else {
+            cs = 1;
+        }
+
+        resultsData.push({
+            "t": game.date,
+            "y": prevTotal + cs
         })
     })
 
