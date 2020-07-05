@@ -27,11 +27,11 @@ The game got off to a flier when Lance was through one on one with the keeper wi
   
 >Guitar Riff  
   
-The half progressed without too many clear cut opportunities. This was until the opposition exploited the Pro Evo 4 software powering the frothers goalkeeper, curling a ball at the post that the keeper had no choice but to leave to bounce in.  
+The half progressed without too many clear cut opportunities. This was until the opposition exploited the Pro Evo 4 software powering the Frother's goalkeeper, curling a ball at the post that the keeper had no choice but to leave to bounce in.  
   
 >It's not in the way that you hold me  
   
-After some great linkup play, Lance was through on goal again, opting to lay off the abuse the sweaty goal exploit in fifa 15. Sadly this has been patched and Jamie could only find the side netting.  
+After some great linkup play, Lance was through on goal again, opting to lay off the abuse the sweaty goal exploit in Fifa 15. Sadly this has been patched and Jamie could only find the side netting.  
   
 >It's not in the way you say you care  
   
