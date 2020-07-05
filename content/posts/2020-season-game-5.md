@@ -35,13 +35,15 @@ After some great linkup play, Lance was through on goal again, opting to lay off
   
 >It's not in the way you say you care  
   
-Half time came about with both the wind and the sun with the frothers for the second half. This advantage was non-existent however and V Wel got two quick goals.  
+Half time came about with both the wind and the sun with the Frothers for the second half. This advantage was non-existent however and V Wel got two quick goals.  
   
 >It's not in the way you've been treating my friends  
   
-Frothers were knocking for the rest of the match but just couldn't get into their groove.  
+The Frothers were knocking for the rest of the match but just couldn't get into their groove.  
   
-It's back to the drawing board to find the boys best formation, but some strong performances underpin the potential of the team  
+It's back to the drawing board to find the boys best formation, but some strong performances underpin the potential of the team.
+
+Hold the line  
   
 >Hold the line  
 >Love isn't always on time
