@@ -1,8 +1,9 @@
 import * as _ from 'lodash';
-import { populateGsGraph, populatePointsGraph, populateCleanSheetGraph } from "./ts/graphs";
+import { populateGsGraph, populatePointsGraph, populateCleanSheetGraph, getYearFilter } from "./ts/graphs";
 
 window.addEventListener('load', function () {
-    populateGsGraph();
+    let year = getYearFilter();
+    populateGsGraph(year);
     populatePointsGraph();
     populateCleanSheetGraph();
 })

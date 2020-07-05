@@ -2,13 +2,30 @@ import { Chart, ChartPoint } from 'chart.js';
 import 'chartjs-plugin-colorschemes';
 import * as _ from 'lodash';
 
-import { parsePlayerData, parsePointsData, parseCleanSheetData, matchGoals, matchResult } from './processors/graphData'
+import { parsePlayerData, parsePointsData, parseCleanSheetData, matchGoals, matchResult, chartGoalsData } from './processors/graphData'
+
+/**
+ * @summary Get the filter value
+ */
+export let getYearFilter = function (): number {
+    let input = <HTMLInputElement>document.getElementById("yearSelect")
+    return parseInt(input.value);
+}
+
+/**
+ * @summary Set the filter listener
+ */
+export let setFilterListener = function (): number {
+    let input = <HTMLInputElement>document.getElementById("yearSelect")
+    return parseInt(input.value);
+}
 
 /**
  * @summary Goal scorers graphics.
  */
-export let populateGsGraph = async function () {
+export let populateGsGraph = async function (year: number) {
     let playerData = await parsePlayerData();
+    playerData = filterDataForYear(playerData, year);
 
     let temp = <HTMLCanvasElement>document.getElementById("stats-panel");
 
@@ -181,7 +198,6 @@ export let populatePointsGraph = async function () {
     })
 }
 
-
 /**
  * @summary Points graphics.
  */
@@ -271,4 +287,24 @@ export let populateCleanSheetGraph = async function () {
             }
         }
     })
+}
+
+/**
+ * @summary Get the filter value
+ */
+export let filterDataForYear = function (data: any[], year: number) {
+    let dataOut = data;
+
+    dataOut.forEach( (graph, index) => {
+        dataOut[index].data = graph.data.filter((a: any) => {
+            if (a.t.getFullYear() === year){
+                return true;
+            }
+            else {
+                return false;
+            }
+        })
+    });
+
+    return dataOut;
 }

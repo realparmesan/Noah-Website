@@ -16,7 +16,8 @@ goals = 1
 scorer = "Yarride"
 
 +++
-TOTO - Hold the line  
+## TOTO - Hold the Line
+[![TOTO - Hold the Line](https://img.youtube.com/vi/htgr3pvBr-I/0.jpg)](https://www.youtube.com/watch?v=htgr3pvBr-I)
   
 In a match where the frother boys tried a new formation, goalkeeper, and positions for quite a few of the lads in an attempt to continuously improve and extend the winning run.  
   
@@ -44,3 +45,9 @@ It's back to the drawing board to find the boys best formation, but some strong 
   
 >Hold the line  
 >Love isn't always on time
+
+**Man of the Match**: Luke for slotting effortlessly into the centre back role, the thinking man's position. There was a noticeable drop in when he was off the pitch.
+
+**Dick of the Day**: Ryan for continuing the proud Frother's tradition of keepers getting injured.
+
+**Photos:** To Come

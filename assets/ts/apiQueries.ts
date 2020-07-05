@@ -97,10 +97,8 @@ export let getMatchGoalsData = async function () {
     let response = await axios.get(postsAPI);
     let data = response.data.data;
 
-    console.log(data);
     let matchGoals: matchGoalsData[] = data.items.map((a: postData) => {
         if (a.match.includes("true") !== true ) {
-            console.log(a);
             return null;
         }
         
