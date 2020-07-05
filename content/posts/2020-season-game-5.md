@@ -1,0 +1,46 @@
++++
+author = "Chris"
+categories = []
+date = 2020-07-04T12:00:00Z
+description = "Wrap up of the Frothers game against V-Well FC"
+frother_goals = 1
+image = "/images/220px-hold_the_line.jpg"
+match = true
+opponent = "V-Well FC"
+opponent_goals = 3
+result = "Loss"
+title = " 2020 Season - Game 5"
+type = "post"
+[[scorers]]
+goals = 1
+scorer = "Yarride"
+
++++
+TOTO - Hold the line  
+  
+In a match where the frother boys tried a new formation, goalkeeper, and positions for quite a few of the lads in an attempt to continuously improve and extend the winning run.  
+  
+>Queue piano.  
+  
+The game got off to a flier when Lance was through one on one with the keeper with the option of slotting it or laying it off. Opting for option 3, the mystery touch, the ball popped out to Yarride who made no mistake.  
+  
+>Guitar Riff  
+  
+The half progressed without too many clear cut opportunities. This was until the opposition exploited the Pro Evo 4 software powering the frothers goalkeeper, curling a ball at the post that the keeper had no choice but to leave to bounce in.  
+  
+>It's not in the way that you hold me  
+  
+After some great linkup play, Lance was through on goal again, opting to lay off the abuse the sweaty goal exploit in fifa 15. Sadly this has been patched and Jamie could only find the side netting.  
+  
+>It's not in the way you say you care  
+  
+Half time came about with both the wind and the sun with the frothers for the second half. This advantage was non-existent however and V Wel got two quick goals.  
+  
+>It's not in the way you've been treating my friends  
+  
+Frothers were knocking for the rest of the match but just couldn't get into their groove.  
+  
+It's back to the drawing board to find the boys best formation, but some strong performances underpin the potential of the team  
+  
+>Hold the line  
+>Love isn't always on time
