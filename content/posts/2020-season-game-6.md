@@ -3,7 +3,6 @@ author = "Chris"
 categories = []
 date = 2020-07-11T12:00:00Z
 description = "Wrap up of the Frothers game against Valley FC"
-draft = true
 frother_goals = 2
 image = "/images/1633.jpg"
 match = true
