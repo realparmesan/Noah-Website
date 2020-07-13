@@ -20,6 +20,7 @@ scorer = "Charles"
 
 +++
 ## Public Enemy- Harder Than You Think
+
 [![Public Enemy- Harder Than You Think](https://img.youtube.com/vi/L4EDy6wTOsg/0.jpg)](https://www.youtube.com/watch?v=L4EDy6wTOsg)
 
 Coming off a disappointing loss the Frother boys took on a second-place Valley FC team without any of their traditional Strikers.
@@ -48,7 +49,7 @@ After a quick break, all the boys were back on the field and ready to go. All ex
 
 The Frothers were then up against it for the full second half. Having lost momentum and the wind and the rain coming fast the boys had to try hold on for dear life. It wasn't too long until Valley broke through with a darting run and cross combo.
 
-Their second came after several fantastic stops by Ryan, wiping out the old viper arm to save a very good stop. Dreaming about his post-game steinlager, a ball snuck between his legs to make it two-all. 
+Their second came after several fantastic stops by Ryan, wiping out the old viper arm to save a very good stop. Dreaming about his post-game steinlager, a ball snuck between his legs to make it two-all.
 
 > Desecrated while the coroner waited
 
@@ -65,6 +66,8 @@ However, it was a great showing from the Frothers against a very strong team. Wi
 > Harder than you think, its a beautiful thing
 
 **Man of the Match**: Charles Daily for breaking that duck egg and seeing his name in lights.
+
+> Like that doll Chucky, baby!
 
 ![](/images/img_20180811_184802.jpg)
 
