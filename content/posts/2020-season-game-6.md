@@ -20,6 +20,7 @@ scorer = "Charles"
 
 +++
 ## Public Enemy- Harder Than You Think
+[![Public Enemy- Harder Than You Think](https://img.youtube.com/vi/L4EDy6wTOsg/0.jpg)](https://www.youtube.com/watch?v=L4EDy6wTOsg)
 
 Coming off a disappointing loss the Frother boys took on a second-place Valley FC team without any of their traditional Strikers.
 
