@@ -66,6 +66,8 @@ However, it was a great showing from the Frothers against a very strong team. Wi
 
 **Man of the Match**: Charles Daily for breaking that duck egg and seeing his name in lights.
 
+![](/images/img_20180811_184802.jpg)
+
 **Dick of the Day**: Yarride for waiting 4 years and then being away when the big leaf got his moment of glory.
 
 **Photos:** NA
