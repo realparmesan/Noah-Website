@@ -25,8 +25,16 @@ export type matchResult = {
     y: number
 };
 
-export let parsePlayerData = async function () {
+export let parsePlayerData = async function (year: number) {
     let data = await getGoalsData();
+    data = data.filter(a => {
+        if (a.date.getFullYear() === year){
+            return true;
+        }
+        else {
+            return false;
+        }
+    });
     let scorers = _.map(_.flatten(_.map(data, "scorers")), "scorer");
     let squadData = await getSquadData();
 
@@ -71,12 +79,21 @@ export let parsePlayerData = async function () {
     return playerData;
 }
 
-export let parsePointsData = async function () {
+export let parsePointsData = async function (year: number) {
     let data = await getResultsData();
 
     data = data.sort((a, b) => {
         return a.date.getTime() - b.date.getTime()
     })
+
+    data = data.filter(a => {
+        if (a.date.getFullYear() === year){
+            return true;
+        }
+        else {
+            return false;
+        }
+    });
 
     let resultsData: matchResult[] = [];
 
@@ -110,12 +127,21 @@ export let parsePointsData = async function () {
     return resultsData;
 }
 
-export let parseCleanSheetData = async function () {
+export let parseCleanSheetData = async function (year: number) {
     let data = await getMatchGoalsData();
 
     data = data.sort((a, b) => {
         return a.date.getTime() - b.date.getTime()
     })
+
+    data = data.filter(a => {
+        if (a.date.getFullYear() === year){
+            return true;
+        }
+        else {
+            return false;
+        }
+    });
 
     let resultsData: cleanSheets[] = [];
 

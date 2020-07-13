@@ -16,14 +16,14 @@ export let getYearFilter = function (): number {
  * @summary Goal scorers graphics.
  */
 export let populateGsGraph = async function (year: number) {
-    let playerData = await parsePlayerData();
-    playerData = filterDataForYear(playerData, year);
+    let playerData = await parsePlayerData(year);
 
     let temp = <HTMLCanvasElement>document.getElementById("stats-panel");
 
     if (temp == null) {
         return;
     }
+    temp.innerHTML = "";
 
     let ctx = temp.getContext("2d");
 
@@ -103,21 +103,14 @@ export let populateGsGraph = async function (year: number) {
  * @summary Points graphics.
  */
 export let populatePointsGraph = async function (year: number) {
-    let pointsData = await parsePointsData();
-    pointsData = pointsData.filter(a => {
-        if (a.t.getFullYear() === year){
-            return true;
-        }
-        else {
-            return false;
-        }
-    });
+    let pointsData = await parsePointsData(year);
 
     let temp = <HTMLCanvasElement>document.getElementById("results-panel");
 
     if (temp == null) {
         return;
     }
+    temp.innerHTML = "";
 
     let ctx = temp.getContext("2d");
 
@@ -202,22 +195,14 @@ export let populatePointsGraph = async function (year: number) {
  * @summary Points graphics.
  */
 export let populateCleanSheetGraph = async function (year: number) {
-    let data = await parseCleanSheetData();
+    let data = await parseCleanSheetData(year);
     
-    data = data.filter(a => {
-        if (a.t.getFullYear() === year){
-            return true;
-        }
-        else {
-            return false;
-        }
-    });
-
     let temp = <HTMLCanvasElement>document.getElementById("cleansheet-panel");
 
     if (temp == null) {
         return;
     }
+    temp.innerHTML = "";
 
     let ctx = temp.getContext("2d");
 
@@ -299,21 +284,10 @@ export let populateCleanSheetGraph = async function (year: number) {
 }
 
 /**
- * @summary Get the filter value
+ * @summary Update all graphs
  */
-export let filterDataForYear = function (data: any[], year: number) {
-    let dataOut = data;
-
-    dataOut.forEach( (graph, index) => {
-        dataOut[index].data = graph.data.filter((a: any) => {
-            if (a.t.getFullYear() === year){
-                return true;
-            }
-            else {
-                return false;
-            }
-        })
-    });
-
-    return dataOut;
+export let updateAllGraphs = async function (year: number) {
+    populateGsGraph(year);
+    populatePointsGraph(year);
+    populateCleanSheetGraph(year);
 }
