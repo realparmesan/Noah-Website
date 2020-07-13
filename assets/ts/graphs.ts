@@ -48,6 +48,9 @@ export let populateGsGraph = async function (year: number) {
                     bottom: 0
                 }
             },
+            legend: {
+                display: false
+            },
             scales: {
                 xAxes: [{
                     type: 'time',
@@ -140,6 +143,9 @@ export let populatePointsGraph = async function (year: number) {
                     bottom: 0
                 }
             },
+            legend: {
+                display: false
+            },
             scales: {
                 xAxes: [{
                     type: 'time',
@@ -221,6 +227,9 @@ export let populateCleanSheetGraph = async function (year: number) {
                 line: {
                     tension: 0, // disables bezier curves
                 }
+            },
+            legend: {
+                display: false
             },
             responsive: true,
             maintainAspectRatio: false,
