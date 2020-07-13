@@ -13,14 +13,6 @@ export let getYearFilter = function (): number {
 }
 
 /**
- * @summary Set the filter listener
- */
-export let setFilterListener = function (): number {
-    let input = <HTMLInputElement>document.getElementById("yearSelect")
-    return parseInt(input.value);
-}
-
-/**
  * @summary Goal scorers graphics.
  */
 export let populateGsGraph = async function (year: number) {
@@ -110,8 +102,16 @@ export let populateGsGraph = async function (year: number) {
 /**
  * @summary Points graphics.
  */
-export let populatePointsGraph = async function () {
+export let populatePointsGraph = async function (year: number) {
     let pointsData = await parsePointsData();
+    pointsData = pointsData.filter(a => {
+        if (a.t.getFullYear() === year){
+            return true;
+        }
+        else {
+            return false;
+        }
+    });
 
     let temp = <HTMLCanvasElement>document.getElementById("results-panel");
 
@@ -201,8 +201,17 @@ export let populatePointsGraph = async function () {
 /**
  * @summary Points graphics.
  */
-export let populateCleanSheetGraph = async function () {
+export let populateCleanSheetGraph = async function (year: number) {
     let data = await parseCleanSheetData();
+    
+    data = data.filter(a => {
+        if (a.t.getFullYear() === year){
+            return true;
+        }
+        else {
+            return false;
+        }
+    });
 
     let temp = <HTMLCanvasElement>document.getElementById("cleansheet-panel");
 

@@ -46,8 +46,6 @@ export let parsePlayerData = async function () {
         return a.date.getTime() - b.date.getTime()
     })
 
-
-
     data.forEach(game => {
         scorerNames.forEach((scorer) => {
             let playerIndex = playerData.findIndex(e => e.label == scorer)
