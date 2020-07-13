@@ -35,25 +35,37 @@ Time and again the Frothers exposed frailties in their backline, with the killer
 > Get up  
 > Just like that
 
-In a team dripping with defensive prowess, the big hoser himself, Charles Daily, was pushed up into midfield
+In a team dripping with defensive prowess, the big hoser himself, Charles Daily, was pushed up into midfield. Lance then was put through on goal. He did that Lance thing. The ball poped out to Nick on the wing to headed it to the wide-open Charles Daily. One touch and boom, right off the defenders back and into the back of the net. 2-0.
 
-> It's not in the way you say you care
+> Get up  
+> Just like that
 
-Half time came about with both the wind and the sun with the Frothers for the second half. This advantage was non-existent however and V Wel got two quick goals.
+By this stage it was really pouring down, and halftime came around.
 
-> It's not in the way you've been treating my friends
+After a quick break, all the boys were back on the field and ready to go. All except the referee. In a shameful display, the ref (I can only assume) had to go knock one out at the break. Resulting in the Frothers losing their momentum the time he returned.
 
-The Frothers were knocking for the rest of the match but just couldn't get into their groove.
+> Of course endorsed while consciousness faded
 
-It's back to the drawing board to find the boys best formation, but some strong performances underpin the potential of the team.
+The Frothers were then up against it for the full second half. Having lost momentum and the wind and the rain coming fast the boys had to try hold on for dear life. It wasn't too long until Valley broke through with a darting run and cross combo.
 
-Hold the line
+Their second came after several fantastic stops by Ryan, wiping out the old viper arm to save a very good stop. Dreaming about his post-game steinlager, a ball snuck between his legs to make it two-all. 
 
-> Hold the line  
-> Love isn't always on time
+> Desecrated while the coroner waited
 
-**Man of the Match**: Luke for slotting effortlessly into the centre back role, the thinking man's position. There was a noticeable drop in when he was off the pitch.
+The Frothers began to come back into the game at this point, Luke had a couple of efforts off the left go just wide, one clipping the bar.
 
-**Dick of the Day**: Ryan for continuing the proud Frother's tradition of keepers getting injured.
+The ref was also showing that even though he brought his body back on the pitch he left his mind in cyberspace. Showing the abstinence worthy of a saint when it came to blowing the whistle.
 
-**Photos:** To Come
+Valley then got their third to take the game..
+
+> Show no love so its easy to hate it
+
+However, it was a great showing from the Frothers against a very strong team. With the formation and positions looking great in the first 45.
+
+> Harder than you think, its a beautiful thing
+
+**Man of the Match**: Charles Daily for breaking that duck egg and seeing his name in lights.
+
+**Dick of the Day**: Yarride for waiting 4 years and then being away when the big leaf got his moment of glory.
+
+**Photos:** NA
