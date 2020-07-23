@@ -3,7 +3,6 @@ author = "Chris"
 categories = []
 date = 2020-07-18T12:00:00Z
 description = "Wrap up of the Frothers game against Unicorns"
-draft = true
 frother_goals = 3
 image = "/images/jackf.png"
 match = true
