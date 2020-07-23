@@ -23,6 +23,19 @@ goals = 1
 scorer = "Milan"
 
 +++
-## Mark Morrison - Return of the Mack
-[![Mark Morrison - Return of the Mack](https://img.youtube.com/vi/uB1D9wWxd2w/0.jpg)](https://www.youtube.com/watch?v=uB1D9wWxd2w)
 
+The next game for the Frothers was at the illustrious St. Pats turf, with a dirty old face showing up on the bench.
+
+In a game full of goals, with a new set of faces on the scoresheet it was another ultimately disappointing result with a 93rd-minute equaliser to the Unicorns after an _orgasmic_ late goal to the Frothers.
+
+![](/images/110017235_3103629606529990_4576294374773284762_o.jpg)
+
+**Man of the Match:** 
+
+![](/images/109335781_3103629576529993_1107525944104167984_o.jpg)
+
+**Dick of the Day:**
+
+In a moment of arrogance befitting a citizen of the New World, Evan's attempted 93rd minute failed nutmeg which led to the equalising goal was just the excuse needed to hand him the infamous DotD award.
+
+![](/images/109523457_3103630019863282_2187701297799577077_o.jpg)
