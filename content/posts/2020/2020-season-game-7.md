@@ -37,6 +37,6 @@ A stellar midfield performance resulting in a goal from the beast from the easte
 
 **Dick of the Day:**
 
- 
+A 93rd minute attempted nutmeg which resulted in a turnover and late equaliser was enough to bank the DotD award for the sundance kid, Evan.
 
 ![](/images/109523457_3103630019863282_2187701297799577077_o.jpg)
