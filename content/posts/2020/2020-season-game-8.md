@@ -4,7 +4,7 @@ categories = []
 date = 2020-07-25T12:00:00Z
 description = "Wrap up of the Frothers game against the Marauders"
 frother_goals = 2
-image = "/images/jackf.png"
+image = "/images/nickmeg.png"
 match = true
 opponent = "Marauders"
 opponent_goals = 3
@@ -32,3 +32,5 @@ Bombing the line all match and having a being rewarded with a goal for great poa
 **Dick of the Day:**
 
 Laying the ball on an absolute plate for the equalising goal with a touch of a rapist, Nick.
+
+![](/images/nickmeg.png)
