@@ -23,7 +23,7 @@ The Frothers ran out at Ascot Park against the Marauders to try and turn the tid
 
 [![Match Video](https://img.youtube.com/vi/lZeah-QABwM/0.jpg)](https://www.youtube.com/watch?v=lZeah-QABwM)
 
-After a glorious start several errors around the goal mouth meant the Frothers went into the break 2-1 down. In a heavy second half in the heat the game ended 3-2 to the Marauders after a Frothers penalty and a late winner to the Marauders.
+After a glorious start, several errors around the goal mouth meant the Frothers went into the break 2-1 down. In a heavy second half in the heat, the game ended 3-2 to the Marauders after a Frothers penalty and a late winner to the Marauders.
 
 **Man of the Match:**
 
