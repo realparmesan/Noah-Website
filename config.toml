@@ -62,16 +62,7 @@ link = "plugins/search/search.js"
 enable = true
 preloader = ""
 [params.search]
-enable = true
+enable = false
 [[params.social]]
 icon = "ti-facebook"
-link = "#"
-[[params.social]]
-icon = "ti-twitter-alt"
-link = "#"
-[[params.social]]
-icon = "ti-github"
-link = "#"
-[[params.social]]
-icon = "ti-linkedin"
-link = "#"
+link = "https://www.facebook.com/frothersfc"

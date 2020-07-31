@@ -3,6 +3,9 @@ import 'chartjs-plugin-colorschemes';
 import * as _ from 'lodash';
 
 import { parsePlayerData, parsePointsData, parseCleanSheetData, matchGoals, matchResult, chartGoalsData } from './processors/graphData'
+import { axisBottom } from 'd3';
+
+var screenWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 
 /**
  * @summary Get the filter value
@@ -49,7 +52,9 @@ export let populateGsGraph = async function (year: number) {
                 }
             },
             legend: {
-                display: false
+                display: screenWidth > 500,
+                position: 'bottom',
+                onClick: onClickFunc
             },
             scales: {
                 xAxes: [{
@@ -90,11 +95,11 @@ export let populateGsGraph = async function (year: number) {
                     },
                     label: function (item, data) {
                         let dataItem = <matchGoals>data.datasets[item.datasetIndex].data[item.index];
-                        return "Goals:\t" + dataItem.goals;
+                        return "Total:\t" + dataItem.y;
                     },
                     afterLabel: function (item, data) {
                         let dataItem = <matchGoals>data.datasets[item.datasetIndex].data[item.index];
-                        return "(Total:\t" + dataItem.y + ")";
+                        return "(Gameday Goals:\t" + dataItem.goals + ")";
                     },
                 },
             }
@@ -185,11 +190,11 @@ export let populatePointsGraph = async function (year: number) {
                     },
                     label: function (item, data) {
                         let dataItem = <matchResult>data.datasets[item.datasetIndex].data[item.index];
-                        return dataItem.result;
+                        return "Points:\t" + dataItem.y;
                     },
                     afterLabel: function (item, data) {
                         let dataItem = <matchResult>data.datasets[item.datasetIndex].data[item.index];
-                        return "(Points:\t" + dataItem.y + ")";
+                        return "(Gameday result:\t"+ dataItem.result + ")";
                     },
                 },
             }
@@ -202,7 +207,7 @@ export let populatePointsGraph = async function (year: number) {
  */
 export let populateCleanSheetGraph = async function (year: number) {
     let data = await parseCleanSheetData(year);
-    
+
     let temp = <HTMLCanvasElement>document.getElementById("cleansheet-panel");
 
     if (temp == null) {
@@ -229,7 +234,7 @@ export let populateCleanSheetGraph = async function (year: number) {
                 }
             },
             legend: {
-                display: false
+                position: 'bottom'
             },
             responsive: true,
             maintainAspectRatio: false,
@@ -280,11 +285,7 @@ export let populateCleanSheetGraph = async function (year: number) {
                     },
                     label: function (item, data) {
                         let dataItem = <matchResult>data.datasets[item.datasetIndex].data[item.index];
-                        return dataItem.result;
-                    },
-                    afterLabel: function (item, data) {
-                        let dataItem = <matchResult>data.datasets[item.datasetIndex].data[item.index];
-                        return "(Clean Sheet?:\t" + (dataItem.y > 0) + ")";
+                        return "Total Clean Sheets:\t" + dataItem.y;
                     },
                 },
             }
@@ -299,4 +300,26 @@ export let updateAllGraphs = async function (year: number) {
     populateGsGraph(year);
     populatePointsGraph(year);
     populateCleanSheetGraph(year);
+}
+
+let onClickFunc = function (_e: any, legendItem: { datasetIndex: any; }) {
+    var index = legendItem.datasetIndex;
+    var ci = this.chart;
+    var alreadyHidden = (ci.getDatasetMeta(index).hidden === null) ? false : ci.getDatasetMeta(index).hidden;
+
+    ci.data.datasets.forEach(function (_e: any, i: number) {
+        var meta = ci.getDatasetMeta(i);
+
+        if (i !== index) {
+            if (!alreadyHidden) {
+                meta.hidden = meta.hidden === null ? !meta.hidden : null;
+            } else if (meta.hidden === null) {
+                meta.hidden = true;
+            }
+        } else if (i === index) {
+            meta.hidden = null;
+        }
+    });
+
+    ci.update();
 }
