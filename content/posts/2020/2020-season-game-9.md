@@ -4,7 +4,7 @@ categories = []
 date = 2020-08-01T12:00:00Z
 description = "Match reports for the derby against the Blazers"
 frother_goals = 3
-image = "/images/img_5398.jpg"
+image = "/images/alain.jpg"
 match = true
 opponent = "Blazers"
 opponent_goals = 2
@@ -22,4 +22,14 @@ goals = 1
 scorer = "Lance"
 
 +++
-Content to come
+Nothing so sweet as a derby win.
+
+In some of the best football played all season, the all-mighty Frothers showed their potential.
+
+![](/images/img_5563.jpg)
+
+**Player of the Day:**
+
+The man with the second largest ponytail in the team, Sam. Looking an absolute treat on and off the ball. Remember to take Alain out of your pocket before washing your uniform.
+
+![](/images/img_5553.jpg)
