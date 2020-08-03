@@ -48,13 +48,13 @@ module.exports = {
             path: path.join(process.cwd(), "data"),
             prettyPrint: true
         }),
-        new CopyWebpackPlugin([
-            {
+        new CopyWebpackPlugin({
+            patterns: [{
                 from: "./assets/fonts/",
                 to: "fonts/",
                 flatten: true
-            }
-        ]),
+            }]
+        }),
         new HtmlWebpackPlugin({
           filename: 'admin/index.html',
           template: 'static/admin/index.html',
