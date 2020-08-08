@@ -5,7 +5,11 @@ import * as _ from 'lodash';
 import { parsePlayerData, parsePointsData, parseCleanSheetData, matchGoals, matchResult, chartGoalsData } from './processors/graphData'
 import { axisBottom } from 'd3';
 
-var screenWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+let screenWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+
+let goalsChart: Chart;
+let pointsChart: Chart;
+let cleanSheetChart: Chart;
 
 /**
  * @summary Get the filter value
@@ -26,11 +30,14 @@ export let populateGsGraph = async function (year: number) {
     if (temp == null) {
         return;
     }
-    temp.innerHTML = "";
 
     let ctx = temp.getContext("2d");
 
-    new Chart(ctx, {
+    if (goalsChart) {
+        goalsChart.destroy();
+    }
+
+    goalsChart = new Chart(ctx, {
         type: 'line',
         data: {
             datasets: playerData
@@ -118,11 +125,14 @@ export let populatePointsGraph = async function (year: number) {
     if (temp == null) {
         return;
     }
-    temp.innerHTML = "";
-
+    
     let ctx = temp.getContext("2d");
 
-    new Chart(ctx, {
+    if (pointsChart) {
+        pointsChart.destroy();
+    }
+
+    pointsChart = new Chart(ctx, {
         type: 'line',
         data: {
             datasets: [{
@@ -203,7 +213,7 @@ export let populatePointsGraph = async function (year: number) {
 }
 
 /**
- * @summary Points graphics.
+ * @summary cleansheet graphics.
  */
 export let populateCleanSheetGraph = async function (year: number) {
     let data = await parseCleanSheetData(year);
@@ -213,11 +223,14 @@ export let populateCleanSheetGraph = async function (year: number) {
     if (temp == null) {
         return;
     }
-    temp.innerHTML = "";
 
     let ctx = temp.getContext("2d");
 
-    new Chart(ctx, {
+    if (cleanSheetChart) {
+        cleanSheetChart.destroy();
+    }
+
+    cleanSheetChart = new Chart(ctx, {
         type: 'line',
         data: {
             datasets: [{

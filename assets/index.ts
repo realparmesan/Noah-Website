@@ -7,7 +7,6 @@ window.addEventListener('load', function () {
     const selectElement = <HTMLInputElement>document.getElementById("yearSelect");
 
     selectElement.addEventListener('change', (event) => {
-        console.log("update")
         populateAllGraphs();
     });
 })
