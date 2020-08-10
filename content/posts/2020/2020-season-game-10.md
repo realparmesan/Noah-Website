@@ -1,40 +1,38 @@
 +++
 author = "Chris"
 categories = []
-date = 2020-08-01T12:00:00Z
-description = "Match reports for the derby against the Blazers"
-draft = true
-frother_goals = 3
-image = "/images/alain.jpg"
+date = 2020-08-08T12:00:00Z
+description = "Match reports for the derby against the Tuscan Raiders"
+frother_goals = 2
+image = "/images/stuboi.jpg"
 match = true
-opponent = "Blazers"
+opponent = "Tuscan Raiders"
 opponent_goals = 2
-result = "Win"
+result = "Draw"
 title = "2020 Season - Game 10"
 type = "post"
 [[scorers]]
 goals = 1
+scorer = "Harry Furnish"
+[[scorers]]
+goals = 1
 scorer = "Yarride"
-[[scorers]]
-goals = 1
-scorer = "Nick"
-[[scorers]]
-goals = 1
-scorer = "Lance"
 
 +++
-Nothing so sweet as a derby win.
+Keeping the unbeaten streak alive, the Frothers put together a great showing against the 2nd placed Tuscan Raiders.
 
-In some of the best football played all season, the all-mighty Frothers showed their potential.
+![](/images/117288205_3123338224559128_3169791820490379929_o.jpg)
 
-![](/images/img_5563-1.jpg)
+![](/images/117445067_3123338497892434_5265092886541691476_o.jpg)
 
 **Player of the Day:**
 
-The man with the second largest ponytail in the team, Sam. Looking an absolute treat on and off the ball. Remember to take Alain out of your pocket before washing your uniform.
-
-![](/images/img_5553-1.jpg)
+The man between the sticks, Ryan. Made plenty of quality saves and looked composed behind almost every shot.
 
 **Dick of the Day:**
 
-Skipping off at halftime with the Frothers 3-1 up and missing yet another win, Chris takes dick of the day.
+With a strong performance, Jack succumbed to the allure of the OG and equalised it up for the Raiders.
+
+![](/images/jackyboi.jpg)
+
+**Photos:** [https://www.facebook.com/NZSundayFootball/posts/3123349391224678](https://www.facebook.com/NZSundayFootball/posts/3123349391224678 "https://www.facebook.com/NZSundayFootball/posts/3123349391224678")
