@@ -21,7 +21,17 @@ scorer = "Yarride"
 +++
 Keeping the unbeaten streak alive, the Frothers put together a great showing against the 2nd placed Tuscan Raiders.
 
+Coming out the gates fast, Jamie hatch flicked on a delicious header to Harry Furnish to calmly slotted into the back of the net.
+
+The rest of the half was tightly contested and Frothers went into the break 1-0.
+
 ![](/images/117288205_3123338224559128_3169791820490379929_o.jpg)
+
+The second half began and the raiders dominated play and eventually equalised through a blatant offside.
+
+Feeling bad about the goal they had just scored the Raiders, after and 20 minutes or so, fed Yarride a delightful through-ball onto their own goal. Yarride decided to turn it up and go for the elite finish off both posts to bring the Frothers up.
+
+The Raiders then poured on the pressure and finally finalised through the traitor, OG.
 
 ![](/images/117445067_3123338497892434_5265092886541691476_o.jpg)
 
