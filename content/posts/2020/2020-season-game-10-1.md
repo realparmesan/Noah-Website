@@ -1,39 +1,29 @@
 +++
 author = "Chris"
 categories = []
-date = 2020-08-01T12:00:00Z
-description = "Match reports for the derby against the Blazers"
+date = 2020-08-15T12:00:00Z
+description = "Match reports for the derby against the Marauders"
 draft = true
-frother_goals = 3
-image = "/images/alain.jpg"
+frother_goals = 1
+image = ""
 match = true
-opponent = "Blazers"
+opponent = "Marauders"
 opponent_goals = 2
-result = "Win"
-title = "2020 Season - Game 10"
+result = "Loss"
+title = "2020 Season - Game 11"
 type = "post"
 [[scorers]]
 goals = 1
-scorer = "Yarride"
-[[scorers]]
-goals = 1
-scorer = "Nick"
-[[scorers]]
-goals = 1
-scorer = "Lance"
+scorer = "Stu"
 
 +++
 Nothing so sweet as a derby win.
 
 In some of the best football played all season, the all-mighty Frothers showed their potential.
 
-![](/images/img_5563-1.jpg)
-
 **Player of the Day:**
 
 The man with the second largest ponytail in the team, Sam. Looking an absolute treat on and off the ball. Remember to take Alain out of your pocket before washing your uniform.
-
-![](/images/img_5553-1.jpg)
 
 **Dick of the Day:**
 
