@@ -39,3 +39,5 @@ Jamie, for putting in a huge shift of running and never quitting.
 **Dick of the Day:**
 
 Jarrod, for finally dusting off the boots and doubling his minutes this season. This included a goal mouth miss worthy of Raheem with an excuse about the ball being at "knee height".
+
+![](/images/20200816162458_img_5818.JPG)
