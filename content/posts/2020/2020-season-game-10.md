@@ -45,4 +45,4 @@ With a strong performance, Jack succumbed to the allure of the OG and equalised 
 
 ![](/images/jackyboi.jpg)
 
-**Photos:** [https://www.facebook.com/NZSundayFootball/posts/3123349391224678](https://www.facebook.com/NZSundayFootball/posts/3123349391224678 "https://www.facebook.com/NZSundayFootball/posts/3123349391224678")
+**Photos:** [Here](https://www.facebook.com/NZSundayFootball/posts/3123349391224678)
