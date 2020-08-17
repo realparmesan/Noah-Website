@@ -3,9 +3,8 @@ author = "Chris"
 categories = []
 date = 2020-08-15T12:00:00Z
 description = "Match reports for the derby against the Marauders"
-draft = true
 frother_goals = 1
-image = ""
+image = "/images/jrod.JPG"
 match = true
 opponent = "Marauders"
 opponent_goals = 2
@@ -17,12 +16,26 @@ goals = 1
 scorer = "Stu"
 
 +++
-To be done
+A special moment in Frothers history, as both Nick, Chris, Lance and Jamie marked 50 games for the boys.
+
+A Frothers team devoid of strikers faced off against the Marauders. After conceding two stumble goals in a quiet first hour the Frothers rallied and poured the pressure on.
+
+![](/images/20200816161633_img_5787.JPG)
+
+Big cat Stu popped up with his first goal in two seasons, really putting the pressure on big daddy Chester to get on the scorecard.
+
+![](/images/20200816160829_img_5755.JPG)
+
+With all the pressure, it was too little too late and the game ended 2-1.
+
+![](/images/20200816160946_img_5761.JPG)
 
 **Player of the Day:**
 
-Jamie, for running all-day
+Jamie, for putting in a huge shift of running and never quitting.
+
+![](/images/20200816162501_img_5819.JPG)
 
 **Dick of the Day:**
 
-Harry Freeman, for having to go off because he breathed in some grass.
+Jarrod, for finally dusting off the boots and doubling his minutes this season. This included a goal mouth miss worthy of Raheem with an excuse about the ball being at "knee height".
