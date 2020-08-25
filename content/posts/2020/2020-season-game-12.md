@@ -36,7 +36,7 @@ Honourable mentions:
 
 * Lance: For crying ow! when heading the ball
 * Jack: For missing his penalty
-* Ryan: For posing for a photo while gassing it back to goal from a courner
+* Ryan: For posing for a photo while gassing it back to goal from a corner
 
 ![](/images/img_326222.jpg)
 
