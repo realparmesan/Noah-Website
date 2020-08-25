@@ -1,44 +1,49 @@
 +++
 author = "Chris"
 categories = []
-date = 2020-08-15T12:00:00Z
-description = "Match reports for the derby against the Marauders"
-draft = true
-frother_goals = 1
-image = "/images/jrod.JPG"
+date = 2020-08-22T12:00:00Z
+description = "Match reports for the friendly against FC Valley Dream"
+frother_goals = 0
+image = "/images/img_297011.jpg"
 match = true
 opponent = "Marauders"
-opponent_goals = 2
-result = "Loss"
-title = "2020 Season - Game 12"
+opponent_goals = 5
+result = "Win"
+scorers = []
+title = "2020 Season - Game 13 (Friendly)"
 type = "post"
-[[scorers]]
-goals = 1
-scorer = "Stu"
 
 +++
-A special moment in Frothers history, as both Nick, Chris, Lance and Jamie marked 50 games for the boys.
+A dirty friendly, so time to ring the changes!
 
-A Frothers team devoid of strikers faced off against the Marauders. After conceding two stumble goals in a quiet first hour the Frothers rallied and poured the pressure on.
+Coming home with a 5-0 loss, with a missed penalty and some calamitous defending, the real highlight of the day was the sponsored beers. And some quality photos.
 
-![](/images/20200816161633_img_5787.JPG)
+![](/images/118130974_3027482767379347_6037983320859086154_n.jpg)
 
-Big cat Stu popped up with his first goal in two seasons, really putting the pressure on big daddy Chester to get on the scorecard.
-
-![](/images/20200816160829_img_5755.JPG)
-
-With all the pressure, it was too little too late and the game ended 2-1.
-
-![](/images/20200816160946_img_5761.JPG)
+![](/images/118059532_762580831244160_6270980614340593527_n.jpg)![](/images/117965206_938796219975899_5595595253827707636_n.jpg)
 
 **Player of the Day:**
 
-Jamie, for putting in a huge shift of running and never quitting.
+Harry Furnish, for reestablishing his desire to play at centre back with some glorious play.
 
-![](/images/20200816162501_img_5819.JPG)
+![](/images/img_302011.jpg)
 
 **Dick of the Day:**
 
-Jarrod, for finally dusting off the boots and doubling his minutes this season. This included a goal mouth miss worthy of Raheem with an excuse about the ball being at "knee height".
+The whole team, for a truckload of reasons.
 
-![](/images/20200816162458_img_5818.JPG)
+Honourable mentions:
+
+* Lance: For crying ow! when heading the ball
+* Jack: For missing his penalty
+* Ryan: For posing for a photo while gassing it back to goal from a courner
+
+![](/images/img_326222.jpg)
+
+**Real dick of the day:**
+
+This guy
+
+![](/images/img_30241.jpg)
+
+**Photos:** [https://photos.app.goo.gl/2TRA4JTBCpsHxy7a6](https://photos.app.goo.gl/2TRA4JTBCpsHxy7a6 "https://photos.app.goo.gl/2TRA4JTBCpsHxy7a6")
