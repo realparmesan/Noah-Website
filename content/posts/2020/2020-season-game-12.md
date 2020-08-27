@@ -10,7 +10,7 @@ opponent = "Valley FC Dream"
 opponent_goals = 5
 result = "Win"
 scorers = []
-title = "2020 Season - Game 13 (Friendly)"
+title = "2020 Season - Game 12 (Friendly)"
 type = "post"
 
 +++
