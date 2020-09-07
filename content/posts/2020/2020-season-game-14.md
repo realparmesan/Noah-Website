@@ -1,8 +1,8 @@
 +++
 author = "Chris"
-categories = []
+categories = ["Match"]
 date = 2020-09-05T12:00:00Z
-description = "Match reports for the friendly against the Blazers"
+description = "Match report for the game against the Blazers"
 frother_goals = 1
 image = "/images/118796464_3150931498466467_3748398085238433557_o2.jpg"
 match = true
