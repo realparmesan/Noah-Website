@@ -59,3 +59,5 @@ Lance for a goal and an assist. Even remembered his item of the day. Unbelievabl
 Even though he scored on his return an absolutely filthy shirt pull late in the game is enough to see Yarride get the award.
 
 ![](/images/119087893_3159547880938162_1750240838464129405_o3-1.jpg)
+
+Photos: [Here](https://www.facebook.com/1536006009959032/posts/3159548797604737/)
