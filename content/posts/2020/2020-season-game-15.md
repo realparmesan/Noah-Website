@@ -22,7 +22,7 @@ goals = 1
 scorer = "Yarride"
 
 +++
-Riding high off the back of a proper team social the frothers turned it up for the final game of the regular season.
+Riding high off the back of a proper team social the Frothers turned it up for the final game of the regular season.
 
 From the off the lads ripped into the game like Aussies rip the edges off tables. Plenty of incisive football with Lance doing a wonderful layoff for Luke to open the scoring.
 
@@ -30,19 +30,19 @@ From the off the lads ripped into the game like Aussies rip the edges off tables
 
 > Into the break 1-0
 
-The frothers started the second half in an all too familiar fashion after being in the league. After putting the frothers under the pump for a few minutes the diamonds decided to go with a tactic as filthy as Evans love for Jose Cuervo. Logging the ball up to the human wrecking ball they eventually got the breakthrough on the back of some suspect "playing the man".
+The Frothers started the second half in an all too familiar fashion this season. After putting the Frothers under the pump for a few minutes the Diamonds decided to go with a tactic as filthy as Evans love for Jose Cuervo. Smacking the ball up to the human wrecking ball they eventually got the breakthrough on the back of some suspect "playing the man" methodology.
 
-![](/images/119249318_3159548334271450_8867154317338973584_o.jpg)
+![](/images/119157436_3159548190938131_1414675777677273835_o.jpg)
 
 > 1-1
 
-Rallying after this setback Lance, matching the quality of the defenders set during drinking games, slotted home.
+Rallying after this setback Lance, matching the quality of the defenders set during drinking games, slotted home after a great move.
 
 > 2-1
 
-The frothers then started to bring out the flashy stuff, with backheels and flicks aplenty with their unassailable lead...
+The Frothers then started to bring out the flashy stuff, with backheels and flicks aplenty now they had an unassailable lead...
 
-Somehow this paid off when Charles, hot off puppy training, brought out that cultured big toe to play Yarride in for a quality 3rd.
+Somehow this paid off when Charles, hot off puppy training and still probably drunk, brought out that cultured big toe to play Yarride in for a quality 3rd.
 
 > 3-1
 
