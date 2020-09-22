@@ -38,7 +38,7 @@ Doing the 'hit it up' strategy, the men up front attempted to press the issue. H
 
 ![](/images/119968508_3167767513449532_540122983410579113_o.jpg)
 
-## Guess who..
+## Guess who...
 
 The goal for the Frothers eventually came after a glorious chance had just been spurned. Milan putting a ball over the top for Charles to control and pump past the keeper.
 
