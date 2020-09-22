@@ -3,7 +3,6 @@ author = "Chris"
 categories = ["Match"]
 date = 2020-09-19T12:00:00Z
 description = "Match report for the cup game against the Ball Tamperers"
-draft = true
 frother_goals = 1
 image = "/images/120047620_1520350568352603_1479611720152015780_n.jpg"
 match = true
@@ -45,10 +44,16 @@ The goal for the Frothers eventually came after a glorious chance had just been 
 
 ![](/images/119991797_945972069239038_2725917641276013653_n.jpg)![](/images/119701671_2985808054979715_887024598102618231_n.jpg)
 
-**Man of the Match:**
+### Man of the Match
 
-Big Jack Kos with the endless energy up top. Very few positions were wasted and lots on incisive running.
+Big **Jack Kos** with the endless energy up top. Very few positions were wasted and lots on incisive running.
 
-**Dick of the Day:**
+![](/images/119808061_3167772106782406_5800221690295552584_o.jpg)
+
+### Dick of the Day
+
+Baby boy **Stu Escott** for ditching the lads last minute to soak up the sun and booze in Marty.
+
+![](/images/stuboi.jpg)
 
 **Photos:** [Link](https://www.facebook.com/NZSundayFootball/posts/3167773406782276)
