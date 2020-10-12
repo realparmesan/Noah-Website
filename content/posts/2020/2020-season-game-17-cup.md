@@ -27,13 +27,15 @@ scorer = "Ring-In"
 
 # First Half
 
-The first match of the plate and we are straight into the quarter-finals again rivals Sunday Blazers. 
+The first match of the plate and we are straight into the quarter-finals again rivals Sunday Blazers.
+
+The Frothers got off to a flying start, with Lee laying on a nice ball to find **Yarride** who made no mistake.
 
 ![](/images/121265098_3187421084817508_109780079593019028_o.jpg)
 
 > 1-0
 
-Not too long afterwards the Frothers doubled the lead. A lovely through-ball by Cole resulted in a classy finish from the big man, Lee.
+Not too long afterwards the Frothers doubled the lead. A lovely through-ball by Cole resulted in a classy finish from the big man, **Lee**.
 
 ![](/images/121035978_3187420298150920_4290958267790968436_o.jpg)
 
@@ -57,7 +59,7 @@ The second half produced a few decent chances for both sides. The Blazers took t
 
 > 2-2
 
-The Frothers then fought back with a great roulette in the box by Colt which he then finished.
+The Frothers then fought back with a great roulette in the box by **Colt** which he then finished.
 
 ![](/images/120949409_3186810948211855_7002742840122163822_o.jpg)
 
@@ -73,10 +75,34 @@ Full time.
 
 # Penalties
 
-Being a cup format the game went straight to penalties. The Frothers won the toss and it was the El Capitano first up.
+Being a cup format the game went straight to penalties. The Frothers won the toss and it was the **El Capitano** first up.
 
 ![](/images/120938760_3186811591545124_7608272828819544941_o.jpg)
 
->  Never in doubt. 1-0
+> Never in doubt. 1-0
+
+The Blazers goalkeeper then stepped up and buried one.
+
+> 1-1
+
+Off the back of his fantastic goal, **Colt** stepped up. But could only put it wide
+
+> 1-1
+
+Seeing the raw power in Ryan's eyes, the Blazers player could only put it over the bar.
+
+> 1-1
+
+Time to get this ship back on course, **Evan** put the mustard on the finish to take the keeper out of the equation.
+
+> 2-1
+
+![](/images/121082564_3186811248211825_6012667961672908520_o.jpg)
+
+The Blazers once again stepped up and cancelled the Frother's lead
+
+> 2-2
+
+Uh oh, in an obvious mix-up **Charles** found himself on the penalty list. Returning to the technique that saw him miss his only other penalty for the Frothers, Charles laced it right over the bar.
 
 **Photos:** [Link](https://www.facebook.com/NZSundayFootball/posts/3167773406782276)
