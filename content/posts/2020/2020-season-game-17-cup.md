@@ -65,16 +65,18 @@ The Frothers then fought back with a great roulette in the box by Colt which he 
 
 The Blazers then poured on the pressure, and finally got the equaliser. Some slick passing led to a good fake shot and finish.
 
-### Man of the Match
+![](/images/121102828_3187423958150554_2165214360654005622_o.jpg)
 
-Big **Jack Kos** with the endless energy up top. Very few positions were wasted and lots on incisive running.
+> 3-3
 
-![](/images/119808061_3167772106782406_5800221690295552584_o.jpg)
+Full time.
 
-### Dick of the Day
+# Penalties
 
-Baby boy **Stu Escott** for ditching the lads last minute to soak up the sun and booze in Marty.
+Being a cup format the game went straight to penalties. The Frothers won the toss and it was the El Capitano first up.
 
-![](/images/stuboi.jpg)
+![](/images/120938760_3186811591545124_7608272828819544941_o.jpg)
+
+>  Never in doubt. 1-0
 
 **Photos:** [Link](https://www.facebook.com/NZSundayFootball/posts/3167773406782276)
