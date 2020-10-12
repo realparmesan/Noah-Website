@@ -29,8 +29,6 @@ scorer = "Ring-In"
 
 The first match of the plate and we are straight into the quarter-finals again rivals Sunday Blazers. 
 
-The lads came hot out the gates with a goal within the first couple of minutes. Lee with a delightful assist to Yarride who buried the opportunity.
-
 ![](/images/121265098_3187421084817508_109780079593019028_o.jpg)
 
 > 1-0
@@ -48,6 +46,8 @@ As the half went on the footy started becoming rougher without play being stoppe
 > 2-1
 
 Halftime...
+
+![](/images/121029709_3187421951484088_2200481462417516031_o.jpg)
 
 # Second Half
 
