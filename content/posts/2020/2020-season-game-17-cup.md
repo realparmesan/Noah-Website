@@ -1,37 +1,39 @@
 +++
 author = "Chris"
 categories = ["Match"]
-date = 2020-09-19T12:00:00Z
-description = "Match report for the cup game against the Ball Tamperers"
+date = 2020-10-10T11:00:00Z
+description = "Match report for the cup game against the Sunday Blazers"
 draft = true
-frother_goals = 1
-image = "/images/120047620_1520350568352603_1479611720152015780_n.jpg"
+frother_goals = 3
+image = "/images/120936776_3186811541545129_2625438443920060268_o.jpg"
 match = true
-opponent = "Ball Tamperers"
-opponent_goals = 4
-result = "Loss"
+opponent = "Blazers"
+opponent_goals = 3
+result = "Win"
 title = "2020 Season - Game 17 (Cup)"
 type = "post"
 [[scorers]]
 goals = 1
-scorer = "Charles"
+scorer = "Yarride"
+[[scorers]]
+goals = 1
+scorer = "Lee"
+[[scorers]]
+goals = 1
+scorer = "Ring-In"
 
 +++
-> Haters will say it was thrown...
+> Best out of three
 
-## Change in tactics
+## Redemption is calling
 
-Into the Cup/Plate play-off. The Frothers put forward an eyebrow-raising number of changes to the first team, with the big men up top and a Fifa style pace abuse backline.
+The first match of the plate and we are straight into the quarter-finals again rivals Sunday Blazers. 
 
-![](/images/119922813_3167771753449108_5141607045116857200_o.jpg)
-
-![](/images/119790055_3167770790115871_3336836213541212873_o.jpg)
+The lads came hot out the gates with a goal within the first couple of minutes. Lee with a delightful assist to Yarride who buried the opportunity.
 
 ## The return
 
 Big Nick was back from injury, striking the last name from the injury list. Shoulder wrapped up tighter than his pecker at a Taranaki brothel. Taking it easy as to not reinjure himself
-
-![](/images/120027062_3167768646782752_7505293585033864914_o.jpg)
 
 ## Crack a nut with a sledgehammer
 
