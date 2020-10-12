@@ -31,9 +31,17 @@ The first match of the plate and we are straight into the quarter-finals again r
 
 The lads came hot out the gates with a goal within the first couple of minutes. Lee with a delightful assist to Yarride who buried the opportunity.
 
-## The return
+![](/images/121265098_3187421084817508_109780079593019028_o.jpg)
 
-Big Nick was back from injury, striking the last name from the injury list. Shoulder wrapped up tighter than his pecker at a Taranaki brothel. Taking it easy as to not reinjure himself
+> 1-0
+
+## Two up
+
+Not too long afterwards the Frothers doubled the lead. A lovely through-ball by Cole resulted in a classy finish from the big man, Lee.
+
+![](/images/121035978_3187420298150920_4290958267790968436_o.jpg)
+
+> 2-0
 
 ## Crack a nut with a sledgehammer
 
