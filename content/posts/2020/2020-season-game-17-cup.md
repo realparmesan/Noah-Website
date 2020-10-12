@@ -126,7 +126,15 @@ Feeling the pure intimidation of such a penalty, the next Blazers penalty taker 
 
 > Frothers win!
 
-**Photos:** 
+## Man of the Match
+
+**Evan** for bossing it out in the middle of the pitch when we needed him most.
+
+## Dick of the Day
+
+Also **Evan**, for sneaking into the beers at halftime under the gise of having no water; stood next to the water fountain...
+
+**Photos:**
 
 1. [Photos 1](https://www.facebook.com/NZSundayFootball/posts/3186812581545025)
 2. [Photos 2](https://www.facebook.com/NZSundayFootball/posts/3187480944811522)
