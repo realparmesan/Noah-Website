@@ -3,7 +3,6 @@ author = "Chris"
 categories = ["Match"]
 date = 2020-10-10T11:00:00Z
 description = "Match report for the cup game against the Sunday Blazers"
-draft = true
 frother_goals = 3
 image = "/images/120936776_3186811541545129_2625438443920060268_o.jpg"
 match = true
@@ -105,8 +104,29 @@ The Blazers once again stepped up and cancelled the Frother's lead
 
 Uh oh, in an obvious mix-up **Charles** found himself on the penalty list. Returning to the technique that saw him miss his only other penalty for the Frothers, Charles laced it right over the bar.
 
+> 2-2
+
 ![](/images/charlesball.png)
 
 ![](/images/121160680_821299458642144_9197290571744457499_n.jpg)
 
-**Photos:** [Link](https://www.facebook.com/NZSundayFootball/posts/3167773406782276)
+Next up the Blazers striker knew it was **Ryan**'s moment. Powerless to stop the force between the sticks he put it right in Ryan's killzone. Like a great white Ryan ate that shit up.
+
+> 2-2
+
+![](/images/121265775_3187421111484172_1942353857843281590_o.jpg)
+
+Mr Goal's **Yarride** stepped up for pen number 5. Not wanting to take any chances he hit a truly class peno.
+
+> 3-2
+
+![](/images/120925068_3186811208211829_2619703011883633997_o.jpg)
+
+Feeling the pure intimidation of such a penalty, the next Blazers penalty taker tried to recreate the brilliance, but could only push it wide
+
+> Frothers win!
+
+**Photos:** 
+
+1. [Photos 1](https://www.facebook.com/NZSundayFootball/posts/3186812581545025)
+2. [Photos 2](https://www.facebook.com/NZSundayFootball/posts/3187480944811522)
