@@ -105,4 +105,8 @@ The Blazers once again stepped up and cancelled the Frother's lead
 
 Uh oh, in an obvious mix-up **Charles** found himself on the penalty list. Returning to the technique that saw him miss his only other penalty for the Frothers, Charles laced it right over the bar.
 
+![](/images/charlesball.png)
+
+![](/images/121160680_821299458642144_9197290571744457499_n.jpg)
+
 **Photos:** [Link](https://www.facebook.com/NZSundayFootball/posts/3167773406782276)
