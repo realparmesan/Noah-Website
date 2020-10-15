@@ -30,15 +30,54 @@
       </div>
       <ul class="list-group list-group-flush">
         {{ range .Params.scorers }}
-        <li class="list-group-item">{{ .scorer }}
-          {{ range (seq .goals)}}
-          <i class="ti-target"> </i>
-          {{ end }}
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col text-right">
+              {{ .scorer }}
+              {{ range (seq .goals)}}
+              <i class="ti-target"></i>
+              {{ end }}
+            </div>
+        <div class="col-1"></div>
+        <div class="col"></div>
+        </div>
         </li>
         {{ end }}
       </ul>
     </div>
     <hr>
+    {{ end }}
+
+    <!-- Penalties   -->
+    {{ if .Params.penalties }}
+    <div class="card">
+      <div class="card-body text-center">
+        <h6 class="card-title">Penalties</h6>
+        <div class="container">
+          {{ range .Params.penalty }}
+          <div class="row">
+            <div class="col text-right">
+              {{ .taker }}
+            </div>
+            <div class="col-1">
+              {{ if .frother_goal }}
+              <i class="ti-check"></i>
+              {{ else }}
+              <i class="ti-close"></i>
+              {{ end }}
+              :
+              {{ if .opponent_goal }}
+              <i class="ti-check"></i>
+              {{ else }}
+              <i class="ti-close"></i>
+              {{ end }}
+            </div>
+            <div class="col"></div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
     {{ end }}
 
     <div class="row">

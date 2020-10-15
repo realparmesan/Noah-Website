@@ -6,6 +6,7 @@ description = "Match report for the cup game against the Sunday Blazers"
 frother_goals = 3
 image = "/images/120936776_3186811541545129_2625438443920060268_o.jpg"
 match = true
+penalties = true
 opponent = "Blazers"
 opponent_goals = 3
 result = "Win"
@@ -20,6 +21,26 @@ scorer = "Lee"
 [[scorers]]
 goals = 1
 scorer = "Ring-In"
+[[penalty]]
+taker = "Chris"
+frother_goal = true
+opponent_goal = true
+[[penalty]]
+taker = "Colt"
+frother_goal = false
+opponent_goal = false
+[[penalty]]
+taker = "Evan"
+frother_goal = true
+opponent_goal = true
+[[penalty]]
+taker = "Charles"
+frother_goal = false
+opponent_goal = false
+[[penalty]]
+taker = "Yarride"
+frother_goal = true
+opponent_goal = false
 
 +++
 > Best out of three, redemption is calling
