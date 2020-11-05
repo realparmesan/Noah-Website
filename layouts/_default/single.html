@@ -24,9 +24,9 @@
 
     <!-- Scores -->
     {{ if .Params.match }}
-    <div class="card bg-secondary">
-      <div class="card-header text-center">
-        <h5>Frothers {{ .Params.frother_goals }} : {{ .Params.opponent_goals }} {{ .Params.opponent }}</h5>
+    <div class="card bg-primary">
+      <div class="card-header text-center ">
+        <h5 class="text-white">Frothers {{ .Params.frother_goals }} : {{ .Params.opponent_goals }} {{ .Params.opponent }}</h5>
       </div>
       <ul class="list-group list-group-flush">
         {{ range .Params.scorers }}
@@ -48,8 +48,8 @@
 
     <!-- Penalties   -->
     {{ if .Params.penalties }}
-    <div class="card bg-secondary">
-      <div class="card-header text-center"><h6>Penalties</h6></div>
+    <div class="card bg-primary">
+      <div class="card-header text-center"><h6 class=text-white>Penalties</h6></div>
       <div class="card-body text-center bg-light">
         <div class="container">
           {{ range .Params.penalty }}
