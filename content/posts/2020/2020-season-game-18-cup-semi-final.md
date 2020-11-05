@@ -53,7 +53,7 @@ I don't remember anything after this point.
 
 # Dick of the Day
 
-Big **Sam** for forgetting a hair tie and scambling around for one before the match. Gotta tame the mane.
+Big **Sam** for forgetting a hair tie and scrambling around for one before the match. Gotta tame the mane.
 ![](/images/sampony.jpg)
 
 ## Photos

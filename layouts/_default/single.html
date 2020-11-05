@@ -24,7 +24,7 @@
 
     <!-- Scores -->
     {{ if .Params.match }}
-    <div class="card">
+    <div class="card bg-secondary">
       <div class="card-header text-center">
         <h5>Frothers {{ .Params.frother_goals }} : {{ .Params.opponent_goals }} {{ .Params.opponent }}</h5>
       </div>
@@ -32,14 +32,12 @@
         {{ range .Params.scorers }}
         <li class="list-group-item">
           <div class="row">
-            <div class="col text-right">
+            <div class="col">
               {{ .scorer }}
               {{ range (seq .goals)}}
               <i class="ti-target"></i>
               {{ end }}
             </div>
-        <div class="col-1"></div>
-        <div class="col"></div>
         </div>
         </li>
         {{ end }}
@@ -50,16 +48,16 @@
 
     <!-- Penalties   -->
     {{ if .Params.penalties }}
-    <div class="card">
-      <div class="card-body text-center">
-        <h6 class="card-title">Penalties</h6>
+    <div class="card bg-secondary">
+      <div class="card-header text-center"><h6>Penalties</h6></div>
+      <div class="card-body text-center bg-light">
         <div class="container">
           {{ range .Params.penalty }}
           <div class="row">
-            <div class="col text-right">
+            <div class="col">
               {{ .taker }}
             </div>
-            <div class="col-1">
+            <div class="col">
               {{ if .frother_goal }}
               <i class="ti-check"></i>
               {{ else }}
@@ -78,6 +76,7 @@
         </div>
       </div>
     </div>
+    <hr>
     {{ end }}
 
     <div class="row">
