@@ -15,3 +15,29 @@ title = "2020 Season Prize-giving"
 type = "post"
 
 +++
+
+# Awards
+
+## Rookie of the Year
+
+> Ryan
+
+![](/images/img_326222.jpg)
+
+## Most Improved Player
+
+> Milan
+
+![](/images/milan.jpg)
+
+## Most Valuable Player
+
+> Evan
+
+![](/images/evan.jpg)
+
+## Frother Award for Club Person of the Year
+
+> Chris
+
+![](/images/img_3316.JPG)
