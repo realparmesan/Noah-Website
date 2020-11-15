@@ -3,7 +3,6 @@ author = "Chris"
 categories = ["Prizegiving"]
 date = 2020-11-13T11:00:00Z
 description = "Season awards for the Frothers"
-draft = true
 frother_goals = 0
 image = "/images/banner/frother_logo.svg"
 match = false
@@ -15,6 +14,8 @@ title = "2020 Season Prize-giving"
 type = "post"
 
 +++
+
+Prize-giving for the Frother's 2020 season. A season of ups and down with the first year in Sunday league. Finishing middle of the league table and taking home imaginary silverware in the plate!
 
 # Awards
 
