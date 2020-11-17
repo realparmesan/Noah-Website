@@ -4,7 +4,7 @@ categories = ["Prizegiving"]
 date = 2020-11-13T11:00:00Z
 description = "Season awards for the Frothers"
 frother_goals = 0
-image = "/images/banner/frother_logo.svg"
+image = "/images/118059532_762580831244160_6270980614340593527_n.jpg"
 match = false
 opponent = ""
 opponent_goals = 0
@@ -14,10 +14,19 @@ title = "2020 Season Prize-giving"
 type = "post"
 
 +++
+# Prize-giving
 
 Prize-giving for the Frother's 2020 season. A season of ups and down with the first year in Sunday league. Finishing middle of the league table and taking home imaginary silverware in the plate!
 
 # Awards
+
+## Goal of the Year
+
+> Nick
+
+Left footed long distance snapshot against the Blazers
+
+![](/images/nick.jpg)
 
 ## Rookie of the Year
 
