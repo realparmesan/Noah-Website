@@ -16,7 +16,7 @@ type = "post"
 +++
 # Prize-giving
 
-Prize-giving for the Frother's 2020 season. A season of ups and down with the first year in Sunday league. Finishing middle of the league table and taking home imaginary silverware in the plate!
+Prize-giving for the Frother's 2020 season. A season of ups and down with the first year in Sunday league. Finishing middle of the league table and taking home imaginary silverware in the plate! The prizegiving itself wasn't without controversy as the first member of the Frothers academy, Nia Chester-McAlpine, took down a chunk of the squad with norovirus. Luckily there isn't an infection Charles Daily hasn't had, so he was immune.
 
 # Awards
 
