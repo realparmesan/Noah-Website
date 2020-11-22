@@ -56,5 +56,6 @@ fields:
 - name: active
   type: boolean
   label: Active
+  default: true
 pages:
 - content/squad-members/chrid.md
