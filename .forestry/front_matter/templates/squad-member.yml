@@ -14,6 +14,11 @@ fields:
       file: content/squad/Frothers.md
       path: players
   label: Name
+- name: mug_shot
+  type: file
+  config:
+    maxSize: 64
+  label: Mug shot
 - name: kit_number
   type: number
   label: Kit Number
@@ -24,15 +29,6 @@ fields:
     min: 
     max: 
     step: 
-- name: mug_shot
-  type: file
-  config:
-    maxSize: 64
-  label: Mug shot
-- name: photos
-  type: image_gallery
-  config: {}
-  label: Photos
 - name: blurb
   type: textarea
   default: ''
@@ -57,5 +53,9 @@ fields:
   type: boolean
   label: Active
   default: true
+- name: photos
+  type: image_gallery
+  config: {}
+  label: Photos
 pages:
 - content/squad-members/chrid.md
