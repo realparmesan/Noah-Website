@@ -1,4 +1,35 @@
 ---
 label: Squad member
 hide_body: true
-fields: []
+fields:
+- name: name
+  type: select
+  default: Ring-In
+  config:
+    required: true
+    options: []
+    source:
+      type: documents
+      section: players
+      file: content/squad/Frothers.md
+      path: players
+  label: Name
+- name: kit_number
+  type: number
+  label: Kit Number
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: mug_shot
+  type: file
+  config:
+    maxSize: 64
+  label: Mug shot
+- name: photos
+  type: image_gallery
+  config: {}
+  label: Photos
