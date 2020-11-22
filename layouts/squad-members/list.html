@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto px-0">
+        <h2 class="mb-4">Frothers Squad Members</h2>
+        <div class="bg-white shadow block">
+          <div class="card-deck">
+            {{ range where .Data.Pages "Type" "squad-members"}}
+            <div class="card">
+              <img class="card-img-top" src="{{ .Params.mug_shot | relURL }}" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">{{.Params.name}}</h5>
+                <p class="card-text">Active: {{.Params.active}} </p>
+              </div>
+            </div>
+            {{end}}
+          </div>
+         
+        </div>
+      </div>
+    </div>
+</section>
+<!-- /blog -->
+
+{{ end }}
