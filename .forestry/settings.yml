@@ -20,6 +20,13 @@ sections:
   match: "**/*"
   templates:
   - generic-page
+- type: directory
+  path: content/squad-members
+  label: Squad Members
+  create: all
+  match: "**/*"
+  templates:
+  - squad-member
 - type: heading
   label: Back-end Content
 - type: directory
