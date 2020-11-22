@@ -33,5 +33,28 @@ fields:
   type: image_gallery
   config: {}
   label: Photos
+- name: blurb
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: blurb
+- name: year_joined
+  type: datetime
+  label: Year Joined
+  description: ''
+  config:
+    required: true
+    date_format: YYYY
+    time_format: 
+    display_utc: false
+    export_format: YYYY
+  default: '2017'
+- name: active
+  type: boolean
+  label: Active
 pages:
 - content/squad-members/chrid.md
