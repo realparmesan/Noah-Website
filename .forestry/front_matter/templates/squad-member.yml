@@ -57,5 +57,19 @@ fields:
   type: image_gallery
   config: {}
   label: Photos
-pages:
-- content/squad-members/chrid.md
+- name: position
+  type: select
+  default: Forward
+  config:
+    required: true
+    options:
+    - Forward
+    - Defender
+    - Midfielder
+    - Goal Keeper
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Position
