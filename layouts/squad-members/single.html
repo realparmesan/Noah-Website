@@ -4,7 +4,8 @@
   <!-- Description Card -->
   <div class="container">
     <div class="row">
-      <div class="col">
+      <div class="col"></div>
+      <div class="col-md-8">
         <h1 class="display-1">{{.Params.name}}</h1>
         <img class="img-fluid" src="{{ .Params.mug_shot | relURL }}" alt=".Params.name">
         <ul class="list-group">
@@ -21,8 +22,10 @@
             <span class="badge badge-primary badge-pill">{{.Params.active}}</span>
           </li>
         </ul>
+        <br>
         <p>{{.Params.blurb}}</p>
       </div>
+      <div class="col"></div>
     </div>
   </div>
 

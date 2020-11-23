@@ -9,11 +9,13 @@
           <div class="card-deck">
             {{ range where .Data.Pages "Type" "squad-members"}}
             <div class="card">
+              <a href="{{.Permalink}}">
               <img class="card-img-top" src="{{ .Params.mug_shot | relURL }}" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">{{.Params.name}}</h5>
-                <p class="card-text">Active: {{.Params.active}} </p>
+                <h5 class="card-title">{{.Params.name}} <span style="float:right;">{{.Params.kit_number}}</span></h5>
+                <p class="card-text">{{.Params.position}} </p>
               </div>
+            </a>
             </div>
             {{end}}
           </div>
