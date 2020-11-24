@@ -2,7 +2,7 @@
 label: Squad member
 hide_body: true
 fields:
-- name: name
+- name: title
   type: select
   default: Ring-In
   config:
@@ -37,7 +37,7 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: blurb
+  label: Blurb
 - name: year_joined
   type: datetime
   label: Year Joined
