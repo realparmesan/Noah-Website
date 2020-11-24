@@ -1,5 +1,6 @@
 +++
 active = true
+title = "Chris"
 blurb = "El Capitano"
 kit_number = 5
 mug_shot = "/images/120938760_3186811591545124_7608272828819544941_o.jpg"
