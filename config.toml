@@ -15,6 +15,7 @@ url = "https://www.sportzone.org.nz/competitions/75/wellington-sunday-football-l
 weight = 2
 [[menu.main]]
 name = "Squad"
+identifier = "Squad"
 url = "/squad-members"
 weight = 1
 [[menu.main]]
