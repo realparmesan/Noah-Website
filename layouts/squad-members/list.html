@@ -10,7 +10,7 @@
             {{ range where .Data.Pages "Type" "squad-members"}}
             <div class="card">
               <a href="{{.Permalink}}">
-              <img class="card-img-top img-thumbnail img-responsive" src="{{ .Params.mug_shot | relURL }}" style="max-height: 180px;" alt="Card image cap">
+              <img class="card-img-top img-thumbnail" src="{{ .Params.mug_shot | relURL }}" style="max-height: 180px;" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">{{.Params.title}} <span style="float:right;">{{.Params.kit_number}}</span></h5>
                 <p class="card-text">{{.Params.position}} </p>
@@ -24,6 +24,5 @@
       </div>
     </div>
 </section>
-<!-- /blog -->
 
 {{ end }}
