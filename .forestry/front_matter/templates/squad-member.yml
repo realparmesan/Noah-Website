@@ -73,3 +73,5 @@ fields:
       file: 
       path: 
   label: Position
+pages:
+- content/squad-members/lance.md
