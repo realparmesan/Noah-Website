@@ -3,14 +3,16 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 mx-auto px-0">
-        <h2 class="mb-4">Frothers Squad Members</h2>
+      <div class="col">
+        <div class="col-lg-6 mb-5 mb-lg-0 text-center">
+          <h1>Frothers FC Squad</h1>
+        </div>
         <div class="bg-white shadow block">
           <div class="card-deck">
             {{ range where .Data.Pages "Type" "squad-members"}}
             <div class="card">
               <a href="{{.Permalink}}">
-              <img class="card-img-top img-thumbnail" src="{{ .Params.mug_shot | relURL }}" style="max-height: 180px;" alt="Card image cap">
+              <img class="card-img-top img-thumbnail .img-fluid" style="object-fit: cover;" src="{{ .Params.mug_shot | relURL }}" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">{{.Params.title}} <span style="float:right;">{{.Params.kit_number}}</span></h5>
                 <p class="card-text">{{.Params.position}} </p>
