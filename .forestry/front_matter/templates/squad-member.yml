@@ -74,6 +74,7 @@ fields:
       path: 
   label: Position
 pages:
+- content/squad-members/charles.md
 - content/squad-members/evan.md
 - content/squad-members/harry-freeman.md
 - content/squad-members/harry-furnish.md
