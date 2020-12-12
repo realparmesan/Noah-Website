@@ -8,9 +8,9 @@
           <h1>Frothers FC Squad</h1>
         </div>
         <div class="bg-white shadow block">
-          <div class="card-deck">
+          <div class="card-columns">
             {{ range where .Data.Pages "Type" "squad-members"}}
-            <div class="card">
+            <div class="card p-3">
               <a href="{{.Permalink}}">
               <img class="card-img-top img-thumbnail .img-fluid" style="object-fit: cover;" src="{{ .Params.mug_shot | relURL }}" alt="Card image cap">
               <div class="card-body">
