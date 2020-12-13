@@ -9,10 +9,10 @@
       <li data-target="#photoCarousel" data-slide-to="$elem_index" {{ if eq $elem_index 0 }} class="active" {{end}}></li>
       {{end}}
     </ol>
-    <div class="carousel-inner" height=200>
+    <div class="carousel-inner">
       {{ range $elem_index, $elem_val := .Params.photos}}
       <div class="carousel-item {{ if eq $elem_index 0 }} active {{end}}">
-        <img class="d-block w-100" height=600 src="{{$elem_val}}" alt="Photo">
+        <img class="d-block w-100" src="{{$elem_val}}" style="object-fit: cover;  height:600px; overflow:hidden;" alt="Photo">
       </div>
       {{end}}
     </div>
