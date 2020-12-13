@@ -48,7 +48,7 @@ export let getGoalsData = async function () {
     let data = response.data.data;
 
     let goalscorers: gameData[] = data.items.map((a: postData) => {
-        if (a.scorers === null) {
+        if (a.scorers === null || a.match.includes("true") !== true ) {
             return null;
         }
         
