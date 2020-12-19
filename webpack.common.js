@@ -51,8 +51,7 @@ module.exports = {
         new CopyWebpackPlugin({
             patterns: [{
                 from: "./assets/fonts/",
-                to: "fonts/",
-                flatten: true
+                to: "fonts/"
             }]
         }),
         new HtmlWebpackPlugin({
