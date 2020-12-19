@@ -3,7 +3,6 @@ import 'chartjs-plugin-colorschemes';
 import * as _ from 'lodash';
 
 import { parsePlayerData, parsePointsData, parseCleanSheetData, matchGoals, matchResult, chartGoalsData } from './processors/graphData'
-import { axisBottom } from 'd3';
 
 let screenWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 
