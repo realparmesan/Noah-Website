@@ -12,13 +12,11 @@ module.exports = merge(common, {
     filename: "[name].[hash:5].js",
     chunkFilename: "[id].[hash:5].css"
   },
-
   optimization: {
     minimizer: [
       new TerserPlugin({
-        cache: true,
+        // cache: true,
         parallel: true,
-        sourceMap: true,
         exclude: /\/node_modules\//,
       }),
       new MiniCssExtractPlugin({
