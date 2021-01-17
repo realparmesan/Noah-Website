@@ -25,16 +25,19 @@ export type matchResult = {
     y: number
 };
 
-export let parsePlayerData = async function (year: number) {
+export let parsePlayerData = async function (year?: number) {
     let data = await getGoalsData();
-    data = data.filter(a => {
+    if (year) {
+      data = data.filter(a => {
         if (a.date.getFullYear() === year){
             return true;
         }
         else {
             return false;
         }
-    });
+      });
+    }
+    
     let scorers = _.map(_.flatten(_.map(data, "scorers")), "scorer");
     let squadData = await getSquadData();
 

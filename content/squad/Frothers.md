@@ -1,5 +1,5 @@
 +++
-players = ["Jack F", "Ring-In", "Lee", "Charles", "Jamie", "Jarrod", "Milan", "Harry Furnish", "Harry Freeman", "Luke", "Nick", "Sam", "Evan", "Stu", "Jack K", "Ryan", "Yarride", "Lance", "Chris"]
+players = ["Jack Furnish", "Ring-In", "Lee", "Charles", "Jamie", "Jarrod", "Milan", "Harry Furnish", "Harry Freeman", "Luke", "Nick", "Sam", "Evan", "Stu", "Jack K", "Ryan", "Yarride", "Lance", "Chris"]
 title = "Frothers Squad"
 name = "Squad"
 weight = 2

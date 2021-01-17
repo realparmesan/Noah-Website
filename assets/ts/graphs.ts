@@ -1,4 +1,4 @@
-import { Chart, ChartPoint } from 'chart.js';
+import { Chart } from 'chart.js';
 import 'chartjs-plugin-colorschemes';
 import * as _ from 'lodash';
 
@@ -14,7 +14,10 @@ let cleanSheetChart: Chart;
  * @summary Get the filter value
  */
 export let getYearFilter = function (): number {
-    let input = <HTMLInputElement>document.getElementById("yearSelect")
+    let input = <HTMLInputElement>document.getElementById("yearSelect");
+    if (input == null) {
+      return;
+    }
     return parseInt(input.value);
 }
 

@@ -1,10 +1,16 @@
 import * as _ from 'lodash';
-import { populateGsGraph, populatePointsGraph, populateCleanSheetGraph, getYearFilter, updateAllGraphs } from "./ts/graphs";
+import { getYearFilter, updateAllGraphs } from "./ts/graphs";
+import { getPlayerName, populateStats } from "./ts/stats";
 
 window.addEventListener('load', function () {
     populateAllGraphs();
+    populateIndividualStats();
 
     const selectElement = <HTMLInputElement>document.getElementById("yearSelect");
+
+    if (selectElement === null){
+      return null;
+    }
 
     selectElement.addEventListener('change', (event) => {
         populateAllGraphs();
@@ -16,3 +22,9 @@ function populateAllGraphs(){
     updateAllGraphs(year);
 }
 
+function populateIndividualStats(){
+  console.log("player");
+  let player = getPlayerName();
+  console.log(player);
+  populateStats(player);
+}

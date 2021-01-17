@@ -5,61 +5,55 @@
 {{ end }}
 
 <div class="text-center">
-    <h2>{{.Title}}</h2>
+  <h2>{{.Title}}</h2>
 </div>
 
 
 <section id="tabs">
-    <div class="container">
-        <div class="row">
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <label class="input-group-text" for="yearSelect">Year</label>
-                  </div>
-                <select class="custom-select" id="yearSelect">
-                  <option value="2020" selected>2020</option>
-                  <option value="2019">2019</option>
-                </select>
-              </div>
-            </div>
-        <div class="row">
-            <div class="col">
-                <nav>
-                    <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-                        <a class="nav-item nav-link active" id="nav-goals-tab" data-toggle="tab" href="#nav-goals"
-                            role="tab" aria-controls="nav-goals" aria-selected="true">Goals</a>
-                        <a class="nav-item nav-link" id="nav-points-tab" data-toggle="tab" href="#nav-points" role="tab"
-                            aria-controls="nav-points" aria-selected="false">Points</a>
-                        <a class="nav-item nav-link" id="nav-cleansheet-tab" data-toggle="tab" href="#nav-cleansheet"
-                            role="tab" aria-controls="nav-cleansheet" aria-selected="false">Clean Sheets</a>
-                        <!-- <a class="nav-item nav-link" id="nav-about-tab" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="false">About</a> -->
-                    </div>
-                </nav>
-                <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="nav-goals" role="tabpanel"
-                        aria-labelledby="nav-goals-tab">
-
-                        <div class="text-center graph">
-                            <canvas id="stats-panel"></canvas>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="nav-points" role="tabpanel" aria-labelledby="nav-points-tab">
-                        <div class="text-center graph">
-                            <canvas id="results-panel"></canvas>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="nav-cleansheet" role="tabpanel" aria-labelledby="nav-cleansheet-tab">
-                        <div class="text-center graph">
-                            <canvas id="cleansheet-panel"></canvas>
-                        </div>
-                        <!--<div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
-						Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
-					</div> -->
-                    </div>
-
-                </div>
-            </div>
+  <div class="container">
+    <div class="row">
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <label class="input-group-text" for="yearSelect">Year</label>
         </div>
+        <select class="custom-select" id="yearSelect">
+          <option value="2020" selected>2020</option>
+          <option value="2019">2019</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <nav>
+          <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active" id="nav-goals-tab" data-toggle="tab" href="#nav-goals" role="tab"
+              aria-controls="nav-goals" aria-selected="true">Goals</a>
+            <a class="nav-item nav-link" id="nav-points-tab" data-toggle="tab" href="#nav-points" role="tab"
+              aria-controls="nav-points" aria-selected="false">Points</a>
+            <a class="nav-item nav-link" id="nav-cleansheet-tab" data-toggle="tab" href="#nav-cleansheet" role="tab"
+              aria-controls="nav-cleansheet" aria-selected="false">Clean Sheets</a>
+          </div>
+        </nav>
+        <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-goals" role="tabpanel" aria-labelledby="nav-goals-tab">
+            <div class="text-center graph">
+              <canvas id="stats-panel"></canvas>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="nav-points" role="tabpanel" aria-labelledby="nav-points-tab">
+            <div class="text-center graph">
+              <canvas id="results-panel"></canvas>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="nav-cleansheet" role="tabpanel" aria-labelledby="nav-cleansheet-tab">
+            <div class="text-center graph">
+              <canvas id="cleansheet-panel"></canvas>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
 </section>
 
 
