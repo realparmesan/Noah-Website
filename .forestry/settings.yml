@@ -14,13 +14,6 @@ sections:
   templates:
   - post
 - type: directory
-  path: content/stats
-  label: Stats
-  create: all
-  match: "**/*"
-  templates:
-  - generic-page
-- type: directory
   path: content/squad-members
   label: Squad Members
   create: all
