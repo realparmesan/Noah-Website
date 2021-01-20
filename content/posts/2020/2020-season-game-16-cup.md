@@ -13,7 +13,7 @@ title = "2020 Season - Game 16 (Cup)"
 type = "post"
 [[scorers]]
 goals = 1
-scorer = "Charles"
+scorer = "Charles Daily"
 
 +++
 > Haters will say it was thrown...

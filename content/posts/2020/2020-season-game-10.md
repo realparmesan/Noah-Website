@@ -16,7 +16,7 @@ goals = 1
 scorer = "Harry Furnish"
 [[scorers]]
 goals = 1
-scorer = "Yarride"
+scorer = "Yarride Rosario"
 
 +++
 Keeping the unbeaten streak alive, the Frothers put together a great showing against the 2nd placed Tuscan Raiders.

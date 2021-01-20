@@ -1,5 +1,5 @@
 +++
-author = "Lance"
+author = "Lance Molyneaux"
 categories = ["Match"]
 date = 2020-06-27T12:00:00Z
 description = "Match report Sudakas at Ascot Park"
@@ -16,7 +16,7 @@ goals = 1
 scorer = "Ring-In"
 [[scorers]]
 goals = 2
-scorer = "Yarride"
+scorer = "Yarride Rosario"
 
 +++
 Ronaldo‘s or Rosario’s?

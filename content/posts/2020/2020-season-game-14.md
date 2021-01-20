@@ -13,7 +13,7 @@ title = "2020 Season - Game 14"
 type = "post"
 [[scorers]]
 goals = 1
-scorer = "Jamie"
+scorer = "Jamie Hatch"
 
 +++
 A dissapointing loss in the derby. After being up 1-0 for 60 minutes the boys fell to pieces after the first goal and a flurry of goals followed.

@@ -15,19 +15,19 @@ goals = 9
 scorer = "Jack Furnish"
 [[scorers]]
 goals = 11
-scorer = "Lance"
+scorer = "Lance Molyneaux"
 [[scorers]]
 goals = 1
-scorer = "Lee"
+scorer = "Lee Greengrass"
 [[scorers]]
 goals = 12
-scorer = "Yarride"
+scorer = "Yarride Rosario"
 [[scorers]]
 goals = 1
 scorer = "Kayvan"
 [[scorers]]
 goals = 2
-scorer = "Jamie"
+scorer = "Jamie Hatch"
 [[scorers]]
 goals = 3
 scorer = "Max"
@@ -39,7 +39,7 @@ goals = 5
 scorer = "Callum"
 [[scorers]]
 goals = 1
-scorer = "Nick"
+scorer = "Nick Jones"
 [[scorers]]
 goals = 3
 scorer = "Jack Bates"

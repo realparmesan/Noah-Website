@@ -16,10 +16,10 @@ goals = 1
 scorer = "Ring-In"
 [[scorers]]
 goals = 1
-scorer = "Luke"
+scorer = "Luke Stancliffe-White"
 [[scorers]]
 goals = 1
-scorer = "Milan"
+scorer = "Milan Mrdalj"
 
 +++
 The next game for the Frothers was at the illustrious St. Pats turf, with a dirty old face showing up on the bench.

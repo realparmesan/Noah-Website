@@ -14,10 +14,10 @@ title = "2020 Season - Game 17 (Cup)"
 type = "post"
 [[scorers]]
 goals = 1
-scorer = "Yarride"
+scorer = "Yarride Rosario"
 [[scorers]]
 goals = 1
-scorer = "Lee"
+scorer = "Lee Greengrass"
 [[scorers]]
 goals = 1
 scorer = "Ring-In"
@@ -30,15 +30,15 @@ taker = "Colt"
 frother_goal = false
 opponent_goal = false
 [[penalty]]
-taker = "Evan"
+taker = "Evan Hanson"
 frother_goal = true
 opponent_goal = true
 [[penalty]]
-taker = "Charles"
+taker = "Charles Daily"
 frother_goal = false
 opponent_goal = false
 [[penalty]]
-taker = "Yarride"
+taker = "Yarride Rosario"
 frother_goal = true
 opponent_goal = false
 

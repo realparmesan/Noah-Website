@@ -13,7 +13,7 @@ title = "2020 Season - Game 11"
 type = "post"
 [[scorers]]
 goals = 1
-scorer = "Stu"
+scorer = "Stu Escott"
 
 +++
 A special moment in Frothers history, as both Nick, Chris, Lance and Jamie marked 50 games for the boys.

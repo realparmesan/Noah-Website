@@ -13,13 +13,13 @@ title = "2020 Season - Game 15"
 type = "post"
 [[scorers]]
 goals = 1
-scorer = "Luke"
+scorer = "Luke Stancliffe-White"
 [[scorers]]
 goals = 1
-scorer = "Lance"
+scorer = "Lance Molyneaux"
 [[scorers]]
 goals = 1
-scorer = "Yarride"
+scorer = "Yarride Rosario"
 
 +++
 Riding high off the back of a proper team social the Frothers turned it up for the final game of the regular season.

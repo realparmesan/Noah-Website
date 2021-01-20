@@ -13,10 +13,10 @@ title = " 2020 Season - Game 8"
 type = "post"
 [[scorers]]
 goals = 1
-scorer = "Jamie"
+scorer = "Jamie Hatch"
 [[scorers]]
 goals = 1
-scorer = "Yarride"
+scorer = "Yarride Rosario"
 
 +++
 The Frothers ran out at Ascot Park against the Marauders to try and turn the tide of the season.

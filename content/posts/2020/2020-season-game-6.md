@@ -13,10 +13,10 @@ title = " 2020 Season - Game 6"
 type = "post"
 [[scorers]]
 goals = 1
-scorer = "Jamie"
+scorer = "Jamie Hatch"
 [[scorers]]
 goals = 1
-scorer = "Charles"
+scorer = "Charles Daily"
 
 +++
 ## Public Enemy- Harder Than You Think

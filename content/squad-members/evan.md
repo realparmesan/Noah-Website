@@ -5,7 +5,7 @@ kit_number = 8
 mug_shot = "/images/121082564_3186811248211825_6012667961672908520_o.jpg"
 photos = ["/images/109523457_3103630019863282_2187701297799577077_o.jpg", "/images/img_5387.jpg", "/images/119219962_3159548370938113_8470302540181299960_o.jpg", "/images/121029709_3187421951484088_2200481462417516031_o.jpg"]
 position = "Midfielder"
-title = "Evan"
+title = "Evan Hanson"
 year_joined = "2018"
 
 +++

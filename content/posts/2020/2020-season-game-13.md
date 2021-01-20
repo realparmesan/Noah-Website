@@ -13,7 +13,7 @@ title = "2020 Season - Game 13"
 type = "post"
 [[scorers]]
 goals = 1
-scorer = "Luke"
+scorer = "Luke Stancliffe-White"
 
 +++
 A disappointing 1-1 draw again the Lazy 11. Luke with a thunderbolt goal but then Charles giving up a late penalty via a handball.

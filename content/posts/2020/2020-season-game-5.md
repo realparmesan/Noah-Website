@@ -13,7 +13,7 @@ title = " 2020 Season - Game 5"
 type = "post"
 [[scorers]]
 goals = 1
-scorer = "Yarride"
+scorer = "Yarride Rosario"
 
 +++
 ## TOTO - Hold the Line

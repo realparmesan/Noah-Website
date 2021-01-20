@@ -13,7 +13,7 @@ title = "2020 Season - Game 2"
 type = "post"
 [[scorers]]
 goals = 1
-scorer = "Lance"
+scorer = "Lance Molyneaux"
 
 +++
 Tough match against North Wellington in the cold.

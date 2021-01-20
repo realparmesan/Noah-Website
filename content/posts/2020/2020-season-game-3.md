@@ -13,7 +13,7 @@ title = "2020 Season - Game 3"
 type = "post"
 [[scorers]]
 goals = 1
-scorer = "Lee"
+scorer = "Lee Greengrass"
 
 +++
 Another rough day at the office for the frother boys. After a very promising first 30 at which it was 1-1 the goals started coming, and they don't stop coming.

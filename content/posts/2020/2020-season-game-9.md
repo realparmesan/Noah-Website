@@ -13,13 +13,13 @@ title = "2020 Season - Game 9"
 type = "post"
 [[scorers]]
 goals = 1
-scorer = "Yarride"
+scorer = "Yarride Rosario"
 [[scorers]]
 goals = 1
-scorer = "Nick"
+scorer = "Nick Jones"
 [[scorers]]
 goals = 1
-scorer = "Lance"
+scorer = "Lance Molyneaux"
 
 +++
 Nothing so sweet as a derby win.

@@ -15,22 +15,22 @@ goals = 11
 scorer = "Jack Furnish"
 [[scorers]]
 goals = 7
-scorer = "Lance"
+scorer = "Lance Molyneaux"
 [[scorers]]
 goals = 8
 scorer = "Kalon"
 [[scorers]]
 goals = 4
-scorer = "Yarride"
+scorer = "Yarride Rosario"
 [[scorers]]
 goals = 3
 scorer = "Harry Furnish"
 [[scorers]]
 goals = 1
-scorer = "Jamie"
+scorer = "Jamie Hatch"
 [[scorers]]
 goals = 1
-scorer = "Evan"
+scorer = "Evan Hanson"
 [[scorers]]
 goals = 1
 scorer = "Max"
@@ -39,5 +39,5 @@ goals = 2
 scorer = "Ben"
 [[scorers]]
 goals = 1
-scorer = "Stu"
+scorer = "Stu Escott"
 +++

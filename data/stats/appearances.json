@@ -1,70 +1,281 @@
 [
   {
-    "title": "Jamie",
+    "2017": 16,
+    "2018": 16,
+    "2019": 16,
+    "2020": 17,
+    "title": "Jamie Hatch",
+    "Full Seasons": 4,
     "total": 65
   },
   {
-    "title": "Jack Furnish",
-    "total": 43
-  },
-  {
-    "title": "Lee",
-    "total": 27
-  },
-  {
-    "title": "Charles",
-    "total": 56
-  },
-  {
-    "title": "Jarrod",
-    "total": 10
-  },
-  {
-    "title": "Milan",
-    "total": 24
-  },
-  {
-    "title": "Harry Furnish",
-    "total": 48
-  },
-  {
-    "title": "Harry Freeman",
-    "total": 37
-  },
-  {
-    "title": "Luke",
-    "total": 12
-  },
-  {
-    "title": "Nick",
+    "2017": 16,
+    "2018": 12,
+    "2019": 16,
+    "2020": 14,
+    "title": "Nick Jones",
+    "Full Seasons": 4,
     "total": 58
   },
   {
-    "title": "Sam",
-    "total": 11
+    "2017": 16,
+    "2018": 9,
+    "2019": 16,
+    "2020": 16,
+    "title": "Chris Chester",
+    "Full Seasons": 4,
+    "total": 57
   },
   {
-    "title": "Evan",
-    "total": 52
-  },
-  {
-    "title": "Stu",
-    "total": 42
-  },
-  {
-    "title": "Jack K",
-    "total": 24
-  },
-  {
-    "title": "Yarride",
-    "total": 53
-  },
-  {
-    "title": "Lance",
+    "2017": 14,
+    "2018": 16,
+    "2019": 9,
+    "2020": 17,
+    "title": "Lance Molyneaux",
+    "Full Seasons": 4,
     "total": 56
   },
   {
-    "title": "Ryan",
+    "2017": 16,
+    "2018": 14,
+    "2019": 9,
+    "2020": 17,
+    "title": "Charles Daily",
+    "Full Seasons": 4,
+    "total": 56
+  },
+  {
+    "2017": 14,
+    "2018": 12,
+    "2019": 14,
+    "2020": 13,
+    "title": "Yarride Rosario",
+    "Full Seasons": 4,
+    "total": 53
+  },
+  {
+    "2017": 4,
+    "2018": 14,
+    "2019": 16,
+    "2020": 18,
+    "title": "Evan Hanson",
+    "Full Seasons": 3,
+    "total": 52
+  },
+  {
+    "2017": 2,
+    "2018": 16,
+    "2019": 14,
+    "2020": 16,
+    "title": "Harry Furnish",
+    "Full Seasons": 3,
+    "total": 48
+  },
+  {
+    "2017": 14,
+    "2018": 14,
+    "2019": 14,
+    "2020": 1,
+    "title": "Jack Furnish",
+    "Full Seasons": 3,
+    "total": 43
+  },
+  {
+    "2017": 0,
+    "2018": 14,
+    "2019": 14,
+    "2020": 14,
+    "title": "Stuart Escott",
+    "Full Seasons": 3,
+    "total": 42
+  },
+  {
+    "2017": 9,
+    "2018": 14,
+    "2019": 14,
+    "2020": 0,
+    "title": "Dean Skipsey",
+    "Full Seasons": 2,
+    "total": 37
+  },
+  {
+    "2017": 0,
+    "2018": 6,
+    "2019": 16,
+    "2020": 15,
+    "title": "Harry Freeman",
+    "Full Seasons": 2,
+    "total": 37
+  },
+  {
+    "2017": 6,
+    "2018": 16,
+    "2019": 12,
+    "2020": 0,
+    "title": "Josh Templeton",
+    "Full Seasons": 3,
+    "total": 34
+  },
+  {
+    "2017": 14,
+    "2018": 14,
+    "2019": 2,
+    "2020": 0,
+    "title": "Kayvan Bahraini",
+    "Full Seasons": 2,
+    "total": 30
+  },
+  {
+    "2017": 1,
+    "2018": 16,
+    "2019": 12,
+    "2020": 0,
+    "title": "Kalon Radice",
+    "Full Seasons": 2,
+    "total": 29
+  },
+  {
+    "2017": 2,
+    "2018": 0,
+    "2019": 16,
+    "2020": 9,
+    "title": "Lee Greengrass",
+    "Full Seasons": 2,
+    "total": 27
+  },
+  {
+    "2017": 2,
+    "2018": 0,
+    "2019": 12,
+    "2020": 10,
+    "title": "Jack Kos",
+    "Full Seasons": 2,
+    "total": 24
+  },
+  {
+    "2017": 0,
+    "2018": 0,
+    "2019": 6,
+    "2020": 18,
+    "title": "Milan Mrdalj",
+    "Full Seasons": 1,
+    "total": 24
+  },
+  {
+    "2017": 0,
+    "2018": 0,
+    "2019": 0,
+    "2020": 18,
+    "title": "Ryan Kindell",
+    "Full Seasons": 1,
     "total": 18
+  },
+  {
+    "2017": 16,
+    "2018": 0,
+    "2019": 1,
+    "2020": 0,
+    "title": "Michael Davies",
+    "Full Seasons": 1,
+    "total": 17
+  },
+  {
+    "2017": 16,
+    "2018": 0,
+    "2019": 0,
+    "2020": 0,
+    "title": "Callum Hughes",
+    "Full Seasons": 1,
+    "total": 16
+  },
+  {
+    "2017": 12,
+    "2018": 1,
+    "2019": 2,
+    "2020": 0,
+    "title": "Max Hall",
+    "Full Seasons": 1,
+    "total": 15
+  },
+  {
+    "2017": 12,
+    "2018": 0,
+    "2019": 0,
+    "2020": 0,
+    "title": "Harry Walmsley",
+    "Full Seasons": 1,
+    "total": 12
+  },
+  {
+    "2017": 0,
+    "2018": 12,
+    "2019": 0,
+    "2020": 0,
+    "title": "Vytautas Velicka",
+    "Full Seasons": 1,
+    "total": 12
+  },
+  {
+    "2017": 12,
+    "2018": 0,
+    "2019": 0,
+    "2020": 0,
+    "title": "Jack Bates",
+    "Full Seasons": 1,
+    "total": 12
+  },
+  {
+    "2017": 0,
+    "2018": 0,
+    "2019": 0,
+    "2020": 12,
+    "title": "Luke Stancliffe-White",
+    "Full Seasons": 1,
+    "total": 12
+  },
+  {
+    "2017": 0,
+    "2018": 0,
+    "2019": 0,
+    "2020": 11,
+    "title": "Sam Abbiss",
+    "Full Seasons": 1,
+    "total": 11
+  },
+  {
+    "2017": 0,
+    "2018": 0,
+    "2019": 0,
+    "2020": 10,
+    "title": "Jarrod Murray",
+    "Full Seasons": 1,
+    "total": 10
+  },
+  {
+    "2017": 0,
+    "2018": 9,
+    "2019": 0,
+    "2020": 0,
+    "title": "Ben Jeffrey",
+    "Full Seasons": 1,
+    "total": 9
+  },
+  {
+    "2017": 6,
+    "2018": 0,
+    "2019": 0,
+    "2020": 0,
+    "title": "Tom Ayley",
+    "Full Seasons": 1,
+    "total": 6
+  },
+  {
+    "2017": 0,
+    "2018": 4,
+    "2019": 0,
+    "2020": 0,
+    "title": "Irving Chong",
+    "Full Seasons": 1,
+    "total": 4
   }
 ]
