@@ -1,5 +1,5 @@
 +++
-author = "Chris"
+author = "Chris Chester"
 categories = []
 date = 2020-08-22T12:00:00Z
 description = "Match reports for the friendly against FC Valley Dream"

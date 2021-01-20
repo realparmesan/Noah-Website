@@ -1,5 +1,5 @@
 +++
-author = "Chris"
+author = "Chris Chester"
 categories = []
 date = 2018-04-08T12:00:00Z
 description = "2018 Stats"

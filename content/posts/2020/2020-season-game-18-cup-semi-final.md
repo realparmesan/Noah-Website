@@ -1,5 +1,5 @@
 +++
-author = "Chris"
+author = "Chris Chester"
 categories = ["Match"]
 date = 2020-10-17T11:00:00Z
 description = "Match report for the cup game against Edward Street Athletic"
@@ -15,7 +15,7 @@ title = "2020 Season - Game 18 (Cup Semi-Final)"
 type = "post"
 [[scorers]]
 goals = 1
-scorer = "Chris"
+scorer = "Chris Chester"
 
 +++
 > Nothing flaccid about this semi

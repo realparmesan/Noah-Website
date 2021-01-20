@@ -1,5 +1,5 @@
 +++
-author = "Chris"
+author = "Chris Chester"
 categories = []
 date = 2020-06-06T12:00:00Z
 description = "Wrap up of the first game of the 2020 season"

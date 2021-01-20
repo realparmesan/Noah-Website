@@ -1,5 +1,5 @@
 +++
-author = "Chris"
+author = "Chris Chester"
 categories = []
 date = 2020-06-13T12:00:00Z
 description = "Tough match at Wakefield again North Wellington"

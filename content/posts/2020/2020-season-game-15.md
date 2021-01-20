@@ -1,5 +1,5 @@
 +++
-author = "Chris"
+author = "Chris Chester"
 categories = ["Match"]
 date = 2020-09-12T12:00:00Z
 description = "Match report for the game against the Diamonds"

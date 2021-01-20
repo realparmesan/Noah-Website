@@ -1,5 +1,5 @@
 +++
-author = "Chris"
+author = "Chris Chester"
 categories = []
 date = 2020-07-18T12:00:00Z
 description = "Wrap up of the Frothers game against Unicorns"

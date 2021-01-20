@@ -1,5 +1,5 @@
 +++
-author = "Chris"
+author = "Chris Chester"
 categories = ["Match"]
 date = 2020-10-10T11:00:00Z
 description = "Match report for the cup game against the Sunday Blazers"
@@ -22,7 +22,7 @@ scorer = "Lee Greengrass"
 goals = 1
 scorer = "Ring-In"
 [[penalty]]
-taker = "Chris"
+taker = "Chris Chester"
 frother_goal = true
 opponent_goal = true
 [[penalty]]

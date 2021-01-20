@@ -1,5 +1,5 @@
 +++
-author = "Chris"
+author = "Chris Chester"
 categories = ["Prizegiving"]
 date = 2020-11-13T11:00:00Z
 description = "Season awards for the Frothers"
