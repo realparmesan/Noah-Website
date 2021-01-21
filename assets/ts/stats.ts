@@ -117,7 +117,7 @@ export let populateStats = async function (name: string) {
         }
       },
       legend: {
-        display: screenWidth > 500,
+        display: true,
         position: 'bottom',
       },
       scales: {
