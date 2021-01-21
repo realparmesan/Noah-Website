@@ -4,7 +4,8 @@
 <script src="{{ relURL . }}"></script>
 {{ end }}
 <section class="section">
-
+  {{ $appearances := "[]" }}
+  {{ $years := "[]" }}
   
   <div class="container">
     <div class="row">
@@ -36,6 +37,8 @@
                   {{ range .Site.Data.stats.appearances }}
                     {{ if eq .title $.Params.title}}
                       {{ .total }}
+                      {{ $appearances = .appearances }}
+                      {{ $years = .years }}
                     {{ end }}
                   {{ end }}
                 </span>
@@ -50,12 +53,9 @@
         <!-- Stats -->
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Stats</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Frothers Career Stats - Graphic to come</h6>
-            <div id="individual-stats-panel" data-player-name="{{ .Params.Title }}">
-              <ul class="list-group">
-                
-              </ul>
+            <h5 class="card-title">Frothers Career Stats</h5>
+            <div class ="graph" id="individual-stats-panel" data-player-name="{{ .Params.Title }}" data-years="{{ $years | jsonify}}" data-appearances="{{ $appearances | jsonify}}">
+              <canvas id="career-panel"></canvas>
             </div>
             <br>
             <a href="/stats/goalscrorers/" class="card-link">Team stats page</a>

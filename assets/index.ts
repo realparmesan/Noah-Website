@@ -23,8 +23,6 @@ function populateAllGraphs(){
 }
 
 function populateIndividualStats(){
-  console.log("player");
   let player = getPlayerName();
-  console.log(player);
   populateStats(player);
 }
