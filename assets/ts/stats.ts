@@ -43,7 +43,7 @@ export let populateStats = async function (name: string) {
 
   // Populate graph
   let chartData = <HTMLElement>document.getElementById("individual-stats-panel");
-  let appearances: matchGoals[] = JSON.parse(chartData.getAttribute("data-appearances"));
+  let appearances: matchGoals[] = JSON.parse(chartData.getAttribute("data-appearances")) || [];
 
   appearances.forEach(set => {
     set.t = new Date(set.t.toString());
