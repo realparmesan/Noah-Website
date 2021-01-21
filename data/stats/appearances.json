@@ -1,19 +1,47 @@
 [
   {
-    "season2017": 16,
-    "season2018": 16,
-    "season2019": 16,
-    "season2020": 17,
     "title": "Jamie Hatch",
+    "appearances": [
+      {
+        "y": 16,
+        "t": 2017
+      },
+      {
+        "y": 16,
+        "t": 2018
+      },
+      {
+        "y": 16,
+        "t": 2019
+      },
+      {
+        "y": 17,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 4,
     "total": 65
   },
   {
-    "season2017": 16,
-    "season2018": 12,
-    "season2019": 16,
-    "season2020": 14,
     "title": "Nick Jones",
+    "appearances": [
+      {
+        "y": 16,
+        "t": 2017
+      },
+      {
+        "y": 12,
+        "t": 2018
+      },
+      {
+        "y": 16,
+        "t": 2019
+      },
+      {
+        "y": 14,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 4,
     "total": 58
   },
@@ -41,83 +69,209 @@
     "total": 57
   },
   {
-    "season2017": 14,
-    "season2018": 16,
-    "season2019": 9,
-    "season2020": 17,
     "title": "Lance Molyneaux",
+    "appearances": [
+      {
+        "y": 14,
+        "t": 2017
+      },
+      {
+        "y": 16,
+        "t": 2018
+      },
+      {
+        "y": 9,
+        "t": 2019
+      },
+      {
+        "y": 17,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 4,
     "total": 56
   },
   {
-    "season2017": 16,
-    "season2018": 14,
-    "season2019": 9,
-    "season2020": 17,
     "title": "Charles Daily",
+    "appearances": [
+      {
+        "y": 16,
+        "t": 2017
+      },
+      {
+        "y": 14,
+        "t": 2018
+      },
+      {
+        "y": 9,
+        "t": 2019
+      },
+      {
+        "y": 17,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 4,
     "total": 56
   },
   {
-    "season2017": 14,
-    "season2018": 12,
-    "season2019": 14,
-    "season2020": 13,
     "title": "Yarride Rosario",
+    "appearances": [
+      {
+        "y": 14,
+        "t": 2017
+      },
+      {
+        "y": 12,
+        "t": 2018
+      },
+      {
+        "y": 14,
+        "t": 2019
+      },
+      {
+        "y": 13,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 4,
     "total": 53
   },
   {
-    "season2017": 4,
-    "season2018": 14,
-    "season2019": 16,
-    "season2020": 18,
     "title": "Evan Hanson",
+    "appearances": [
+      {
+        "y": 4,
+        "t": 2017
+      },
+      {
+        "y": 14,
+        "t": 2018
+      },
+      {
+        "y": 16,
+        "t": 2019
+      },
+      {
+        "y": 18,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 3,
     "total": 52
   },
   {
-    "season2017": 2,
-    "season2018": 16,
-    "season2019": 14,
-    "season2020": 16,
     "title": "Harry Furnish",
+    "appearances": [
+      {
+        "y": 2,
+        "t": 2017
+      },
+      {
+        "y": 16,
+        "t": 2018
+      },
+      {
+        "y": 14,
+        "t": 2019
+      },
+      {
+        "y": 16,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 3,
     "total": 48
   },
   {
-    "season2017": 14,
-    "season2018": 14,
-    "season2019": 14,
-    "season2020": 1,
     "title": "Jack Furnish",
+    "appearances": [
+      {
+        "y": 14,
+        "t": 2017
+      },
+      {
+        "y": 14,
+        "t": 2018
+      },
+      {
+        "y": 14,
+        "t": 2019
+      },
+      {
+        "y": 1,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 3,
     "total": 43
   },
   {
-    "season2017": 0,
-    "season2018": 14,
-    "season2019": 14,
-    "season2020": 14,
     "title": "Stuart Escott",
+    "appearances": [
+      {
+        "y": 0,
+        "t": 2017
+      },
+      {
+        "y": 14,
+        "t": 2018
+      },
+      {
+        "y": 14,
+        "t": 2019
+      },
+      {
+        "y": 14,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 3,
     "total": 42
   },
   {
-    "season2017": 9,
-    "season2018": 14,
-    "season2019": 14,
-    "season2020": 0,
     "title": "Dean Skipsey",
+    "appearances": [
+      {
+        "y": 9,
+        "t": 2017
+      },
+      {
+        "y": 14,
+        "t": 2018
+      },
+      {
+        "y": 14,
+        "t": 2019
+      },
+      {
+        "y": 0,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 2,
     "total": 37
   },
   {
-    "season2017": 0,
-    "season2018": 6,
-    "season2019": 16,
-    "season2020": 15,
     "title": "Harry Freeman",
+    "appearances": [
+      {
+        "y": 0,
+        "t": 2017
+      },
+      {
+        "y": 6,
+        "t": 2018
+      },
+      {
+        "y": 16,
+        "t": 2019
+      },
+      {
+        "y": 15,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 2,
     "total": 37
   },
@@ -127,42 +281,116 @@
     "season2019": 12,
     "season2020": 0,
     "title": "Josh Templeton",
+    "appearances": [
+      {
+        "y": 6,
+        "t": 2017
+      },
+      {
+        "y": 16,
+        "t": 2018
+      },
+      {
+        "y": 12,
+        "t": 2019
+      },
+      {
+        "y": 0,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 3,
     "total": 34
   },
   {
-    "season2017": 14,
-    "season2018": 14,
-    "season2019": 2,
-    "season2020": 0,
     "title": "Kayvan Bahraini",
+    "appearances": [
+      {
+        "y": 14,
+        "t": 2017
+      },
+      {
+        "y": 14,
+        "t": 2018
+      },
+      {
+        "y": 2,
+        "t": 2019
+      },
+      {
+        "y": 0,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 2,
     "total": 30
   },
   {
-    "season2017": 1,
-    "season2018": 16,
-    "season2019": 12,
-    "season2020": 0,
     "title": "Kalon Radice",
+    "appearances": [
+      {
+        "y": 1,
+        "t": 2017
+      },
+      {
+        "y": 16,
+        "t": 2018
+      },
+      {
+        "y": 12,
+        "t": 2019
+      },
+      {
+        "y": 0,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 2,
     "total": 29
   },
   {
-    "season2017": 2,
-    "season2018": 0,
-    "season2019": 16,
-    "season2020": 9,
     "title": "Lee Greengrass",
+    "appearances": [
+      {
+        "y": 2,
+        "t": 2017
+      },
+      {
+        "y": 0,
+        "t": 2018
+      },
+      {
+        "y": 16,
+        "t": 2019
+      },
+      {
+        "y": 9,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 2,
     "total": 27
   },
   {
-    "season2017": 2,
-    "season2018": 0,
-    "season2019": 12,
-    "season2020": 10,
     "title": "Jack Kos",
+    "appearances": [
+      {
+        "y": 2,
+        "t": 2017
+      },
+      {
+        "y": 0,
+        "t": 2018
+      },
+      {
+        "y": 12,
+        "t": 2019
+      },
+      {
+        "y": 10,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 2,
     "total": 24
   },
@@ -172,6 +400,24 @@
     "season2019": 6,
     "season2020": 18,
     "title": "Milan Mrdalj",
+    "appearances": [
+      {
+        "y": 0,
+        "t": 2017
+      },
+      {
+        "y": 0,
+        "t": 2018
+      },
+      {
+        "y": 6,
+        "t": 2019
+      },
+      {
+        "y": 18,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 1,
     "total": 24
   },
@@ -181,114 +427,300 @@
     "season2019": 0,
     "season2020": 18,
     "title": "Ryan Kindell",
+    "appearances": [
+      {
+        "y": 0,
+        "t": 2017
+      },
+      {
+        "y": 0,
+        "t": 2018
+      },
+      {
+        "y": 0,
+        "t": 2019
+      },
+      {
+        "y": 18,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 1,
     "total": 18
   },
   {
-    "season2017": 16,
-    "season2018": 0,
-    "season2019": 1,
-    "season2020": 0,
     "title": "Michael Davies",
+    "appearances": [
+      {
+        "y": 16,
+        "t": 2017
+      },
+      {
+        "y": 0,
+        "t": 2018
+      },
+      {
+        "y": 1,
+        "t": 2019
+      },
+      {
+        "y": 0,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 1,
     "total": 17
   },
   {
-    "season2017": 16,
-    "season2018": 0,
-    "season2019": 0,
-    "season2020": 0,
     "title": "Callum Hughes",
+    "appearances": [
+      {
+        "y": 16,
+        "t": 2017
+      },
+      {
+        "y": 0,
+        "t": 2018
+      },
+      {
+        "y": 0,
+        "t": 2019
+      },
+      {
+        "y": 0,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 1,
     "total": 16
   },
   {
-    "season2017": 12,
-    "season2018": 1,
-    "season2019": 2,
-    "season2020": 0,
     "title": "Max Hall",
+    "appearances": [
+      {
+        "y": 12,
+        "t": 2017
+      },
+      {
+        "y": 1,
+        "t": 2018
+      },
+      {
+        "y": 2,
+        "t": 2019
+      },
+      {
+        "y": 0,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 1,
     "total": 15
   },
   {
-    "season2017": 12,
-    "season2018": 0,
-    "season2019": 0,
-    "season2020": 0,
     "title": "Harry Walmsley",
+    "appearances": [
+      {
+        "y": 12,
+        "t": 2017
+      },
+      {
+        "y": 0,
+        "t": 2018
+      },
+      {
+        "y": 0,
+        "t": 2019
+      },
+      {
+        "y": 0,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 1,
     "total": 12
   },
   {
-    "season2017": 0,
-    "season2018": 12,
-    "season2019": 0,
-    "season2020": 0,
     "title": "Vytautas Velicka",
+    "appearances": [
+      {
+        "y": 0,
+        "t": 2017
+      },
+      {
+        "y": 12,
+        "t": 2018
+      },
+      {
+        "y": 0,
+        "t": 2019
+      },
+      {
+        "y": 0,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 1,
     "total": 12
   },
   {
-    "season2017": 12,
-    "season2018": 0,
-    "season2019": 0,
-    "season2020": 0,
     "title": "Jack Bates",
+    "appearances": [
+      {
+        "y": 12,
+        "t": 2017
+      },
+      {
+        "y": 0,
+        "t": 2018
+      },
+      {
+        "y": 0,
+        "t": 2019
+      },
+      {
+        "y": 0,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 1,
     "total": 12
   },
   {
-    "season2017": 0,
-    "season2018": 0,
-    "season2019": 0,
-    "season2020": 12,
     "title": "Luke Stancliffe-White",
+    "appearances": [
+      {
+        "y": 0,
+        "t": 2017
+      },
+      {
+        "y": 0,
+        "t": 2018
+      },
+      {
+        "y": 0,
+        "t": 2019
+      },
+      {
+        "y": 12,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 1,
     "total": 12
   },
   {
-    "season2017": 0,
-    "season2018": 0,
-    "season2019": 0,
-    "season2020": 11,
     "title": "Sam Abbiss",
+    "appearances": [
+      {
+        "y": 0,
+        "t": 2017
+      },
+      {
+        "y": 0,
+        "t": 2018
+      },
+      {
+        "y": 0,
+        "t": 2019
+      },
+      {
+        "y": 11,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 1,
     "total": 11
   },
   {
-    "season2017": 0,
-    "season2018": 0,
-    "season2019": 0,
-    "season2020": 10,
     "title": "Jarrod Murray",
+    "appearances": [
+      {
+        "y": 0,
+        "t": 2017
+      },
+      {
+        "y": 0,
+        "t": 2018
+      },
+      {
+        "y": 0,
+        "t": 2019
+      },
+      {
+        "y": 10,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 1,
     "total": 10
   },
   {
-    "season2017": 0,
-    "season2018": 9,
-    "season2019": 0,
-    "season2020": 0,
     "title": "Ben Jeffrey",
+    "appearances": [
+      {
+        "y": 0,
+        "t": 2017
+      },
+      {
+        "y": 9,
+        "t": 2018
+      },
+      {
+        "y": 0,
+        "t": 2019
+      },
+      {
+        "y": 0,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 1,
     "total": 9
   },
   {
-    "season2017": 6,
-    "season2018": 0,
-    "season2019": 0,
-    "season2020": 0,
     "title": "Tom Ayley",
+    "appearances": [
+      {
+        "y": 6,
+        "t": 2017
+      },
+      {
+        "y": 0,
+        "t": 2018
+      },
+      {
+        "y": 0,
+        "t": 2019
+      },
+      {
+        "y": 0,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 1,
     "total": 6
   },
   {
-    "season2017": 0,
-    "season2018": 4,
-    "season2019": 0,
-    "season2020": 0,
     "title": "Irving Chong",
+    "appearances": [
+      {
+        "y": 0,
+        "t": 2017
+      },
+      {
+        "y": 4,
+        "t": 2018
+      },
+      {
+        "y": 0,
+        "t": 2019
+      },
+      {
+        "y": 0,
+        "t": 2020
+      }
+    ],
     "Full Seasons": 1,
     "total": 4
   }
