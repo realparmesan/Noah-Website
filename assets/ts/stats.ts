@@ -3,7 +3,6 @@ import { Chart, ChartDataSets, ChartPoint } from 'chart.js';
 
 import { parsePlayerData } from './processors/graphData'
 
-let screenWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 let careerChart: Chart;
 
 /**
@@ -19,9 +18,13 @@ export let getPlayerName = function (): string {
  */
 export let populateStats = async function (name: string) {
   let totalGoals = 0;
-  let allPlayerData = await parsePlayerData();
+  let allPlayerData = await parsePlayerData() || [];
 
   let playerData = _.find(allPlayerData, { "label": name });
+
+  if (playerData === undefined){ 
+    return;
+  }
 
   playerData.data.forEach(game => {
     totalGoals = game.goals + totalGoals;

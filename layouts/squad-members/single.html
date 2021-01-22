@@ -6,7 +6,7 @@
 <section class="section">
   {{ $appearances := "[]" }}
   {{ $years := "[]" }}
-  
+
   <div class="container">
     <div class="row">
       <div class="col"></div>
@@ -46,15 +46,54 @@
             </ul>
           </div>
         </div>
-
+        <br>
+            <!-- Awards Card -->
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Awards</h5>
+            <ul class="list-group">
+                {{ range sort .Site.Data.stats.awards "award"}}
+                  {{ if eq .player $.Params.title }}
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    {{ if eq .award "Glassman" }}
+                      <img src="/images/banner/injury.svg" width=50>
+                    {{ else if eq .award "Frother of the Year" }}
+                      <img src="/images/banner/frother_logo.svg" width=50>
+                    {{ else if eq .award "MVP" }}
+                      <img src="/images/banner/gold-winner-trophy.svg" width=50>
+                    {{ else if eq .award "Golden Boot" }}
+                      <img src="/images/banner/accurate-targeting.svg" width=50>
+                    {{ else if eq .award "Stormtrooper" }}
+                      <img src="/images/banner/Sensibleworld-Starwars-Stormtrooper.svg" width=50>
+                    {{ else if eq .award "Goal of the Season" }}
+                      <img src="/images/banner/ball-football.svg" width=50>
+                    {{ else if eq .award "Most Improved Player" }}
+                      <img src="/images/banner/gold-medal.svg" width=50>
+                    {{ else if eq .award "Best Rookie" }}
+                      <img src="/images/banner/baby-face.svg" width=50>
+                    {{ else }}
+                      <img src="/images/banner/gold-winner-trophy.svg" width=50>
+                    {{ end }}
+                    <span class="badge badge-primary badge-pill" id="appearances">
+                      {{ .award }} - {{ .year }} Season
+                    </span>
+                  </li>
+                  {{ end }}
+                {{ end }}
+              </ul>
+        </div>
+      </div>
+      <br>
         <!-- Carousel -->
         {{- partial "carousel.html" . -}}
+        <br>
 
         <!-- Stats -->
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Frothers Career Stats</h5>
-            <div class ="graph" id="individual-stats-panel" data-player-name="{{ .Params.Title }}" data-years="{{ $years | jsonify}}" data-appearances="{{ $appearances | jsonify}}">
+            <div class="graph" id="individual-stats-panel" data-player-name="{{ .Params.Title }}"
+              data-years="{{ $years | jsonify}}" data-appearances="{{ $appearances | jsonify}}">
               <canvas id="career-panel"></canvas>
             </div>
             <br>
