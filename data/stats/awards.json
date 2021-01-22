@@ -1,142 +1,102 @@
 [
   {
     "player": "Chris Chester",
-    "awards": [
-      {
-        "title": "Glassman",
-        "year": 2018
-      },
-      {
-        "title": "Frother of the Year",
-        "year": 2020
-      }
-    ]
+    "award": "Glassman",
+    "year": 2018
+  },
+  {
+    "player": "Chris Chester",
+    "award": "Frother of the Year",
+    "year": 2020
   },
   {
     "player": "Jack Furnish",
-    "awards": [
-      {
-        "title": "MVP",
-        "year": 2017
-      },
-      {
-        "title": "Golden Boot",
-        "year": 2019
-      }
-    ]
+    "award": "MVP",
+    "year": 2017
+  },
+  {
+    "player": "Jack Furnish",
+    "award": "Golden Boot",
+    "year": 2019
   },
   {
     "player": "Yarride Rosario",
-    "awards": [
-      {
-        "title": "Golden Boot",
-        "year": 2017
-      },
-      {
-        "title": "Golden Boot",
-        "year": 2019
-      },
-      {
-        "title": "Golden Boot",
-        "year": 2020
-      },
-      {
-        "title": "Stormtrooper",
-        "year": 2018
-      },
-      {
-        "title": "Yarride Rosario",
-        "year": 2019
-      }
-    ]
+    "award": "Golden Boot",
+    "year": 2017
+  },
+  {
+    "player": "Yarride Rosario",
+    "award": "Golden Boot",
+    "year": 2019
+  },
+  {
+    "player": "Yarride Rosario",
+    "award": "Golden Boot",
+    "year": 2020
+  },
+  {
+    "player": "Yarride Rosario",
+    "award": "Stormtrooper",
+    "year": 2018
+  },
+  {
+    "player": "Yarride Rosario",
+    "award": "MVP",
+    "year": 2019
   },
   {
     "player": "Tom Ayley",
-    "awards": [
-      {
-        "title": "Glassman",
-        "year": 2017
-      }
-    ]
+    "award": "Glassman",
+    "year": 2017
   },
   {
     "player": "Nick Jones",
-    "awards": [
-      {
-        "title": "MVP",
-        "year": 2018
-      },
-      {
-        "title": "Goal of the Season",
-        "year": 2020
-      }
-    ]
+    "award": "MVP",
+    "year": 2018
+  },
+  {
+    "player": "Nick Jones",
+    "award": "Goal of the Season",
+    "year": 2020
   },
   {
     "player": "Lance Molyneaux",
-    "awards": [
-      {
-        "title": "Stormtrooper",
-        "year": 2017
-      }
-    ]
+    "award": "Stormtrooper",
+    "year": 2017
   },
   {
     "player": "Kalon Radice",
-    "awards": [
-      {
-        "title": "Glassman",
-        "year": 2019
-      }
-    ]
+    "award": "Glassman",
+    "year": 2019
   },
   {
     "player": "Jamie Hatch",
-    "awards": [
-      {
-        "title": "Stormtrooper",
-        "year": 2019
-      }
-    ]
+    "award": "Stormtrooper",
+    "year": 2019
   },
   {
     "player": "Evan Hanson",
-    "awards": [
-      {
-        "title": "MVP",
-        "year": 2020
-      },
-      {
-        "title": "Stormtrooper",
-        "year": 2020
-      }
-    ]
+    "award": "MVP",
+    "year": 2020
+  },
+  {
+    "player": "Evan Hanson",
+    "award": "Stormtrooper",
+    "year": 2020
   },
   {
     "player": "Ryan Kindell",
-    "awards": [
-      {
-        "title": "Best Rookie",
-        "year": 2020
-      }
-    ]
+    "award": "Best Rookie",
+    "year": 2020
   },
   {
-    "player": "MIlan Mrdalj",
-    "awards": [
-      {
-        "title": "Most Improved Player",
-        "year": 2020
-      }
-    ]
+    "player": "Milan Mrdalj",
+    "award": "Most Improved Player",
+    "year": 2020
   },
   {
     "player": "Jarrod Murray",
-    "awards": [
-      {
-        "title": "Glassman",
-        "year": 2020
-      }
-    ]
+    "award": "Glassman",
+    "year": 2020
   }
 ]
