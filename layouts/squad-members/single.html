@@ -84,10 +84,15 @@
         </div>
       </div>
       <br>
-        <!-- Carousel -->
-        {{- partial "carousel.html" . -}}
-        <br>
+      <!-- Carousel -->
+      {{- partial "carousel.html" . -}}
+       <br>
 
+      <!--Fut Card -->
+      <div class="card">
+        <img class="card-img-top" src="{{ .Params.fut_card | relURL }}" alt="{{.Params.title}}">
+      </div>
+      <br>
         <!-- Stats -->
         <div class="card">
           <div class="card-body">
