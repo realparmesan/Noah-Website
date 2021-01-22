@@ -1,7 +1,7 @@
 import * as _ from 'lodash';
-import { Chart } from 'chart.js';
+import { Chart, ChartDataSets, ChartPoint } from 'chart.js';
 
-import { parsePlayerData, matchGoals, chartGoalsData } from './processors/graphData'
+import { parsePlayerData } from './processors/graphData'
 
 let screenWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 let careerChart: Chart;
@@ -18,20 +18,11 @@ export let getPlayerName = function (): string {
  * @summary populate player stats
  */
 export let populateStats = async function (name: string) {
+  let totalGoals = 0;
   let allPlayerData = await parsePlayerData();
 
-  let onePlayerData = allPlayerData.filter(gameData => {
-    if (gameData.label === name) {
-      return true;
-    }
-    else {
-      return false;
-    }
-  });
+  let playerData = _.find(allPlayerData, { "label": name });
 
-  let playerData = onePlayerData[0];
-
-  let totalGoals = 0;
   playerData.data.forEach(game => {
     totalGoals = game.goals + totalGoals;
   });
@@ -43,45 +34,41 @@ export let populateStats = async function (name: string) {
 
   // Populate graph
   let chartData = <HTMLElement>document.getElementById("individual-stats-panel");
-  let appearances: matchGoals[] = JSON.parse(chartData.getAttribute("data-appearances")) || [];
+  let appearances: ChartPoint[] = JSON.parse(chartData.getAttribute("data-appearances")) || [];
 
-  appearances.forEach(set => {
-    set.t = new Date(set.t.toString());
-  })
-
-  let appearanceLine: chartGoalsData = {
+  let appearanceLine: ChartDataSets = {
     label: "Appearances",
     fill: false,
+    showLine: true,
     data: appearances
   }
 
-  let goalsLine: chartGoalsData = {
+  let goalsLine: ChartDataSets = {
     label: "Goals",
     fill: false,
-    data: []
+    showLine: true,
   }
 
-  let playerYearGoals = playerData.data;
-
-  playerYearGoals.forEach(goals => {
-    goals.t = new Date(goals.t.getFullYear().toString());
+  let playerYearGoals: ChartPoint[] = playerData.data.map(goals => {
+    let point: ChartPoint = {
+      x: goals.t.getFullYear(),
+      y: goals.goals
+    }
+    return point;
   })
 
-  let output: matchGoals[] =
+  goalsLine.data =
     _(playerYearGoals)
-      .groupBy('t')
+      .groupBy('x')
       .map((objs, key) => {
         let goal = {
-        "t" : new Date(key),
-        "y" : _.sumBy(objs, 'goals'),
-        "goals": 0
+          "x": parseInt(key),
+          "y": _.sumBy(objs, 'y'),
         }
 
         return goal;
       })
       .value();
-
-  goalsLine.data = output;
 
   let careerPanel = <HTMLCanvasElement>document.getElementById("career-panel");
 
@@ -95,8 +82,10 @@ export let populateStats = async function (name: string) {
     careerChart.destroy();
   }
 
+  console.log([appearanceLine, goalsLine])
+
   careerChart = new Chart(ctx, {
-    "type": 'line',
+    "type": 'scatter',
     "data": {
       "datasets": [appearanceLine, goalsLine]
     },
@@ -122,13 +111,15 @@ export let populateStats = async function (name: string) {
       },
       scales: {
         xAxes: [{
-          type: 'time',
-          time: {
-            unit: 'year'
+          ticks: {
+            suggestedMin: 2017,
+            suggestedMax: 2020,
+            stepSize: 1
           }
         }],
         yAxes: [{
           ticks: {
+            beginAtZero:true,
             suggestedMin: 0,
             suggestedMax: 15,
           }
