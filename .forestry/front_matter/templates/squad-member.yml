@@ -73,6 +73,12 @@ fields:
       file: 
       path: 
   label: Position
+- name: fut_card
+  type: file
+  config:
+    maxSize: 64
+  label: FUT Card
+  description: Fifa ultimate team card
 pages:
 - content/squad-members/charles.md
 - content/squad-members/evan.md
