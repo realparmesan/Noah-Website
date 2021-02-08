@@ -10,6 +10,9 @@ let careerChart: Chart;
  */
 export let getPlayerName = function (): string {
   let input = <HTMLElement>document.getElementById("individual-stats-panel");
+  if (input == null) {
+    return;
+  }
   return input.getAttribute("data-player-name");
 }
 
