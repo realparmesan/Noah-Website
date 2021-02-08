@@ -32,8 +32,8 @@ sections:
 - type: directory
   label: Stats
   path: data/stats
-  match: "*.toml"
-  new_doc_ext: ".toml"
+  match: "*.json"
+  new_doc_ext: ".json"
   create: all
 upload_dir: static/images
 public_path: "/images"
