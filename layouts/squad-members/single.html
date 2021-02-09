@@ -35,11 +35,11 @@
                 Appearances
                 <span class="badge badge-primary badge-pill" id="appearances">
                   {{ range .Site.Data.stats.appearances }}
-                    {{ if eq .title $.Params.title}}
-                      {{ .total }}
-                      {{ $appearances = .appearances }}
-                      {{ $years = .years }}
-                    {{ end }}
+                  {{ if eq .title $.Params.title }}
+                  {{ .total }}
+                  {{ $appearances = .appearances }}
+                  {{ $years = .years }}
+                  {{ end }}
                   {{ end }}
                 </span>
               </li>
@@ -47,52 +47,54 @@
           </div>
         </div>
         <br>
-            <!-- Awards Card -->
+        <!-- Awards Card -->
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Awards</h5>
             <ul class="list-group">
-                {{ range sort .Site.Data.stats.awards "award"}}
-                  {{ if eq .player $.Params.title }}
-                  <li class="list-group-item d-flex justify-content-between align-items-center">
-                    {{ if eq .award "Glassman" }}
-                      <img src="/images/banner/injury.svg" width=50>
-                    {{ else if eq .award "Frother of the Year" }}
-                      <img src="/images/banner/frother_logo.svg" width=50>
-                    {{ else if eq .award "MVP" }}
-                      <img src="/images/banner/gold-winner-trophy.svg" width=50>
-                    {{ else if eq .award "Golden Boot" }}
-                      <img src="/images/banner/accurate-targeting.svg" width=50>
-                    {{ else if eq .award "Stormtrooper" }}
-                      <img src="/images/banner/Sensibleworld-Starwars-Stormtrooper.svg" width=50>
-                    {{ else if eq .award "Goal of the Season" }}
-                      <img src="/images/banner/ball-football.svg" width=50>
-                    {{ else if eq .award "Most Improved Player" }}
-                      <img src="/images/banner/gold-medal.svg" width=50>
-                    {{ else if eq .award "Best Rookie" }}
-                      <img src="/images/banner/baby-face.svg" width=50>
-                    {{ else }}
-                      <img src="/images/banner/gold-winner-trophy.svg" width=50>
-                    {{ end }}
-                    <span class="badge badge-primary badge-pill" id="appearances">
-                      {{ .award }} - {{ .year }} Season
-                    </span>
-                  </li>
-                  {{ end }}
+              {{ range sort .Site.Data.stats.awards "award"}}
+              {{ if eq .player $.Params.title }}
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                {{ if eq .award "Glassman" }}
+                <img src="/images/banner/injury.svg" width=50>
+                {{ else if eq .award "Frother of the Year" }}
+                <img src="/images/banner/frother_logo.svg" width=50>
+                {{ else if eq .award "MVP" }}
+                <img src="/images/banner/gold-winner-trophy.svg" width=50>
+                {{ else if eq .award "Golden Boot" }}
+                <img src="/images/banner/accurate-targeting.svg" width=50>
+                {{ else if eq .award "Stormtrooper" }}
+                <img src="/images/banner/Sensibleworld-Starwars-Stormtrooper.svg" width=50>
+                {{ else if eq .award "Goal of the Season" }}
+                <img src="/images/banner/ball-football.svg" width=50>
+                {{ else if eq .award "Most Improved Player" }}
+                <img src="/images/banner/gold-medal.svg" width=50>
+                {{ else if eq .award "Best Rookie" }}
+                <img src="/images/banner/baby-face.svg" width=50>
+                {{ else }}
+                <img src="/images/banner/gold-winner-trophy.svg" width=50>
                 {{ end }}
-              </ul>
+                <span class="badge badge-primary badge-pill" id="appearances">
+                  {{ .award }} - {{ .year }} Season
+                </span>
+              </li>
+              {{ end }}
+              {{ end }}
+            </ul>
+          </div>
         </div>
-      </div>
-      <br>
-      <!-- Carousel -->
-      {{- partial "carousel.html" . -}}
-       <br>
+        <br>
+        <!-- Carousel -->
+        {{- partial "carousel.html" . -}}
+        <br>
 
-      <!--Fut Card -->
-      <div class="card">
-        <img class="card-img-top" src="{{ .Params.fut_card | relURL }}" alt="{{.Params.title}}">
-      </div>
-      <br>
+        <!--Fut Card -->
+        <div class="card">
+          <img class="card-img-top" src="{{ .Params.fut_card | relURL }}" alt="{{.Params.title}}">
+        </div>
+        <br>
+        <!--/Fut Card -->
+
         <!-- Stats -->
         <div class="card">
           <div class="card-body">
@@ -105,17 +107,10 @@
             <a href="/stats/goalscrorers/" class="card-link">Team stats page</a>
           </div>
         </div>
+        <!-- Stats -->
       </div>
       <div class="col"></div>
     </div>
   </div>
-
-  <!-- Stats -->
-  <!-- <div id="player-stats">
-
-    </div> -->
-
-
-
 </section>
 {{ end }}

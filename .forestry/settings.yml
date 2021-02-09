@@ -35,6 +35,12 @@ sections:
   match: "*.json"
   new_doc_ext: ".json"
   create: all
+- type: document
+  label: New Match
+  path: data/nextMatch.json
+  match: "*.json"
+  create: none
+
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''

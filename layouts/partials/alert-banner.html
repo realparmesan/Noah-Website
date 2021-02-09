@@ -1,0 +1,13 @@
+{{ "<!-- banner -->" | safeHTML }}
+  {{ with .Site.Data.nextMatch.opponent }}
+    <nav class="navbar bg-primary">
+      <div class="alert-banner">
+      Next Match is on 
+      {{ dateFormat "Monday, January 2" $.Site.Data.nextMatch.date }} 
+      against {{ $.Site.Data.nextMatch.opponent }} 
+      at {{ $.Site.Data.nextMatch.venue }} 
+      in the {{ $.Site.Data.nextMatch.competition }} 
+    </nav>
+  </div>
+  {{ end }}  
+{{ "<!-- /banner -->" | safeHTML }}

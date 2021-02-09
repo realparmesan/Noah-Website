@@ -1,0 +1,24 @@
+---
+label: Next Match
+hide_body: true
+fields:
+- type: date
+  name: date
+  label: date
+  config:
+    required: true
+- type: text
+  name: opponent
+  label: opponent
+  config:
+    required: true
+- type: text
+  name: competition
+  label: competition
+  config:
+    required: true
+- type: text
+  name: venue
+  label: venue
+  config:
+    required: true
