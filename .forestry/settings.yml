@@ -30,17 +30,14 @@ sections:
   templates:
   - player
 - type: directory
-  label: Stats
   path: data/stats
-  match: "*.json"
-  new_doc_ext: ".json"
+  label: Stats
   create: all
-- type: document
-  label: New Match
-  path: data/nextMatch.json
   match: "*.json"
-  create: none
-
+  new_doc_ext: json
+- type: document
+  path: data/nextMatch.json
+  label: Next Match Info
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
