@@ -3,7 +3,7 @@ author = "Chris C"
 categories = ["Admin"]
 date = 2020-05-01T21:00:00Z
 description = "Kits for the new Season have been ordered"
-image = "/images/94624592_590177128258455_8914987071400050688_n.jpg"
+images = ["/images/94624592_590177128258455_8914987071400050688_n.jpg"]
 title = "New Kits"
 type = "post"
 

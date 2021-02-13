@@ -1,8 +1,8 @@
 <article class="mb-5">
   <div class="media">
     <a class="post-title" href="{{ .Permalink }}">
-    {{ if .Params.Image }}
-    <img src="{{ .Params.Image | relURL }}" class="img-thumbnail align-self-start mr-3" width=50
+    {{ if .Params.Images }}
+    <img src="{{ index .Params.Images 0 | relURL }}" class="img-thumbnail align-self-start mr-3" width=50
       alt="{{ .Title | markdownify }}">
     {{ end }}
 

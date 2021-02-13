@@ -32,12 +32,12 @@ fields:
   label: type
   default: post
   hidden: true
-- name: image
-  type: file
+- name: images
+  type: image_gallery
   config:
     maxSize: 64
-  label: image
-  description: Image to associate with the post
+  label: images
+  description: Images to associate with the post
 - name: categories
   type: list
   config:
