@@ -105,3 +105,4 @@ dist
 
 # Hugo
 data/webpack.json
+resources/
