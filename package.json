@@ -19,16 +19,15 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/realparmesan/yogatastic.git"
+        "url": "git+https://github.com/frothers/Frothers-FC.git"
     },
     "author": "Chris Chester",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/realparmesan/yogatastic/issues"
+        "url": "https://github.com/frothers/Frothers-FC/issues"
     },
-    "homepage": "https://github.com/realparmesan/yogatastic#readme",
+    "homepage": "https://github.com/frothers/Frothers-FC#readme",
     "devDependencies": {
-        "@types/axios": "^0.14.0",
         "@types/chart.js": "^2.9.29",
         "@types/chartjs-plugin-colorschemes": "^0.4.0",
         "@types/jsdom": "^16.2.6",
