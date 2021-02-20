@@ -54,11 +54,6 @@ module.exports = {
                 from: "./assets/fonts/",
                 to: "fonts/"
             }]
-        }),
-        new HtmlWebpackPlugin({
-          filename: 'admin/index.html',
-          template: 'static/admin/index.html',
-          inject: false,
-        }),
+        })
     ]
 };
