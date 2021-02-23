@@ -52,11 +52,13 @@ export let populateStats = async function (name: string) {
     label: "Appearances",
     fill: false,
     showLine: true,
+    borderColor: "#3e95cd",
     data: appearances
   }
 
   let goalsLine: ChartDataSets = {
     label: "Goals",
+    borderColor: "#8e5ea2",
     fill: false,
     showLine: true,
   }
@@ -94,12 +96,10 @@ export let populateStats = async function (name: string) {
     careerChart.destroy();
   }
 
-  console.log([appearanceLine, goalsLine])
-
   careerChart = new Chart(ctx, {
     "type": 'scatter',
     "data": {
-      "datasets": [appearanceLine, goalsLine]
+      "datasets": [appearanceLine, goalsLine],
     },
     "options": {
       elements: {
