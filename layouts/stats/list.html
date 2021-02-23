@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ $script := .Site.Data.webpack.main }}
+{{ $script := .Site.Data.webpack.stats }}
 {{ with $script.js }}
 <script src="{{ relURL . }}"></script>
 {{ end }}

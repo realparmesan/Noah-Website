@@ -1,7 +1,7 @@
 import { getPlayerName, populateStats } from "./ts/stats";
 
 window.addEventListener('load', function () {
-    populateIndividualStats();
+  populateIndividualStats();
 })
 
 function populateIndividualStats(){
