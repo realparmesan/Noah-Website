@@ -11,6 +11,7 @@ name = "Contact"
 weight = 1
 [[menu.main]]
 name = "Stats"
+url ="/stats"
 weight = 2
 [[menu.main]]
 identifier = "Squad"
