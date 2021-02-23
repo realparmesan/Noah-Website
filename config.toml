@@ -6,7 +6,7 @@ summaryLength = "10"
 theme = "northendlab-hugo"
 title = "Wellington Frothers FC"
 [[menu.footer]]
-URL = "contact"
+URL = "mailto:wellingtonfrothers@gmail.com"
 name = "Contact"
 weight = 1
 [[menu.main]]
