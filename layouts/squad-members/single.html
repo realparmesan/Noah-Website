@@ -84,17 +84,7 @@
           </div>
         </div>
         <br>
-        <!-- Carousel -->
-        {{- partial "carousel.html" . -}}
-        <br>
-
-        <!--Fut Card -->
-        <div class="card">
-          <img class="card-img-top" src="{{ .Params.fut_card | relURL }}" alt="{{.Params.title}}">
-        </div>
-        <br>
-        <!--/Fut Card -->
-
+        
         <!-- Stats -->
         <div class="card">
           <div class="card-body">
@@ -108,6 +98,17 @@
           </div>
         </div>
         <!-- Stats -->
+        <br>
+
+        <!-- Carousel -->
+        {{- partial "carousel.html" . -}}
+        <br>
+
+        <!--Fut Card -->
+        <div class="card">
+          <img class="card-img-top" src="{{ .Params.fut_card | relURL }}" alt="{{.Params.title}}">
+        </div>
+        <!--/Fut Card -->
       </div>
       <div class="col"></div>
     </div>
