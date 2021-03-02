@@ -1,6 +1,6 @@
 +++
 author = "Yarride"
-categories = []
+categories = ["Admin"]
 date = 2021-02-27T11:00:00Z
 description = "Preview of the moving and shakings in the Frothers for 2021"
 frother_goals = 0
