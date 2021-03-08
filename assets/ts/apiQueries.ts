@@ -7,6 +7,8 @@ const squadAPI = '/squad/index.json';
 export type postData = {
     title: string,
     match: string,
+    friendly: string,
+    draft: string,
     date : string,
     result: string,
     frother_goals: string,
@@ -48,7 +50,10 @@ export let getGoalsData = async function () {
     let data = response.data.data;
 
     let goalscorers: gameData[] = data.items.map((a: postData) => {
-        if (a.scorers === null || a.match.includes("true") !== true ) {
+        if (a.scorers === null 
+            || a.match.includes("true") !== true
+            || (a.friendly && a.friendly.includes("true") === true)
+            || (a.friendly && a.draft.includes("true") === true )) {
             return null;
         }
         
@@ -73,7 +78,10 @@ export let getResultsData = async function () {
     let data = response.data.data;
 
     let results: resultData[] = data.items.map((a: postData) => {
-        if (a.result === null) {
+        if (a.result === null
+            || a.match.includes("true") !== true
+            || (a.friendly && a.friendly.includes("true") === true)
+            || (a.draft && a.draft.includes("true") === true)) {
             return null;
         }
         
