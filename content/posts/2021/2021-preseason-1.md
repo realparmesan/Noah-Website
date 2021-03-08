@@ -3,10 +3,10 @@ author = "Chris Chester"
 categories = ["Match"]
 date = 2021-03-08T11:00:00Z
 description = "Match report for the preseason game against the Sunday Blazers"
-images = ["/images/chrisvolley.jpg"]
-draft = false
+draft = true
 friendly = true
 frother_goals = 4
+images = ["/images/chrisvolley.jpg"]
 match = true
 opponent = "Sunday Blazers"
 opponent_goals = 3
@@ -16,13 +16,12 @@ title = "2021 Preseason - Game 1"
 type = "post"
 [[scorers]]
 goals = 1
-scorer = "Jarrod Murray"
+scorer = "Lance Molyneaux"
 [[scorers]]
 goals = 1
-scorer = "Chris Chester"
+scorer = "Jarrod Murray"
 
 +++
-
 > Nothing flaccid about this semi
 
 # First half
