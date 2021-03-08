@@ -40,3 +40,11 @@ Though the Blazers had the majority of the play at the start, they weren't makin
 The Frothers were trialling a new Fantasy Football side project that wasn't as well understood by all players. Trying to pad his stats, Ryan laid on an unmissable opportunity for the Blazer's striker. Sadly assists only count for your own teams' goals, though luck, Ryan.
 
 ![](/images/158082235_3317474548478827_3470242836973819512_o.jpg)
+
+# We're a second-half team
+
+One-nil down at the break there was plenty out there for the lads to be encouraged by. It was time to pull out the forbidden fruit; goals by corners and crosses....
+
+![](/images/157993237_3317474305145518_8916253330025175016_o.jpg)
+
+Stepping up in his debut, Sule scored a well-taken header off an Evan corner. 
