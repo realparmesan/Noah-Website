@@ -50,10 +50,10 @@ fields:
   type: boolean
   label: For a match?
   description: Is this post for a match?
-- name: competitive_match
+- name: friendly
   type: boolean
-  label: Competitive Match?
-  default: true
+  label: Friendly?
+  default: false
   showOnly:
     field: match
     value: true
