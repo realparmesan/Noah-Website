@@ -27,3 +27,12 @@ goals = 1
 scorer = "OG"
 
 +++
+> We ride again
+
+# Out to settle the score
+
+The first game of the 2021 tours was against none other than Sunday Blazers. Coming back with some tragic waistlines the Frothers would have been forgiven for being a bit behind the pace, and that is exactly what it looked like in the opening stages.
+
+![](/images/157852687_3317474255145523_9071038019801514973_o.jpg)
+
+The 
