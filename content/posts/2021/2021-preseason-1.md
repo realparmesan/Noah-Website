@@ -33,7 +33,7 @@ scorer = "OG"
 
 The first game of the 2021 tours was against none other than Sunday Blazers. Coming back with some tragic waistlines the Frothers would have been forgiven for being a bit behind the pace, and that is exactly what it looked like in the opening stages.
 
-![](/images/157852687_3317474255145523_9071038019801514973_o.jpg)
+![](/images/157615079_3317474125145536_5906745384257944067_o.jpg)
 
 Though the Blazers had the majority of the play at the start, they weren't making much headway.
 
@@ -47,4 +47,6 @@ One-nil down at the break there was plenty out there for the lads to be encourag
 
 ![](/images/157993237_3317474305145518_8916253330025175016_o.jpg)
 
-Stepping up in his debut, Sule scored a well-taken header off an Evan corner. 
+Stepping up in his debut, Sule scored a well-taken header off an Evan corner. Sensing blood in the water the Frothers then took it to the Blazers with another two quick goals. Lance volleyed home after a wonderful bit of play by Harry.
+
+![](/images/157852687_3317474255145523_9071038019801514973_o.jpg)
