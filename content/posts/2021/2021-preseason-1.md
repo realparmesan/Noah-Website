@@ -35,4 +35,8 @@ The first game of the 2021 tours was against none other than Sunday Blazers. Com
 
 ![](/images/157852687_3317474255145523_9071038019801514973_o.jpg)
 
-The 
+Though the Blazers had the majority of the play at the start, they weren't making much headway.
+
+The Frothers were trialling a new Fantasy Football side project that wasn't as well understood by all players. Trying to pad his stats, Ryan laid on an unmissable opportunity for the Blazer's striker. Sadly assists only count for your own teams' goals, though luck, Ryan.
+
+![](/images/158082235_3317474548478827_3470242836973819512_o.jpg)
