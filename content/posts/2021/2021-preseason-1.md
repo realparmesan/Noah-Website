@@ -17,6 +17,7 @@ type = "post"
 [[scorers]]
 goals = 1
 scorer = "Jarrod Murray"
+[[scorers]]
 goals = 1
 scorer = "Chris Chester"
 
