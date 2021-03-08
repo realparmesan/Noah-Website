@@ -50,6 +50,13 @@ fields:
   type: boolean
   label: For a match?
   description: Is this post for a match?
+- name: competitive_match
+  type: boolean
+  label: Competitive Match?
+  default: true
+  showOnly:
+    field: match
+    value: true
 - name: opponent
   type: text
   config:
