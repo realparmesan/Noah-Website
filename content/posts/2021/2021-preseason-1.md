@@ -16,14 +16,20 @@ title = "2021 Preseason - Game 1"
 type = "post"
 [[scorers]]
 goals = 1
+scorer = "Thomas Sule"
+[[scorers]]
+goals = 1
 scorer = "Lance Molyneaux"
+[[scorers]]
+goals = 1
+scorer = "OG"
 [[scorers]]
 goals = 1
 scorer = "Jarrod Murray"
 
 +++
-> Nothing flaccid about this semi
+> We ride again
 
-# First half
+# Back to settle the score
 
 Looking to put together their first back to back wins of the season the Frothers took on the unknown quantity Edward Street Athletic. The game promised to be a rager.
