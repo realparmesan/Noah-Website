@@ -36,8 +36,9 @@ The first game of the 2021 tours was against none other than Sunday Blazers. Com
 ![](/images/157615079_3317474125145536_5906745384257944067_o.jpg)
 
 Though the Blazers had the majority of the play at the start, they weren't making much headway.
+## Breakthrough
 
-The Frothers were trialling a new Fantasy Football side project that wasn't as well understood by all players. Trying to pad his stats, Ryan laid on an unmissable opportunity for the Blazer's striker. Sadly assists only count for your own teams' goals, though luck, Ryan.
+The Frothers were trialling a new Fantasy Football side project that wasn't as well understood by all players. Trying to pad his stats, Ryan laid on an unmissable opportunity for the Blazer's striker. Sadly assists only count for your own teams' goals. Though luck, Ryan.
 
 ![](/images/158082235_3317474548478827_3470242836973819512_o.jpg)
 
@@ -48,5 +49,7 @@ One-nil down at the break there was plenty out there for the lads to be encourag
 ![](/images/157993237_3317474305145518_8916253330025175016_o.jpg)
 
 Stepping up in his debut, Sule scored a well-taken header off an Evan corner. Sensing blood in the water the Frothers then took it to the Blazers with another two quick goals. Lance volleyed home after a wonderful bit of play by Harry.
+
+Evan, obviously dazed by the event of getting an assist off a corner then curled around corner in, except this time right at their keeper. Not knowing what a do a feeble punch went straight to an old friend of the Frothers, OG.
 
 ![](/images/157852687_3317474255145523_9071038019801514973_o.jpg)
