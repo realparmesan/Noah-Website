@@ -5,7 +5,7 @@ date = 2021-03-06T11:00:00Z
 description = "Match recap for the preseason game vs the blazers"
 friendly = true
 frother_goals = 4
-images = ["/images/157454657_3317474178478864_2717487870476020600_o1.jpg"]
+image = "/images/157454657_3317474178478864_2717487870476020600_o1.jpg"
 match = true
 opponent = "Sunday Blazers"
 opponent_goals = 3
@@ -56,7 +56,7 @@ Evan, obviously dazed by the event of getting an assist off a corner then curled
 
 ## Hit the self-destruct button
 
-Now cruising, the Frothers decided to mix things up and put Yarride at centre back. Like a young antelope wandering into the deep waters of the lagoon, Yarride tried something cute and was set upon by the opposition strikers. After the ball quickly came into the box, Nick, as on one of his tinder dates, forced the opposition to go down before they were ready. Alain stepped up and converted the penalty.
+Now cruising, the Frothers decided to mix things up and put Yarride at centre back. Like a young antelope wandering into the deep waters of the lagoon, Yarride tried something cute and was set upon by the opposition ~~crocodiles~~ strikers. After the ball quickly came into the box, Nick, as on one of his tinder dates, laid it on a bit strong and it all went wrong. The ref called for a penalty and Alain stepped up and converted it.
 
 ![](/images/158432685_3317473918478890_6874857867116020008_o.jpg)
 
