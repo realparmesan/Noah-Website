@@ -27,7 +27,7 @@ goals = 1
 scorer = "OG"
 
 +++
-> ![](/images/157596887_3317474021812213_3557954619497648148_o.jpg)We ride again
+> We ride again
 
 # Out to settle the score
 
