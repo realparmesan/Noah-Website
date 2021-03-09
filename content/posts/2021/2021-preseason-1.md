@@ -3,7 +3,6 @@ author = "Chris"
 categories = []
 date = 2021-03-06T11:00:00Z
 description = "Match recap for the preseason game vs the blazers"
-draft = true
 friendly = true
 frother_goals = 4
 image = "/images/157454657_3317474178478864_2717487870476020600_o1.jpg"
@@ -43,7 +42,7 @@ The Frothers were trialling a new Fantasy Football side project that wasn't as w
 
 ![](/images/158082235_3317474548478827_3470242836973819512_o.jpg)
 
-# We're a second-half team
+## We're a second-half team
 
 One-nil down at the break there was plenty out there for the lads to be encouraged by. It was time to pull out the forbidden fruit; goals by corners and crosses....
 
@@ -55,6 +54,28 @@ Stepping up in his debut, Sule scored a well-taken header off an Evan corner. Se
 
 Evan, obviously dazed by the event of getting an assist off a corner then curled another corner in, except this time right at their keeper. Not knowing what a do a feeble punch went straight to an old friend of the Frothers, OG.
 
-# Hit the self destruct button
+## Hit the self-destruct button
 
-Now cruising, the Frothers decided to mix things up and put Yarride at centre back. Like a young antelope wandering into the deep waters of the lagoon, Yarride tried something cute and was set upon by the opposition strikers. After the ball quickly came into the box, Nick, as on one of his tinder dates, forced the opposition to go down before they were ready.
+Now cruising, the Frothers decided to mix things up and put Yarride at centre back. Like a young antelope wandering into the deep waters of the lagoon, Yarride tried something cute and was set upon by the opposition strikers. After the ball quickly came into the box, Nick, as on one of his tinder dates, forced the opposition to go down before they were ready. Alain stepped up and converted the penalty.
+
+![](/images/158432685_3317473918478890_6874857867116020008_o.jpg)
+
+Shortly after Alain shot from outside of the box to level it up. The ball squeezing between Ryan's legs like a cyclist in boardshorts.
+
+## Time to shine
+
+With the match looking like it might end up another draw it was time for the man with the legs that go on for miles to end his goal drought. Striding onto a Lance through ball Jarrod calmly slotted home over the keeper with the big left to win the game.
+
+![](/images/157596887_3317474021812213_3557954619497648148_o.jpg)
+
+Frothers win 4-3. Absolutely buzzing for the next one.
+
+# Man of the Match
+
+Sule for a great debut with a goal to show for it.
+
+# Dick of the day
+
+Ryan for going full Karius
+
+{{< youtube W7PJg18VYF8 >}}
