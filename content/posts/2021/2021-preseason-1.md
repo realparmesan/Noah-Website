@@ -57,4 +57,4 @@ Evan, obviously dazed by the event of getting an assist off a corner then curled
 
 # Hit the self destruct button
 
-Now cruising, the Frothers decided to mix things up and put Yarride at centre back. Like a young antelope wandering into deep waters of the lagoon 
+Now cruising, the Frothers decided to mix things up and put Yarride at centre back. Like a young antelope wandering into the deep waters of the lagoon, Yarride tried something cute and was set upon by the opposition strikers. After the ball quickly came into the box, Nick, as on one of his tinder dates, forced the opposition to go down before they were ready.
