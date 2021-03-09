@@ -50,6 +50,7 @@ One-nil down at the break there was plenty out there for the lads to be encourag
 
 Stepping up in his debut, Sule scored a well-taken header off an Evan corner. Sensing blood in the water the Frothers then took it to the Blazers with another two quick goals. Lance volleyed home after a wonderful bit of play by Harry.
 
+![](/images/157852687_3317474255145523_9071038019801514973_o.jpg)
+
 Evan, obviously dazed by the event of getting an assist off a corner then curled around corner in, except this time right at their keeper. Not knowing what a do a feeble punch went straight to an old friend of the Frothers, OG.
 
-![](/images/157852687_3317474255145523_9071038019801514973_o.jpg)
