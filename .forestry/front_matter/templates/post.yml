@@ -33,10 +33,10 @@ fields:
   default: post
   hidden: true
 - name: images
-  type: file
+  type: image_gallery
   config:
     maxSize: 64
-  label: image_gallery
+  label: Title Image
   description: Image to associate with the post
 - name: categories
   type: list
