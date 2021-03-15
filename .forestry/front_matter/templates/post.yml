@@ -36,7 +36,7 @@ fields:
   type: file
   config:
     maxSize: 64
-  label: image
+  label: image_gallery
   description: Image to associate with the post
 - name: categories
   type: list
