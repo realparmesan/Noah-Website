@@ -32,7 +32,7 @@ fields:
   label: type
   default: post
   hidden: true
-- name: image
+- name: images
   type: file
   config:
     maxSize: 64
