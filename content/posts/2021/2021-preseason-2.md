@@ -35,7 +35,7 @@ It didn't take long for the Frothers to open the scoring. Furnish found Yarride 
 
 ![](/images/161680100_3329281443964804_5936812607294993792_o.jpg)
 
-Yarride gifted goal 2
+Not long after, the Diamonds' backline tried the old rondo trick of "If I don't touch it, its not my fault." Allowing Yarride to stroll in and score his second.
 
 Pull one back through Chris chilling out on it and losing the ball in the box
 
