@@ -3,7 +3,6 @@ author = "Chris"
 categories = []
 date = 2021-03-20T11:00:00Z
 description = "Match recap for the preseason game vs the diamonds"
-draft = true
 friendly = true
 frother_goals = 5
 images = ["/images/161612794_3329281610631454_3320185550024302912_o.jpg"]
@@ -49,20 +48,26 @@ The diamonds decided it was time for some route 1 stuff, bringing on the Frother
 
 However, the Diamonds' celebrations were short-lived after the Frothers' old mate, OG, was back in business to take the lead to 3-1.
 
-Lance cannoned one into the top corner
+## Second Half Stunners
+
+After half-time, the Frothers decided to put on a show.
+
+Lance cannoned one into the top corner after being allowed to dribble with the ball in the middle of the park.
 
 ![](/images/161541933_3329281087298173_4257534478656521296_o.jpg)
 
-Sean curling one in leaving the keeper no hope
+Not wanting to miss out on the fun, debutant Sean curled one into the far side of the goal, leaving the keeper no hope.
 
 ![](/images/161188522_3329281393964809_5544043397834774570_o.jpg)
 
+The match ended up 5-1 to the Frothers in a comfortable win.
+
 # Man of the Match
 
-**Angus** for a great debut and wrangling Adama
+**Angus** for a great debut and wrangling Adama.
 
 ![](/images/161713323_3329281400631475_3143629786754034632_o.jpg)
 
 # Dick of the day
 
-Chris for blowing the CS chillin' out
+**Chris** for blowing the clean sheet he has been hungering for.
