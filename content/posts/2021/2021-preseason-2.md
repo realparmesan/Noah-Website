@@ -29,19 +29,25 @@ scorer = "OG"
 +++
 ## Kick them in the head
 
-The Frothers started the game with real intent. Getting 3 freekicks for kicking players in the head in the first 10 minutes. Its not a great look, but who am I to discourage such hunger.
+The Frothers started the game with real intent. Getting 3 freekicks for kicking players in the head in the first 10 minutes. It's not a great look, but who am I to discourage such hunger.
 
-It didn't take long for the Frothers to open the scoring. Furnish found Yarride with a discusting amount of space inside the box and easied it into the courner.
+It didn't take long for the Frothers to open the scoring. Furnish found Yarride with a disgusting amount of space inside the box and easied it into the corner.
 
 ![](/images/161680100_3329281443964804_5936812607294993792_o.jpg)
 
-Not long after, the Diamonds' backline tried the old rondo trick of "If I don't touch it, its not my fault." Allowing Yarride to stroll in and score his second.
+Not long after, the Diamonds' backline tried the old rondo trick of "If I don't touch it, it's not my fault." Allowing Yarride to stroll in and score his second.
 
-Pull one back through Chris chilling out on it and losing the ball in the box
+![](/images/162914875_3329281117298170_7435653057672375787_o.jpg)
+
+## Baby Oil
+
+The diamonds decided it was time for some route 1 stuff, bringing on the Frother's old nemesis up top.  Playing the battering ram, ~~Adama~~ Hector managed to pull one back through some casual play from the Frother's captain.
 
 ![](/images/161713007_3329281327298149_7432019707500787447_o.jpg)
 
-big OG
+## Big OG
+
+However, the Diamonds' celebrations were short-lived after the Frothers' old mate, OG, was back in business to take the lead to 3-1.
 
 Lance cannoned one into the top corner
 
