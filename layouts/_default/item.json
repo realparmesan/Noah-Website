@@ -6,5 +6,6 @@
     "frother_goals": "{{ .Params.frother_goals }}",
     "opponent_goals": "{{ .Params.opponent_goals }}",
     "permalink" : "{{ .Permalink }}",
+    "friendly": "{{ .Params.friendly }}",
     "scorers": {{ .Params.scorers | jsonify }}
 }
