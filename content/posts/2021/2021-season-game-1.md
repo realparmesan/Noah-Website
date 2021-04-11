@@ -26,6 +26,8 @@ scorer = "Jamie Hatch"
 +++
 # Frothing for life
 
+![](/images/168898791_3346319445594337_3652744537790515798_n.jpg)
+
 ![](/images/170245482_3346319955594286_2903634343249589739_n.jpg)
 
 ## Debut goal
@@ -43,3 +45,17 @@ scorer = "Jamie Hatch"
 ## Finally gets his goal
 
 ![](/images/170446391_3346318435594438_4028163361066867435_n.jpg)
+
+## Oh and another 3
+
+# Man of the Match
+
+**Sule** for a debut hat-trick, enough said.
+
+![](/images/171107314_3346319488927666_4228156447681559071_n.jpg)
+
+# Dick of the day
+
+Injuring his butt playing hockey, **Lance** had to miss the majority of the match.
+
+![](/images/img_33502.JPG)
