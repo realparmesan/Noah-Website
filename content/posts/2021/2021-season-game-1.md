@@ -48,6 +48,8 @@ scorer = "Jamie Hatch"
 
 ## Oh and another 3
 
+![](/images/169085959_3346319855594296_1210177897700306669_n.jpg)
+
 # Man of the Match
 
 **Sule** for a debut hat-trick, enough said.
