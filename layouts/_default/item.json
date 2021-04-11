@@ -1,6 +1,6 @@
 {
     "title": "{{ .Title }}",
-    "match": " {{ .Params.match }}",
+    "match": "{{ .Params.match }}",
     "date" : "{{ .Params.date }}",
     "result": "{{ .Params.result }}",
     "frother_goals": "{{ .Params.frother_goals }}",

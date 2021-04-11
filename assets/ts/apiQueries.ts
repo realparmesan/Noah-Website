@@ -53,7 +53,7 @@ export let getGoalsData = async function () {
         if (a.scorers === null 
             || a.match.includes("true") !== true
             || (a.friendly && a.friendly.includes("true") === true)
-            || (a.friendly && a.draft.includes("true") === true )) {
+            || (a.draft && a.draft.includes("true") === true )) {
             return null;
         }
         
