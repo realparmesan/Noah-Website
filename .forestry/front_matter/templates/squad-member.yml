@@ -80,6 +80,7 @@ fields:
   label: FUT Card
   description: Fifa ultimate team card
 pages:
+- content/squad-members/angus-hay-chapman.md
 - content/squad-members/charles.md
 - content/squad-members/evan.md
 - content/squad-members/harry-freeman.md
