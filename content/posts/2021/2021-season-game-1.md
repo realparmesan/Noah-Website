@@ -1,12 +1,12 @@
 +++
 author = "Chris"
-categories = []
+categories = ["Match"]
 date = 2021-04-10T12:00:00Z
 description = "Game recap for the first game of the 2021 season"
 draft = true
 friendly = false
 frother_goals = 6
-images = []
+images = ["/images/170077233_3346319468927668_393540529830859240_n.jpg"]
 match = true
 opponent = "The Pelicans"
 opponent_goals = 0
@@ -24,3 +24,22 @@ goals = 1
 scorer = "Jamie Hatch"
 
 +++
+# Frothing for life
+
+![](/images/170245482_3346319955594286_2903634343249589739_n.jpg)
+
+## Debut goal
+
+![](/images/169177967_3346318892261059_959014071746329477_n.jpg)
+
+## Backs it up
+
+![](/images/169621017_3346319025594379_5946292661204077797_n.jpg)
+
+## Denied from the line again
+
+![](/images/169935594_3346318758927739_633639018038267009_n.jpg)
+
+## Finally gets his goal
+
+![](/images/170446391_3346318435594438_4028163361066867435_n.jpg)
