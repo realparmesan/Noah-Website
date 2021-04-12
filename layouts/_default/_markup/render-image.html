@@ -1,9 +1,3 @@
-{{ $img := imageConfig (add "/static" (.Destination | safeURL)) }}
-
-<img
-  src="{{ .Destination | safeURL }}"
-  alt="{{ .Text }}"
-  loading="lazy"
-  width="{{ $img.Width }}"
-  height="{{ $img.Height }}"
-/>
+<p class="md__image">
+  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" loading="lazy" {{ with .Title}} title="{{ . }}"{{ end }} />
+</p>

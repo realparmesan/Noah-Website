@@ -80,3 +80,5 @@ Injuring his butt squatting too much playing hockey, **Lance** had to miss the m
 ![](/images/img_33502.JPG)
 
 > **Photos:** [Facebook Post](https://www.facebook.com/media/set/?set=a.3346320032260945&type=3)
+> 
+> Credit : Natural Light Photography
