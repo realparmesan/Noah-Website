@@ -17,6 +17,10 @@
       {
         "appearances": 17,
         "year": 2020
+      },
+      {
+        "appearances": 1,
+        "year": 2021
       }
     ],
     "Full Seasons": 4,
@@ -40,6 +44,10 @@
       {
         "appearances": 14,
         "year": 2020
+      },
+      {
+        "appearances": 1,
+        "year": 2021
       }
     ],
     "Full Seasons": 4,
@@ -63,6 +71,10 @@
       {
         "appearances": 16,
         "year": 2020
+      },
+      {
+        "appearances": 1,
+        "year": 2021
       }
     ],
     "Full Seasons": 4,
@@ -86,6 +98,10 @@
       {
         "appearances": 17,
         "year": 2020
+      },
+      {
+        "appearances": 1,
+        "year": 2021
       }
     ],
     "Full Seasons": 4,
@@ -109,6 +125,10 @@
       {
         "appearances": 17,
         "year": 2020
+      },
+      {
+        "appearances": 1,
+        "year": 2021
       }
     ],
     "Full Seasons": 4,
@@ -132,6 +152,10 @@
       {
         "appearances": 13,
         "year": 2020
+      },
+      {
+        "appearances": 1,
+        "year": 2021
       }
     ],
     "Full Seasons": 4,
@@ -155,6 +179,10 @@
       {
         "appearances": 18,
         "year": 2020
+      },
+      {
+        "appearances": 1,
+        "year": 2021
       }
     ],
     "Full Seasons": 3,
@@ -178,6 +206,10 @@
       {
         "appearances": 16,
         "year": 2020
+      },
+      {
+        "appearances": 1,
+        "year": 2021
       }
     ],
     "Full Seasons": 3,
@@ -276,10 +308,6 @@
     "total": 37
   },
   {
-    "season2017": 6,
-    "season2018": 16,
-    "season2019": 12,
-    "season2020": 0,
     "title": "Josh Templeton",
     "appearances": [
       {
@@ -389,16 +417,16 @@
       {
         "appearances": 10,
         "year": 2020
+      },
+      {
+        "appearances": 1,
+        "year": 2021
       }
     ],
     "Full Seasons": 2,
     "total": 24
   },
   {
-    "season2017": 0,
-    "season2018": 0,
-    "season2019": 6,
-    "season2020": 18,
     "title": "Milan Mrdalj",
     "appearances": [
       {
@@ -416,16 +444,16 @@
       {
         "appearances": 18,
         "year": 2020
+      },
+      {
+        "appearances": 1,
+        "year": 2021
       }
     ],
     "Full Seasons": 1,
     "total": 24
   },
   {
-    "season2017": 0,
-    "season2018": 0,
-    "season2019": 0,
-    "season2020": 18,
     "title": "Ryan Kindell",
     "appearances": [
       {
@@ -443,6 +471,10 @@
       {
         "appearances": 18,
         "year": 2020
+      },
+      {
+        "appearances": 1,
+        "year": 2021
       }
     ],
     "Full Seasons": 1,
@@ -627,6 +659,10 @@
       {
         "appearances": 11,
         "year": 2020
+      },
+      {
+        "appearances": 1,
+        "year": 2021
       }
     ],
     "Full Seasons": 1,
@@ -650,6 +686,10 @@
       {
         "appearances": 10,
         "year": 2020
+      },
+      {
+        "appearances": 0,
+        "year": 2021
       }
     ],
     "Full Seasons": 1,
@@ -723,5 +763,68 @@
     ],
     "Full Seasons": 1,
     "total": 4
+  },
+  {
+    "title": "Sean Dougherty",
+    "appearances": [
+      {
+        "appearances": 0,
+        "year": 2017
+      },
+      {
+        "appearances": 0,
+        "year": 2018
+      },
+      {
+        "appearances": 0,
+        "year": 2019
+      },
+      {
+        "appearances": 0,
+        "year": 2020
+      },
+      {
+        "appearances": 0,
+        "year": 2021
+      }
+    ],
+    "Full Seasons": 0,
+    "total": 0
+  },
+  {
+    "title": "Sean Dougherty",
+    "appearances": [
+      {
+        "appearances": 0,
+        "year": 2021
+      }
+    ]
+  },
+  {
+    "title": "Angus Hay-Chapman",
+    "appearances": [
+      {
+        "appearances": 1,
+        "year": 2021
+      }
+    ]
+  },
+  {
+    "title": "Alex Winsley",
+    "appearances": [
+      {
+        "appearances": 0,
+        "year": 2021
+      }
+    ]
+  },
+  {
+    "title": "Thomas Sule",
+    "appearances": [
+      {
+        "appearances": 1,
+        "year": 2021
+      }
+    ]
   }
 ]

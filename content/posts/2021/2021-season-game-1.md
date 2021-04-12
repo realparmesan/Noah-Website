@@ -25,7 +25,7 @@ scorer = "Jamie Hatch"
 +++
 # Next Generation of Frothers
 
-The Frothers started their new campaign with the debut of [Angus](https://www.frothersfc.club/squad-members/angus-hay-chapman/ "Angus") and [Sule](https://www.frothersfc.club/squad-members/thomas-sule/).
+The Frothers started their new campaign with the debut of [Angus](/squad-members/angus-hay-chapman/) and [Sule](/squad-members/thomas-sule/).
 
 ![](/images/168898791_3346319445594337_3652744537790515798_n.jpg)
 
