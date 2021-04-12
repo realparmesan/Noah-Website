@@ -26,25 +26,35 @@ scorer = "Jamie Hatch"
 +++
 # Next Generation of Frothers
 
-The Frothers started their new campaign with a few new faces 
+The Frothers started their new campaign with the debut of [Angus](https://www.frothersfc.club/squad-members/angus-hay-chapman/ "Angus") and [Sule](https://www.frothersfc.club/squad-members/thomas-sule/).
 
 ![](/images/168898791_3346319445594337_3652744537790515798_n.jpg)
+
+The opening stages of the game were a bit cagey with the Pelicans repelling a few good efforts from the Frothers. The Frothers were growing in confidence as the new season nerves abated and started to boss possession and threatening more.
 
 ![](/images/170245482_3346319955594286_2903634343249589739_n.jpg)
 
 ## Debut goal
 
+Not long after the pressure paid off, with debutant Sule netting the opening goal direct from a corner. Backing up his one from preseason. Unbelievable.
+
 ![](/images/169177967_3346318892261059_959014071746329477_n.jpg)
 
 ## Backs it up
 
+Not too long afterwards another goal from a cross came for the new man. **Harry** controlling a long ball that looked destined to be blown out for a goal kick. Beating his man, Harry delivered a great cross that Sule calmly finished.
+
 ![](/images/169621017_3346319025594379_5946292661204077797_n.jpg)
 
-## Denied from the line again
+## Denied from the line, twice
+
+**Yarride,** worried about his golden boot, started to step it up. Twice beating the keeper on the edge of the box only to have the ball cleared off the line. 
 
 ![](/images/169935594_3346318758927739_633639018038267009_n.jpg)
 
 ## Finally gets his goal
+
+The second half started and it was straight to Frothers football again. The field really started opening up as the Pelicans pushed for a goal, however, the balls over the top kept drifting through harmlessly to **Ryan**. 
 
 ![](/images/170446391_3346318435594438_4028163361066867435_n.jpg)
 
