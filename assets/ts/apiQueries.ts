@@ -5,133 +5,136 @@ const postsAPI = '/posts/index.json';
 const squadAPI = '/squad/index.json';
 
 export type postData = {
-    title: string,
-    match: string,
-    friendly: string,
-    draft: string,
-    date : string,
-    result: string,
-    frother_goals: string,
-    opponent_goals: string,
-    permalink : string,
-    scorers: any[]
+  title: string,
+  match: string,
+  friendly: string,
+  draft: string,
+  date: string,
+  result: string,
+  frother_goals: string,
+  opponent_goals: string,
+  permalink: string,
+  scorers: any[]
 };
 
 export type squadData = {
-    players: string[]
+  players: string[]
 };
 
 export type gameData = {
-    date: Date,
-    scorers: scorerData[]
+  date: Date,
+  scorers: scorerData[]
 };
 
 export type resultData = {
-    date: Date,
-    result: string
+  date: Date,
+  result: string
 };
 
 export type matchGoalsData = {
-    date: Date,
-    frother_goals: number,
-    opponent_goals: number
+  date: Date,
+  frother_goals: number,
+  opponent_goals: number
 };
 
 export type scorerData = {
-    scorer: string,
-    goals: number
+  scorer: string,
+  goals: number
 };
 
 /**
  * @summary Goal scorers graphics.
  */
 export let getGoalsData = async function () {
-    let response = await axios.get(postsAPI);
-    let data = response.data.data;
+  let response = await axios.get(postsAPI);
+  let data = response.data.data;
 
-    let goalscorers: gameData[] = data.items.map((a: postData) => {
-        if (a.scorers === null 
-            || a.match.includes("true") !== true
-            || (a.friendly && a.friendly.includes("true") === true)
-            || (a.draft && a.draft.includes("true") === true )) {
-            return null;
-        }
-        
-        let game: gameData = {
-            "date": new Date(a.date),
-            "scorers": a.scorers
-        }
-        return game
+  let goalscorers: gameData[] = data.items.map((a: postData) => {
+    if (a.scorers === null
+      || a.match.includes("true") !== true
+      || (a.friendly && a.friendly.includes("true") === true)
+      || (a.draft && a.draft.includes("true") === true)) {
+      return null;
     }
-    );
 
-    goalscorers = goalscorers.filter((a:any) => a != null);
+    let game: gameData = {
+      "date": new Date(a.date),
+      "scorers": a.scorers
+    }
+    return game
+  }
+  );
 
-    return goalscorers;
+  goalscorers = goalscorers.filter((a: any) => a != null);
+
+  return goalscorers;
 };
 
 /**
  * @summary Get results graphics.
  */
 export let getResultsData = async function () {
-    let response = await axios.get(postsAPI);
-    let data = response.data.data;
+  let response = await axios.get(postsAPI);
+  let data = response.data.data;
 
-    let results: resultData[] = data.items.map((a: postData) => {
-        if (a.result === null
-            || a.match.includes("true") !== true
-            || (a.friendly && a.friendly.includes("true") === true)
-            || (a.draft && a.draft.includes("true") === true)) {
-            return null;
-        }
-        
-        let result: resultData = {
-            "date": new Date(a.date),
-            "result": a.result
-        }
-        return result
+  let results: resultData[] = data.items.map((a: postData) => {
+    if (a.result === null
+      || a.match.includes("true") !== true
+      || (a.friendly && a.friendly.includes("true") === true)
+      || (a.draft && a.draft.includes("true") === true)) {
+      return null;
     }
-    );
 
-    results = results.filter((a:any) => a != null);
+    let result: resultData = {
+      "date": new Date(a.date),
+      "result": a.result
+    }
+    return result
+  }
+  );
 
-    return results;
+  results = results.filter((a: any) => a != null);
+
+  return results;
 };
 
 /**
  * @summary Get match goals graphics.
  */
 export let getMatchGoalsData = async function () {
-    let response = await axios.get(postsAPI);
-    let data = response.data.data;
+  let response = await axios.get(postsAPI);
+  let data = response.data.data;
 
-    let matchGoals: matchGoalsData[] = data.items.map((a: postData) => {
-        if (a.match.includes("true") !== true ) {
-            return null;
-        }
-        
-        let result: matchGoalsData = {
-            date: new Date(a.date),
-            frother_goals: parseInt(a.frother_goals),
-            opponent_goals: parseInt(a.opponent_goals)
-        }
-        return result
+  let matchGoals: matchGoalsData[] = data.items.map((a: postData) => {
+    if (a.result === null
+      || a.match.includes("true") !== true
+      || (a.friendly && a.friendly.includes("true") === true)
+      || (a.draft && a.draft.includes("true") === true)) {
+      return null;
     }
-    );
 
-    matchGoals = matchGoals.filter((a:any) => a != null);
+    let result: matchGoalsData = {
+      date: new Date(a.date),
+      frother_goals: parseInt(a.frother_goals),
+      opponent_goals: parseInt(a.opponent_goals)
+    }
+    return result
+  }
+  );
 
-    return matchGoals;
+  matchGoals = matchGoals.filter((a: any) => a != null);
+
+  return matchGoals;
 };
 
 /**
  * @summary Goal scorers graphics.
  */
 export let getSquadData = async function () {
-    let response = await axios.get(squadAPI);
-    let data = response.data.data;
-    let squad: squadData = data.items[0];
-   
-    return squad;
+  let response = await axios.get(squadAPI);
+  let data = response.data.data;
+  let squad: squadData = data.items[0];
+
+  return squad;
 };
 
