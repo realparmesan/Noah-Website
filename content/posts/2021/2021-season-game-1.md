@@ -3,7 +3,6 @@ author = "Chris"
 categories = ["Match"]
 date = 2021-04-10T12:00:00Z
 description = "Game recap for the first game of the 2021 season"
-draft = true
 friendly = false
 frother_goals = 6
 images = ["/images/170077233_3346319468927668_393540529830859240_n.jpg"]
@@ -52,13 +51,19 @@ Not too long afterwards another goal from a cross came for the new man. **Harry*
 
 ![](/images/169935594_3346318758927739_633639018038267009_n.jpg)
 
+## Second half
+
+The second half started and it was straight to Frothers football again. The field really started opening up as the Pelicans pushed for a goal, however, the balls over the top kept drifting through harmlessly to **Ryan**.
+
 ## Finally gets his goal
 
-The second half started and it was straight to Frothers football again. The field really started opening up as the Pelicans pushed for a goal, however, the balls over the top kept drifting through harmlessly to **Ryan**. 
+All this extra space is just what the doctor ordered for **Yarride**, as charging through he again got the keeper off his line. Making no mistake this time he buried it in the top corner.
 
 ![](/images/170446391_3346318435594438_4028163361066867435_n.jpg)
 
 ## Oh and another 3
+
+With the game well and truly open now the goals began to rain. **Yarride** scoring another, before **Sule** completed his hattrick off the back of a **Jamie** strike off the upright. Jamie then got his goal with a cool left-footed finish to the side of the keeper.
 
 ![](/images/169085959_3346319855594296_1210177897700306669_n.jpg)
 
@@ -73,3 +78,5 @@ The second half started and it was straight to Frothers football again. The fiel
 Injuring his butt squatting too much playing hockey, **Lance** had to miss the majority of the match.
 
 ![](/images/img_33502.JPG)
+
+> **Photos:** [Facebook Post](https://www.facebook.com/media/set/?set=a.3346320032260945&type=3)
