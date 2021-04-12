@@ -24,7 +24,9 @@ goals = 1
 scorer = "Jamie Hatch"
 
 +++
-# Frothing for life
+# Next Generation of Frothers
+
+The Frothers started their new campaign with a few new faces 
 
 ![](/images/168898791_3346319445594337_3652744537790515798_n.jpg)
 
@@ -58,6 +60,6 @@ scorer = "Jamie Hatch"
 
 # Dick of the day
 
-Injuring his butt playing hockey, **Lance** had to miss the majority of the match.
+Injuring his butt squatting too much playing hockey, **Lance** had to miss the majority of the match.
 
 ![](/images/img_33502.JPG)
