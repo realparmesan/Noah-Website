@@ -47,7 +47,7 @@ Not too long afterwards another goal from a cross came for the new man. **Harry*
 
 ## Denied from the line, twice
 
-**Yarride,** worried about his golden boot, started to step it up. Twice beating the keeper on the edge of the box only to have the ball cleared off the line. 
+**Yarride,** worried about his golden boot, started to step it up. Twice beating the keeper on the edge of the box only to have the ball cleared off the line.
 
 ![](/images/169935594_3346318758927739_633639018038267009_n.jpg)
 
@@ -80,5 +80,7 @@ Injuring his butt squatting too much playing hockey, **Lance** had to miss the m
 ![](/images/img_33502.JPG)
 
 > **Photos:** [Facebook Post](https://www.facebook.com/media/set/?set=a.3346320032260945&type=3)
-> 
+>
 > Credit : Natural Light Photography
+
+{{< youtube DbmgBe81l_k >}}
