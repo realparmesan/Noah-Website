@@ -58,6 +58,41 @@ export let populateStats = async function (name: string) {
   // Set appearances string
   appearancesElement.innerText = totalAppearances.toString();
 
+
+  let playerYearGoals: ChartPoint[] = playerData.data.map(goals => {
+    let point: ChartPoint = {
+      x: goals.t.getFullYear(),
+      y: goals.goals
+    }
+    return point;
+  })
+
+  let goals : ChartPoint[] =
+    _(playerYearGoals)
+      .groupBy('x')
+      .map((objs, key) => {
+        let goal = {
+          "x": parseInt(key),
+          "y": _.sumBy(objs, 'y'),
+        }
+
+        return goal;
+      })
+      .value();
+
+  // Populate missing appearance years
+  goals.forEach(goalYear => {
+    if (0 > _.findIndex(appearances, {"x": goalYear.x})) {
+      let point: ChartPoint = {
+        x: goalYear.x,
+        y: 0
+      }
+      appearances.push(point);
+    }
+  })
+
+  appearances.sort((a, b) => (a.x > b.x) ? 1 : -1)
+
   let appearanceLine: ChartDataSets = {
     label: "Appearances",
     fill: false,
@@ -71,28 +106,9 @@ export let populateStats = async function (name: string) {
     borderColor: "#8e5ea2",
     fill: false,
     showLine: true,
+    data: goals
   }
 
-  let playerYearGoals: ChartPoint[] = playerData.data.map(goals => {
-    let point: ChartPoint = {
-      x: goals.t.getFullYear(),
-      y: goals.goals
-    }
-    return point;
-  })
-
-  goalsLine.data =
-    _(playerYearGoals)
-      .groupBy('x')
-      .map((objs, key) => {
-        let goal = {
-          "x": parseInt(key),
-          "y": _.sumBy(objs, 'y'),
-        }
-
-        return goal;
-      })
-      .value();
 
   let careerPanel = <HTMLCanvasElement>document.getElementById("career-panel");
 
