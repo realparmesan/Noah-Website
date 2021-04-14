@@ -40,13 +40,23 @@ export let populateStats = async function (name: string) {
 
   // Populate graph
   let chartData = <HTMLElement>document.getElementById("individual-stats-panel");
-  let appearances: ChartPoint[] = JSON.parse(chartData.getAttribute("data-appearances")).map((apps: { year: any; appearances: any; }) => {
+  let appearances: ChartPoint[] = JSON.parse(chartData.getAttribute("data-appearances")).map((apps: { season: number; x: number; }) => {
     let app: ChartPoint = {
-      x: apps.year,
-      y: apps.appearances
+      x: apps.season,
+      y: apps.x
     }
     return app;
   });
+
+  let totalAppearances = 0;
+  appearances.forEach(app => {
+    totalAppearances = totalAppearances + <number>app.y;
+  })
+
+  let appearancesElement = <HTMLElement>document.getElementById("appearances");
+
+  // Set appearances string
+  appearancesElement.innerText = totalAppearances.toString();
 
   let appearanceLine: ChartDataSets = {
     label: "Appearances",

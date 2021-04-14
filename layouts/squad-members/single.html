@@ -36,9 +36,7 @@
                 <span class="badge badge-primary badge-pill" id="appearances">
                   {{ range .Site.Data.stats.appearances }}
                   {{ if eq .title $.Params.title }}
-                  {{ .total }}
                   {{ $appearances = .appearances }}
-                  {{ $years = .years }}
                   {{ end }}
                   {{ end }}
                 </span>
