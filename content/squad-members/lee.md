@@ -1,5 +1,5 @@
 +++
-active = true
+active = false
 blurb = "Another showing from ol' Blighty in the Frothers squad. A proper target man, Lee has got the lot up top. Lee's ability to hold up the play and chip in with goals is a welcome addition to the team and loves being in for a laugh with the lads after the match."
 fut_card = "/images/141284170_229806925297219_7504630569014553552_n.jpg"
 kit_number = 9
