@@ -1,7 +1,7 @@
-# Frothers Static Website
-**Static website built on Hugo (Victor Hugo) and Forrestsry.io**
+# Noah Portfolio Static Website
+**Static website built on Hugo and Forrestsry.io**
 
-This is a boilerplate for using [Hugo](https://gohugo.io/) as a static site generator, [Webpack](https://webpack.js.org/) as your asset pipeline and [Forestry.io](https://forestry.io/) as the CMS.
+This is the repo for Noah's portfolio for using [Hugo](https://gohugo.io/) as a static site generator, [Webpack](https://webpack.js.org/) as your asset pipeline and [Forestry.io](https://forestry.io/) as the CMS.
 
 This is setup to use SASS and Typescript for CSS and JavaScript compiling/transpiling.
 
