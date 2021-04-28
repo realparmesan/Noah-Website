@@ -1,7 +1,7 @@
 {
-    "name": "frothers-webpage",
+    "name": "noah-webpage",
     "version": "1.0.0",
-    "description": "Hugo + Typescript + ForrestIo project for website",
+    "description": "Hugo + Typescript + ForrestIo project for Noah's Personal Site",
     "main": "dist/main.js",
     "source": "assets/index.ts",
     "scripts": {
@@ -19,14 +19,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/frothers/Frothers-FC.git"
+        "url": "git+https://github.com/realparmesan/Noah-Website.git"
     },
     "author": "Chris Chester",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/frothers/Frothers-FC/issues"
+        "url": "https://github.com/realparmesan/Noah-Website/issues"
     },
-    "homepage": "https://github.com/frothers/Frothers-FC#readme",
+    "homepage": "https://github.com/realparmesan/Noah-Website#readme",
     "devDependencies": {
         "@types/chart.js": "^2.9.29",
         "@types/chartjs-plugin-colorschemes": "^0.4.0",

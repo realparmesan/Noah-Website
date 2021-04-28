@@ -1,9 +1,0 @@
-{
-    "title": "{{ .Title }}",
-    "match": "{{ .Params.match }}",
-    "date" : "{{ .Params.date }}",
-    "result": "{{ .Params.result }}",
-    "scorers": {{ .Params.scorers | jsonify }},
-    "friendly": "{{ .Params.friendly }}",
-    "permalink" : "{{ .Permalink }}"
-}
