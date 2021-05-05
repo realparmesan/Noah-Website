@@ -3,7 +3,7 @@ new_page_extension: md
 auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
-sections:
+sections: 
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
@@ -19,4 +19,3 @@ build:
   mount_path: "/srv"
   working_dir: "/srv"
   instant_preview_command: npm run build:preview
-version: 0.69.0
