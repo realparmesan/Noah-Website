@@ -4,40 +4,6 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
-- type: heading
-  label: Main Content
-- type: directory
-  path: content/posts
-  label: Posts
-  create: all
-  match: "**/*"
-  templates:
-  - post
-- type: directory
-  path: content/squad-members
-  label: Squad Members
-  create: all
-  match: "**/*"
-  templates:
-  - squad-member
-- type: heading
-  label: Back-end Content
-- type: directory
-  path: content/squad
-  label: Squad
-  create: all
-  match: "**/*"
-  templates:
-  - player
-- type: directory
-  path: data/stats
-  label: Stats
-  create: all
-  match: "*.json"
-  new_doc_ext: json
-- type: document
-  path: data/nextMatch.json
-  label: Next Match Info
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
