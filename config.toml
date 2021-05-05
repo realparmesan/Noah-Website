@@ -77,7 +77,7 @@ post_share = true
 # preloader
 [params.preloader]
 enable = true
-preloader = "images/noahLogo.png"
+preloader = "images/noahLogo.svg"
 
 # cookies
 [params.cookies]
